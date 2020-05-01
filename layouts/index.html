@@ -9,11 +9,9 @@
     {{ range first $posts_count ((where .Site.Pages.ByDate "Section" "studies").Reverse) }}
     {{ partial "post-summary" . }}
     {{ end }}
-    <footer>
-      <nav>
+
 	<a href="/studies/" class="button hollow primary">All {{ $posts_title }}</a>
-      </nav>
-    </footer>
+
   </div>
   <div class="column small-12 medium-5 large-offset-1">
     <h1>Recent {{ $pubs_title }}</h1>
@@ -22,11 +20,8 @@
       <li>{{ partial "pub-summary" . }}</li>
       {{ end }}
     </ul>
-    <footer>
-      <nav>
 	<a href="/publication/" class="button hollow primary">All {{ $pubs_title }}</a>
-      </nav>
-    </footer>
+{{ partial "livetwitterfeed.html" . }}
   </div>
 </div>
 {{ end }}

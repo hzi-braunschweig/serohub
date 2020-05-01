@@ -17,7 +17,7 @@ logo = "img/logo-hzi2-en.svg"
 # Both parameters are mapped to an icon in partials/pub-icon.html.
 
 bio_full = "Overview of all COVID19 Seroprevalance studies performed in Germany"
-bio_twitter = "#covid19"
+twitter_feed = "helmholtz_hzi"
 
 # Title of posts section on main page.
 posts_title = "Studies"
