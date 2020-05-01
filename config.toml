@@ -1,13 +1,13 @@
 baseurl = "https://serohub.netlify.app/"
-title = "Hugo Finite"
-author = "Marcus Brinkmann"
-copyright = "Copyright (c) 2016 Marcus Brinkmann"
+title = "Serohub"
+author = "Hermholtz HZI"
+copyright = "Copyright (c) 2020 Hermholtz HZI"
 canonifyurls = true
 paginate = 3
 theme="hugo-finite"
 
 [params]
-
+logo = "img/logo-hzi2-en.svg"
 # Date format (refer to Go's date format: http://flippinggodateformat.com)
 # Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 #date_format = "2 January 2006"
@@ -16,44 +16,44 @@ theme="hugo-finite"
 # Publications can have a Params.kind, such as "book".
 # Both parameters are mapped to an icon in partials/pub-icon.html.
 
-bio_full = "Pierre de Fermat: Lawyer at the Parlement of Toulouse, mathematician in his spare time!"
-bio_twitter = "pierrede_fermat"
+bio_full = "Overview of all COVID19 Seroprevalance studies performed in Germany"
+bio_twitter = "#covid19"
 
 # Title of posts section on main page.
-#posts_title = "Posts"
+posts_title = "Studies"
 
 # Number of posts to show on main page.
-#posts_count = 2
+posts_count = 8
 
 # Title of publications section on main page.
-#pubs_title = "Publications"
+pubs_title = "Publications"
 
 # Number of publications to show on main page.
-#pubs_count = 5
+pubs_count = 8
 
-[[params.education]]
-  course = "Bachelor in Civil Law"
-  institution = "University of Orléans"
-  year = 1626
+# [[params.education]]
+#   course = "Bachelor in Civil Law"
+#   institution = "University of Orléans"
+#   year = 1626
 
 [[params.social]]
   icon = "envelope"
   icon_pack = "fa"
-  link = "mailto:fermat@example.com"
-  text = "fermat@example.com"
+  link = "mailto:Stephan.Gloeckner@helmholtz-hzi.de"
+  text = "Stephan Glöckner"
     
 [[params.social]]
   icon = "twitter"
   icon_pack = "fa"
-  link = "https://twitter.com/pierrede_fermat"
-  text = "@pierrede_fermat"
+  link = "https://twitter.com/Helmholtz_HZI"
+  text = "@Helmholtz_HZI"
   site = "Twitter"
 
 [[params.social]]
   icon = "github"
   icon_pack = "fa"
-  link = "//https://gist.github.com/Ayrx/5884802"
-  text = "Fermat"
+  link = "https://github.com/nightingalehq/serohub"
+  text = "nightingalehq/serohub"
   site = "GitHub"
 
 [[params.social]]
@@ -73,7 +73,7 @@ bio_twitter = "pierrede_fermat"
   weight = 2
 
 [[menu.main]]
-  name = "Blog"
+  name = "Studies"
   url = "/post/"
   weight = 3
 

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+    height: 100vh;
+  }
+body {
+  display: flex;
+  flex-direction: column;
+  color: #002b4f;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+
+.top-bar,
+.title-bar,
+.nav-bar button,
+.nav-bar a,
+.nav-bar ul {
+    background-color: #002b4f;
+}
+.endofpage { 
+  background-color: #002b4f;
+}
+a
+{
+    border-bottom: 1px dotted #002b4f;
+    color: #002b4f;
+}
+
+.whatisthis hr {
+  border-style: solid;
+  border-color: #002b4f;
+}
+
+.button.hollow.pub-link {
+  color: #002b4f;
+  border: 1px dotted #002b4f;
+}
+
+.button.hollow.primary {
+  border: 1px solid #002b4f;
+  color: #002b4f;
+}
+.pub-icon {
+  color: #002b4f;
+}
