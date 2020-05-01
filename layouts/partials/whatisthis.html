@@ -4,7 +4,7 @@
     <div class="column small-12 medium-4">
       <h1>About</h1>
       <figure class="full-figure">
-	<img src="{{.Site.Params.logo}}" alt="Portrait of the author">
+	<img src="{{.Site.Params.logo | absURL }}" alt="Portrait of the author">
 	{{ if index .Site.Params "bio_full" }}<figcaption>{{ .Site.Params.bio_full }}</figcaption>{{ end }}
       </figure>
     </div>
