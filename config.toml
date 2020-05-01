@@ -31,6 +31,8 @@ pubs_title = "Publications"
 # Number of publications to show on main page.
 pubs_count = 2
 
+mainSections = ["study", "publications"]
+
 # [[params.education]]
 #   course = "Bachelor in Civil Law"
 #   institution = "University of Orléans"
