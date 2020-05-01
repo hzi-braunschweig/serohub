@@ -14,14 +14,17 @@
 
   </div>
   <div class="column small-12 medium-5 large-offset-1">
+    <div class="row">
     <h1>Recent {{ $pubs_title }}</h1>
     <ul class="compact fa-ul">
       {{ range first $pubs_count (where .Data.Pages.ByDate "Section" "publication").Reverse }}
       <li>{{ partial "pub-summary" . }}</li>
       {{ end }}
     </ul>
-	<a href="/publication/" class="button hollow primary">All {{ $pubs_title }}</a>
+  <a href="/publication/" class="button hollow primary">All {{ $pubs_title }}</a>
+</div><div class="row">
 {{ partial "livetwitterfeed.html" . }}
+</div>
   </div>
 </div>
 {{ end }}
