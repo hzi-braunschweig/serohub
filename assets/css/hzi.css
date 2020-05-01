@@ -15,6 +15,9 @@ main {
 footer {
   flex-shrink: 0;
 }
+.row {
+  max-width: 150rem;
+}
 
 .top-bar,
 .title-bar,
@@ -34,6 +37,7 @@ a
 
 .whatisthis hr {
   border-style: solid;
+  max-width: 100%;
   border-color: #002b4f;
 }
 
