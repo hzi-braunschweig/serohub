@@ -23,13 +23,13 @@ bio_twitter = "#covid19"
 posts_title = "Studies"
 
 # Number of posts to show on main page.
-posts_count = 8
+posts_count = 2
 
 # Title of publications section on main page.
 pubs_title = "Publications"
 
 # Number of publications to show on main page.
-pubs_count = 8
+pubs_count = 2
 
 # [[params.education]]
 #   course = "Bachelor in Civil Law"
@@ -74,8 +74,8 @@ pubs_count = 8
 
 [[menu.main]]
   name = "Studies"
-  url = "/post/"
-  weight = 3
+  url = "/studies/"
+  weight = 1
 
 [[menu.main]]
   name = "Contact"
