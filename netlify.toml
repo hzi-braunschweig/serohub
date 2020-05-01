@@ -1,0 +1,15 @@
+[build]
+    command = "hugo --enableGitInfo --minify --ignoreCache"
+    publish = "public"
+
+[build.environment]
+    HUGO_VERSION = "0.64.0"
+
+[context.production.environment]
+    HUGO_ENV = "production"
+    
+[context.deploy-preview]
+command =  "hugo  --enableGitInfo  --minify --buildFuture --ignoreCache -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command =  "hugo  --enableGitInfo --minify  --buildFuture --ignoreCache -b $DEPLOY_PRIME_URL"

@@ -1,4 +1,4 @@
-baseurl = "http://github.com"
+baseurl = "https://serohub.netlify.app/"
 title = "Hugo Finite"
 author = "Marcus Brinkmann"
 copyright = "Copyright (c) 2016 Marcus Brinkmann"
