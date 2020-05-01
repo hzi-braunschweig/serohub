@@ -2,24 +2,14 @@
   <hr />
   <div class="row">
     <div class="column small-12 medium-4">
-      <h1>About</h1>
+      <h2>About</h2>
       <figure class="full-figure">
 	<img src="{{.Site.Params.logo | absURL }}" alt="Portrait of the author">
 	{{ if index .Site.Params "bio_full" }}<figcaption>{{ .Site.Params.bio_full }}</figcaption>{{ end }}
       </figure>
     </div>
     <div class="column small-12 medium-4">
-      {{ if isset .Site.Params "education" }}
-      <h1>Education</h1>
-      <ul class="ul-edu fa-ul">
-	{{ range $.Site.Params.education }}
-	<li><i class="fa-li fa fa-graduation-cap"></i>
-          {{ .course }}, {{ .year }} ({{ .institution }})
-        </li>
-        {{ end }}
-      </ul>
-      {{ end }}
-      <h1 id="contact">Contact</h1>
+      <h2 id="contact">Contact</h2>
       <ul class="fa-ul">
 	{{ range $.Site.Params.social }}
 	<li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
@@ -28,12 +18,12 @@
       {{ partial "contact" . }}
     </div>
     <div class="column small-12 medium-4">
-      <h1>Subscribe</h1>
+      <h2>Subscribe</h2>
       <p>To receive updates, you can subscribe to
 	the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a> of all
 	updates to the site in an RSS feed reader.
       </p>
-      <h1>Search</h1>
+      <h2>Search</h2>
       <a id="searchsite">
 	<form method="get" action="https://duckduckgo.com/">
 	  <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>

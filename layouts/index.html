@@ -4,8 +4,8 @@
 {{ $pubs_title := index .Site.Params "pubs_title" | default "Publications" }}
 {{ $pubs_count := index .Site.Params "pubs_count" | default 5 }}
 <div class="row">
-  <div class="column small-12 medium-7 large-6">
-    <h1>Recent {{ $posts_title }}</h1>
+  <div class="column small-12 medium-4">
+    <h2>Recent {{ $posts_title }}</h2>
     {{ range first $posts_count ((where .Site.Pages.ByDate "Section" "studies").Reverse) }}
     {{ partial "post-summary" . }}
     {{ end }}
@@ -13,18 +13,21 @@
 	<a href="/studies/" class="button hollow primary">All {{ $posts_title }}</a>
 
   </div>
-  <div class="column small-12 medium-5 large-offset-1">
+  <div class="column small-12 medium-4">
     <div class="row">
-    <h1>Recent {{ $pubs_title }}</h1>
+    <h2>Recent {{ $pubs_title }}</h2>
     <ul class="compact fa-ul">
       {{ range first $pubs_count (where .Data.Pages.ByDate "Section" "publication").Reverse }}
       <li>{{ partial "pub-summary" . }}</li>
       {{ end }}
     </ul>
   <a href="/publication/" class="button hollow primary">All {{ $pubs_title }}</a>
-</div><div class="row">
+</div>
+  </div>
+  <div class="column small-12 medium-4">
+    <h2>News</h2>
+    <div class="row">
 {{ partial "livetwitterfeed.html" . }}
 </div>
   </div>
-</div>
 {{ end }}
