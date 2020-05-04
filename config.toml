@@ -90,8 +90,3 @@ leaflet_central_long = 13.4050
   url = "/studies/"
   weight = 1
 
-[[menu.main]]
-  name = "Contact"
-  url = "/#contact"
-  weight = 4
-
