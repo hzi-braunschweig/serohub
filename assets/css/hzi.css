@@ -20,6 +20,7 @@ h2 {
 }
 .row {
   max-width: 150rem;
+  margin-bottom: 10px;
 }
 
 .top-bar,
