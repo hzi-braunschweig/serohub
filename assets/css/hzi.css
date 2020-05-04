@@ -34,6 +34,9 @@ a
     border-bottom: 1px dotted #002b4f;
     color: #002b4f;
 }
+a:hover, a:active {
+  color: #e42312;
+}
 
 .whatisthis hr {
   border-style: solid;
@@ -49,6 +52,10 @@ a
 .button.hollow.primary {
   border: 1px solid #002b4f;
   color: #002b4f;
+}
+.button.hollow.primary:hover, .button.hollow.primary:active {
+  border: 1px solid #e42312;
+  color: #e42312;
 }
 .pub-icon {
   color: #002b4f;
