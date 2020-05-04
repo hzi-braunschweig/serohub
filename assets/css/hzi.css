@@ -18,11 +18,21 @@ footer {
 h2 {
   color: #005b9c;
 }
+a h2 {
+  border-bottom: 1px dotted #005b9c;
+  color: #005b9c;
+}
+a:hover h2, a:active h2 {
+  color: #e42312;
+}
 .row {
   max-width: 150rem;
   margin-bottom: 10px;
 }
 
+.banner img {
+  max-height: 25vh;
+}
 .top-bar,
 .title-bar,
 .nav-bar button,
