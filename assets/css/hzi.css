@@ -15,6 +15,9 @@ main {
 footer {
   flex-shrink: 0;
 }
+h2 {
+  color: #005b9c;
+}
 .row {
   max-width: 150rem;
 }
@@ -24,15 +27,15 @@ footer {
 .nav-bar button,
 .nav-bar a,
 .nav-bar ul {
-    background-color: #002b4f;
+    background-color: #005b9c;
 }
 .endofpage { 
   background-color: #002b4f;
 }
 a
 {
-    border-bottom: 1px dotted #002b4f;
-    color: #002b4f;
+    border-bottom: 1px dotted #005b9c;
+    color: #005b9c;
 }
 a:hover, a:active {
   color: #e42312;
@@ -41,7 +44,7 @@ a:hover, a:active {
 .whatisthis hr {
   border-style: solid;
   max-width: 100%;
-  border-color: #002b4f;
+  border-color: #005b9c;
 }
 
 .button.hollow.pub-link {
@@ -50,8 +53,8 @@ a:hover, a:active {
 }
 
 .button.hollow.primary {
-  border: 1px solid #002b4f;
-  color: #002b4f;
+  border: 1px solid #005b9c;
+  color: #005b9c;
 }
 .button.hollow.primary:hover, .button.hollow.primary:active {
   border: 1px solid #e42312;
