@@ -40,6 +40,10 @@ mapbox_token = "pk.eyJ1Ijoic3RlcGhsb2NrZSIsImEiOiJjazlzOWg4Nm4wMnloM2Ztb3ZqcDl1b
 leaflet_central_lat = 52.5200
 leaflet_central_long = 13.4050
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 # [[params.education]]
 #   course = "Bachelor in Civil Law"
 #   institution = "University of Orléans"
