@@ -61,3 +61,16 @@ The website is hosted on [Netlify](https://netlify.com).
 We will host the solution on Netlify with the source files hosted on GitHub. This will
 enable HZI researchers to work in an open way and accept collaborations from others.
 
+## Resources
+- Git
+    + [gitHub guides](https://guides.github.com/)
+    + [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+    + [Version Control with Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+- Hugo
+    + [Hugo Quickstart](https://gohugo.io/getting-started/quick-start/)
+    + [Intro to markdown](https://commonmark.org/help/tutorial/index.html)
+    + [Maëlle Salmon](https://masalmon.eu/tags/hugo/), [ROpenSci](https://ropensci.org/tags/hugo/) blog posts
+- Netlify
+    + [Netlify docs](https://docs.netlify.com/#get-started)
+- Blogdown
+    + [ROpenSci notes](https://blogguide.ropensci.org/technical.html)
