@@ -1,0 +1,20 @@
+<div id="mapid" style="min-height: 400px;"></div>
+
+
+<script>
+    var mymap = L.map('mapid').setView([{{ .Site.Params.leaflet_central_lat }}, {{ .Site.Params.leaflet_central_long }}], 5);
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={{ .Site.Params.mapbox_token }}', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+    }).addTo(mymap);
+    {{ $data := .Site.Params.leaflet_source }}
+    {{ $sep := "," }}
+    {{ range $i, $r := after 1 (getCSV $sep $data) }}
+    var  marker_{{ $i | safeJS }} = L.marker([{{ float (index $r 2) }}, {{ float (index $r 3) }}]).addTo(mymap);
+    {{ end }}
+</script>

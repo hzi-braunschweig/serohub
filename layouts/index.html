@@ -25,8 +25,11 @@
 </div>
   </div>
   <div class="column small-12 medium-4">
-    <h2>News</h2>
+    <h2>Engage</h2>
     <div class="row">
+{{ if .Site.Params.leaflet_enable }}
+{{ partial "leaflet.html" . }}
+{{ end}}
 {{ partial "livetwitterfeed.html" . }}
 </div>
   </div>
