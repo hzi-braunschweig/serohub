@@ -1,34 +1,44 @@
-{{ block "whatisthis" . }}
-    {{ partial "whatisthis" . }}
-    {{ end }}
-    {{ block "endofpage" . }}
-    <div class="endofpage">
-    </div>
-
-    <script src="/js/jquery.js"></script>
-    <script src="/js/what-input.js"></script>
-    <script src="/js/foundation.min.js"></script>
-    <script src="/js/finite.js"></script>
-
-    <!-- Code highlighting -->
-    <script src="/js/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-
-    <!-- LaTeX math rendering -->
-    {{ if or (and (isset .Site.Params "math") (eq .Site.Params.math true)) (and (isset .Params "math") (eq .Params.math true)) }}
-
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}katex/katex.min.css">
-
-    <!-- The loading of KaTeX is deferred to speed up page rendering -->
-    <script defer src="{{ .Site.BaseURL }}katex/katex.min.js"></script>
-
-    <!-- To automatically render math in text elements, include the auto-render extension: -->
-    <script defer src="{{ .Site.BaseURL }}katex/contrib/auto-render.min.js"
-            onload="renderMathInElement(document.body, { delimiters: [
-                    {left: '$$', right: '$$', display: true },
-                    { left: '$', right: '$', display: false },
-                    {left: '\\(', right: '\\)', display: false},
-                    {left: '\\[', right: '\\]', display: true} ]});"></script>
-
-    {{ end }}
-    {{ end }}
+<footer class="whatisthis">
+        <!--<hr />-->
+        <div class="row">
+          <div class="column small-12 medium-4">
+            <h2>About</h2>
+            <figure class="full-figure">
+              <img src="{{.Site.Params.logo | absURL }}" alt="Portrait of the author">
+              {{ if index .Site.Params "bio_full" }}<figcaption>{{ .Site.Params.bio_full }}</figcaption>{{ end }}
+            </figure>
+          </div>
+          <div class="column small-12 medium-4">
+            <h2 id="contact">Contact</h2>
+            <ul class="fa-ul">
+              {{ range $.Site.Params.social }}
+              <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
+              {{ end }}
+            </ul>
+            {{ partial "contact" . }}
+          </div>
+          <div class="column small-12 medium-4">
+            <h2>Subscribe</h2>
+            <p>To receive updates, you can subscribe to
+              the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a> of all
+              updates to the site in an RSS feed reader.
+            </p>
+            <h2>Search</h2>
+            <a id="searchsite">
+              <form method="get" action="https://duckduckgo.com/">
+                <label for="search-field" class="show-for-sr">Search with DuckDuckGo</label>
+                <input type="search" name="q" maxlength="255" placeholder="Search with DuckDuckGo" id="search-field">
+                <input type="hidden" name="sites" value="{{ .Site.BaseURL }}"/>
+                <input type="hidden" name="k7" value="#faf8f8"/>
+                <input type="hidden" name="kj" value="#b33"/>
+                <input type="hidden" name="ky" value="#fafafa"/>
+                <input type="hidden" name="kx" value="b"/>
+                <input type="hidden" name="ko" value="-1"/>
+                <input type="hidden" name="k1" value="-1"/>
+                <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
+              </form>
+            </a>
+          </div>
+        </div>
+      </footer>
+      
