@@ -45,7 +45,6 @@ a:hover, a:active {
 footer.whatisthis {
   background-color: white;
   border-top: 1px solid#002b4f;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
