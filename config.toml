@@ -17,7 +17,7 @@ logo = "img/logo-hzi2-en.svg"
 # Both parameters are mapped to an icon in partials/pub-icon.html.
 
 bio_full = "Overview of all COVID19 Seroprevalance studies performed in Germany"
-twitter_feed = "helmholtz_hzi"
+twitter_feed = "serohub"
 
 # Title of posts section on main page.
 posts_title = "Studies"
@@ -70,14 +70,6 @@ leaflet_central_long = 13.4050
   link = "https://github.com/nightingalehq/serohub"
   text = "nightingalehq/serohub"
   site = "GitHub"
-
-[[params.social]]
-  icon = "researchgate"
-  icon_pack = "ai"
-  link = "https://www.researchgate.net/profile/Pierre_Fermat3"
-  text = "ResearchGate"
-
-
 
 # Navigation Links
 # The weight parameter defines the order that the links will appear in.
