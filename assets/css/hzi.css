@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   color: #002b4f;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: white;
 }
 main {
   flex: 1 0 auto;
@@ -76,6 +77,8 @@ footer.whatisthis {
 .pub-icon {
   color: #002b4f;
 }
+
+
 
 /*--BURGER MENU--*/
 /*Made by Erik Terwan

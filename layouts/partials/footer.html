@@ -15,10 +15,10 @@
               <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
               {{ end }}
             </ul>
-            {{ partial "contact" . }}
           </div>
           <div class="column small-12 medium-4">
-            <h2>Subscribe</h2>
+            {{ partial "contact" . }}
+            <!-- <h2>Subscribe</h2>
             <p>To receive updates, you can subscribe to
               the <a href="/index.xml"><i class="fa fa-rss-square"></i>&nbsp;RSS feed</a> of all
               updates to the site in an RSS feed reader.
@@ -37,7 +37,7 @@
                 <input type="hidden" name="k1" value="-1"/>
                 <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" />
               </form>
-            </a>
+            </a> -->
           </div>
         </div>
       </footer>
