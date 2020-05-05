@@ -1,5 +1,0 @@
----
-Title: Studies
----
-
-Related studies
