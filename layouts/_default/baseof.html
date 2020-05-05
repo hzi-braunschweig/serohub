@@ -7,9 +7,37 @@
       <nav class="nav-bar">
 	<!-- The title bar is used for small sizes.  -->
 	  <div class="title-bar" data-responsive-toggle="site-menu" data-hide-for="medium">	      
-	    <button class="site-hamburger" type="button" data-toggle>
+	    <!-- <button class="site-hamburger" type="button" data-toggle>
 	      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-	    </button>
+		</button> -->
+		<!--    Made by Erik Terwan    -->
+		<!--   24th of November 2015   -->
+		<!--        MIT License        -->
+		<nav role="navigation">
+			<div id="menuToggle">
+			<!--
+			A fake / hidden checkbox is used as click reciever,
+			so you can use the :checked selector on it.
+			-->
+			<input type="checkbox" />
+			
+			<!--
+			Some spans to act as a hamburger.
+			-->
+			<span></span>
+			<span></span>
+			<span></span>
+			
+			<ul id="menu">
+				<a href="/"><li>Home</li></a>
+				<a href="/studies"><li>Studies</li></a>
+				<a href="/publication"><li>Publications</li></a>
+				<a href="/about"><li>About</li></a>
+				<a href="/share_study"><li>Share your study</li></a>
+			</ul>
+			</div>
+		</nav>
+		<!--  end   -->
 	    <div class="title-bar-title site-title">
 	      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 	    </div>
