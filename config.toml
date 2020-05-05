@@ -54,21 +54,21 @@ leaflet_central_long = 13.4050
 [[params.social]]
   icon = "envelope"
   icon_pack = "fa"
-  link = "mailto:Stephan.Gloeckner@helmholtz-hzi.de"
-  text = "Stephan Glöckner"
+  link = "mailto:serohub@helmholtz-hzi.de"
+  text = "serohub@helmholtz-hzi.de"
     
 [[params.social]]
   icon = "twitter"
   icon_pack = "fa"
-  link = "https://twitter.com/Helmholtz_HZI"
-  text = "@Helmholtz_HZI"
+  link = "https://twitter.com/serohub"
+  text = "@serohub"
   site = "Twitter"
 
 [[params.social]]
   icon = "github"
   icon_pack = "fa"
-  link = "https://github.com/nightingalehq/serohub"
-  text = "nightingalehq/serohub"
+  link = "https://github.com/hzi-braunschweig/serohub"
+  text = "hzi-braunschweig/serohub"
   site = "GitHub"
 
 # Navigation Links
