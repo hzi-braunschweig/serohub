@@ -15,6 +15,7 @@ main {
 }
 footer {
   flex-shrink: 0;
+  padding-top: 10px;
 }
 h2 {
   color: #005b9c;
