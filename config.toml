@@ -33,7 +33,7 @@ pubs_count = 3
 
 mainSections = ["study", "publications"]
 
-
+sharing = true
 leaflet_enable = true
 leaflet_source = "data/researchers.csv"
 mapbox_token = "pk.eyJ1Ijoic3RlcGhsb2NrZSIsImEiOiJjazlzOWg4Nm4wMnloM2Ztb3ZqcDl1bnZiIn0.TbIjIGJN69vEyaINwJTclA"
@@ -41,6 +41,8 @@ leaflet_central_lat = 52.5200
 leaflet_central_long = 13.4050
 
 [markup]
+  [markup.highlight]
+    style = "manni"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
