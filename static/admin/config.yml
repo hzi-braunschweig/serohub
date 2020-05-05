@@ -17,23 +17,32 @@ collections:
         name: "title"
         widget: "string"
         required: true
+      - label: "Study URL"
+        name: "url"
+        widget: "string"
+        required: false
       - label: "Study info"
         name: study_info
         collapsed: true
         widget: "object"
         fields:
-        - label: "Research question"
+        - label: "Primary research question(s)"
           name: "research_question"
           widget: "markdown"
           minimal: true
           required: false
-        - label: "Funding sources"
-          name: "funding_sources"
+        - label: "Used Diagnostic test"
+          name: "methods_used"
           widget: "markdown"
           minimal: true
           required: false
-        - label: "Methods used"
-          name: "methods_used"
+        - label: "Primary outcomes"
+          name: "primary_outcomes"
+          widget: "markdown"
+          minimal: true
+          required: false
+        - label: "Funding source(s)"
+          name: "funding_sources"
           widget: "markdown"
           minimal: true
           required: false
@@ -42,27 +51,49 @@ collections:
         collapsed: true
         widget: "object"
         fields:
-        - label: "Sample size"
-          name: "sample_size"
+        - label: "Study population"
+          name: "study_population"
           widget: "number"
-        - label: "Population"
+          required: false
+        - label: "Total population in this area"
           name: "population"
           widget: "number"
-        - label: "Study duration"
-          name: "duration"
-          collapsed: true
-          widget: "object"
-          fields:
-          - label: "Interval"
-            name: "interval"
-            widget: "select"
-            options: ["day", "month", "year"]
-          - label: "Number of intervals"
-            name: "number"
-            widget: "number"
-            min: 1
-      - label: "Study contact"
-        name: study_contact
+          required: false
+      - label: "Study key dates"
+        name: "study_dates"
+        collapsed: true
+        widget: "object"
+        fields:
+        - label: "Sampling start month"
+          name: "sample_start"
+          widget: "datetime"
+          format: "YYYY-MM"
+          default: ""
+          hint: "Stores the year and month when sampling started"
+          required: false
+        - label: "Sampling end month"
+          name: "sample_end"
+          widget: "datetime"
+          format: "YYYY-MM"
+          default: ""
+          hint: "Stores the year and month when sampling has ended / will end"
+          required: false
+        - label: "Study start"
+          name: "study_start"
+          widget: "datetime"
+          format: "YYYY-MM"
+          default: ""
+          hint: "Stores the year and month when the study starts"
+          required: false
+        - label: "Month of first expected results"
+          name: "study_first_results"
+          widget: "datetime"
+          format: "YYYY-MM"
+          default: ""
+          hint: "Stores the year and month when first results are expected"
+          required: false
+      - label: "Study Principal Investigator (PI)"
+        name: study_pi
         collapsed: true
         widget: "object"
         fields:
