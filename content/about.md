@@ -6,4 +6,10 @@ menu:
     weight: 4
 ---
 
-Overview of all COVID19 Seroprevalance studies performed in Germany
+## Scope
+The serohub is a platform to establish a research consortium, focusing on knowledge sharing, creating and support activities and to provide a general overview of research activities about seroprevalence studies.
+
+## What is seroprevalence?
+In epidemiological terms __prevalence__ is the proportion of people in population who have a disease.
+
+Consequently  __seroprevalence__ the proportion of people who were tested positive for a specific disease based on serology (blood serum). Seroprevalence studies help determine the infection dynamics in geographical regions or population subgroups.
