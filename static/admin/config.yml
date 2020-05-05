@@ -1,0 +1,84 @@
+publish_mode: editorial_workflow
+backend:
+  name: github
+  repo: nightingalehq/serohub
+  open_authoring: true
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: 'studies'
+    label: 'Study'
+    folder: 'content/studies'
+    path: '{{slug}}/index.md'
+    create: true
+    fields:
+      - label: "Study name"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Study info"
+        name: study_info
+        collapsed: true
+        widget: "object"
+        fields:
+        - label: "Research question"
+          name: "research_question"
+          widget: "markdown"
+          minimal: true
+          required: false
+        - label: "Funding sources"
+          name: "funding_sources"
+          widget: "markdown"
+          minimal: true
+          required: false
+        - label: "Methods used"
+          name: "methods_used"
+          widget: "markdown"
+          minimal: true
+          required: false
+      - label: "Study values"
+        name: study_numbers
+        collapsed: true
+        widget: "object"
+        fields:
+        - label: "Sample size"
+          name: "sample_size"
+          widget: "number"
+        - label: "Population"
+          name: "population"
+          widget: "number"
+        - label: "Study duration"
+          name: "duration"
+          collapsed: true
+          widget: "object"
+          fields:
+          - label: "Interval"
+            name: "interval"
+            widget: "select"
+            options: ["day", "month", "year"]
+          - label: "Number of intervals"
+            name: "number"
+            widget: "number"
+            min: 1
+      - label: "Study contact"
+        name: study_contact
+        collapsed: true
+        widget: "object"
+        fields:
+        - label: "Name"
+          name: "name"
+          widget: "string"
+        - label: "Institution"
+          name: "institution"
+          widget: "string"
+        - label: "Position at institution"
+          name: "role"
+          widget: "string"
+        - label: "Contact email"
+          name: "email"
+          widget: "string"
+      - label: "Study overview"
+        name: "body"
+        widget: "markdown"
+
