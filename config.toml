@@ -23,7 +23,7 @@ twitter_feed = "serohub"
 posts_title = "Studies"
 
 # Number of posts to show on main page.
-posts_count = 3
+posts_count = 6
 
 # Title of publications section on main page.
 pubs_title = "Publications"

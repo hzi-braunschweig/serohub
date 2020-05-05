@@ -3,40 +3,32 @@
 <div class="column medium-4 large-2">
   <img src="{{.Params.image}}" alt={{.Title}} />
   {{ .Content  }}
+    {{ partial "livetwitterfeed.html" . }}
+  
 </div>
 {{ $posts_title := index .Site.Params "posts_title" | default "Studies" }}
 {{ $posts_count := index .Site.Params "posts_count" | default 2 }}
 {{ $pubs_title := index .Site.Params "pubs_title" | default "Publications" }}
 {{ $pubs_count := index .Site.Params "pubs_count" | default 5 }}
+<div class="column small-12 medium-4 large-5">
+  <div class="row">  <h2>Researchers</h2></div>
+<div class="row">
+{{ if .Site.Params.leaflet_enable }}
+{{ partial "leaflet.html" . }}
+{{ end}}
+  </div>
+</div>
 <div class="column medium-4 large-5">
   <a href="/studies/"><h2 >{{ $posts_title }} <i class="fa fa-arrow-circle-right"></i></h2> </a>
-      {{ range first $posts_count ((where .Site.Pages.ByDate "Section" "studies").Reverse) }}
+  <div class="row">
+  {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "studies").Reverse) }}
   
     {{ partial "post-summary" . }}
     
     {{ end }}
+  </div>  
+
   </div>
-<!--
-<div class="row">
-  <div class="column small-12">
-    <h2>Recent {{ $pubs_title }}  <a href="/publication/"><i class="fa fa-arrow-circle-right"></i></a></h2>
-    <ul class="compact fa-ul">
-      {{ range first $pubs_count (where .Data.Pages.ByDate "Section" "publication").Reverse }}
-      <li>{{ partial "pub-summary" . }}</li>
-      {{ end }}
-    </ul>
-    </div>
-  </div>
-  -->
-  <div class="column small-12 medium-4 large-5">
-    <div class="row">  <h2>Engage</h2></div>
-  <div class="row">
-{{ if .Site.Params.leaflet_enable }}
-{{ partial "leaflet.html" . }}
-{{ end}}
-    </div><div class="row">
-{{ partial "livetwitterfeed.html" . }}
-</div>
-  </div>
+
 </div>
 {{ end }}

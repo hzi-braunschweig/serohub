@@ -1,4 +1,9 @@
-<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-{{ partial "post-metadata" . }}
-{{ .Summary }}
 
+<div class="column medium-6 large-4 card">
+    <div class="row card-divider">
+        <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+    </div>
+    <div class="row card-section">
+      <p>{{ .Summary | truncate 120 }}</p>
+    </div>
+  </div>
