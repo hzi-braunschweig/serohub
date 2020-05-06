@@ -1,16 +1,16 @@
 <footer class="whatisthis">
         <!--<hr />-->
         <div class="row">
-          <div class="column small-12 medium-4">
+          <div class="column small-12 medium-3">
               <img style="margin-top: 5px;" src="{{.Site.Params.logo | absURL }}" alt="Portrait of the author">
           </div>
-          <div class="column small-12 medium-4">
+          <div class="column small-12 medium-3">
             
             <h2>About</h2>
             <p></p>{{ .Site.Params.bio_full }}</p>
             <p>You can provide details on a study to be included here, via <a href="{{ "share_study" | absURL }}">Share a Study</a>.</p>
           </div>
-          <div class="column small-12 medium-4">
+          <div class="column small-12 medium-3">
             <h2 id="contact">Contact</h2>
             <ul class="fa-ul">
               {{ range $.Site.Params.social }}
@@ -19,6 +19,13 @@
             </ul>
           </div>
 
+          <div class="column small-12 medium-3"> 
+            <a href="https://www.netlify.com">
+              <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" />
+            </a>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">SeroHub</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://serohub.helmholtz-hzi.de" property="cc:attributionName" rel="cc:attributionURL">SeroHub</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+  </div>
         </div>
       </footer>
       
