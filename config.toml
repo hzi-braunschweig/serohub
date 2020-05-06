@@ -7,7 +7,7 @@ paginate = 3
 theme="hugo-finite"
 
 [params]
-logo = "img/logo-hzi2-en.svg"
+logo = "img/hzi_logo_white.png"
 # Date format (refer to Go's date format: http://flippinggodateformat.com)
 # Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 #date_format = "2 January 2006"
