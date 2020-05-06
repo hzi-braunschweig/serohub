@@ -4,7 +4,14 @@
 <script>
     var mymap = L.map('mapid').setView([{{ .Site.Params.leaflet_central_lat }}, {{ .Site.Params.leaflet_central_long }}], 5);
     
-    
+    var pin = L.icon({
+    iconUrl: '/img/pin.png',
+
+    iconSize:     [40, 46.188], // size of the icon
+    iconAnchor:   [20, 46.188], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -48] // point from which the popup should open relative to the iconAnchor
+    });
+
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
       attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
       maxZoom: 16,
@@ -16,7 +23,7 @@
     {{ $data := .Site.Params.leaflet_source }}
     {{ $sep := "," }}
     {{ range $i, $r := after 1 (getCSV $sep $data) }}
-    var  marker_{{ $i | safeJS }} = L.marker([{{ float (index $r 2) }}, {{ float (index $r 3) }}]).addTo(mymap);
+    var  marker_{{ $i | safeJS }} = L.marker([{{ float (index $r 2) }}, {{ float (index $r 3) }}], {icon: pin}).addTo(mymap);
     marker_{{ $i | safeJS }}.bindPopup('<b>{{ index $r 0 }}</b><br>{{ index $r 1 }}<br><a href="mailto://{{ index $r 4 }}">{{ index $r 4 }}</a>').openPopup();
     {{ end }}
 </script>
