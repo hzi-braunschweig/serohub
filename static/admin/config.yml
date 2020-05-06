@@ -106,9 +106,11 @@ collections:
         - label: "Position at institution"
           name: "role"
           widget: "string"
+          required: false
         - label: "Contact email"
           name: "email"
           widget: "string"
+          required: false
       - label: "Study overview"
         name: "body"
         widget: "markdown"
