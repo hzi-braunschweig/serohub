@@ -1,0 +1,5 @@
+{{- $len := len (where .Site.RegularPages.ByDate "Section" "studies") }}
+[{{ range $index, $elem := where .Site.RegularPages.ByDate "Section" "studies" }}
+{{ .Params | jsonify}}{{ if lt $index (sub $len 1) }},{{ end }}
+{{ end }}
+]

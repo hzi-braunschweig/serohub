@@ -73,3 +73,10 @@ leaflet_central_long = 13.4050
   url = "/studies/"
   weight = 1
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.JSON]
+mediaType = "application/json"
+baseName = "studies"
+isPlainText =  true
