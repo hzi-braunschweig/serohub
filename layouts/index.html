@@ -6,10 +6,6 @@
     {{ partial "livetwitterfeed.html" . }}
   
 </div>
-{{ $posts_title := index .Site.Params "posts_title" | default "Studies" }}
-{{ $posts_count := index .Site.Params "posts_count" | default 2 }}
-{{ $pubs_title := index .Site.Params "pubs_title" | default "Publications" }}
-{{ $pubs_count := index .Site.Params "pubs_count" | default 5 }}
 <div class="column small-12 medium-4 large-5">
   <div class="row">  <h2>Researchers</h2></div>
 <div class="row">
@@ -19,7 +15,10 @@
   </div>
 </div>
 <div class="column medium-4 large-5">
-  <a href="/studies/"><h2 >{{ $posts_title }} <i class="fa fa-arrow-circle-right"></i></h2> </a>
+  {{ $posts_count := index .Site.Params "default_count" | default 2 }}
+  {{ $show_series := (len (where .Site.RegularPages.ByDate "Section" "studies")) "gt" 0 }}
+  {{ if $show_series }}
+  <a href="/studies/"><h2 >Studies <i class="fa fa-arrow-circle-right"></i></h2> </a>
   <div class="row">
   {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "studies").Reverse) }}
   
@@ -27,7 +26,30 @@
     
     {{ end }}
   </div>  
+  {{ end }}
+  {{ $show_pubs := (len (where .Site.RegularPages.ByDate "Section" "publication")) "gt" 0 }}
+  {{ if $show_pubs }}
+  <a href="/publication/"><h2 >Publications <i class="fa fa-arrow-circle-right"></i></h2> </a>
+  <div class="row">
+  {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "publication").Reverse) }}
+  
+    {{ partial "post-summary" . }}
+    
+    {{ end }}
+  </div>  
+  {{ end }}
 
+  {{ $show_posts := (len (where .Site.RegularPages.ByDate "Section" "posts")) "gt" 0 }}
+  {{ if $show_posts }}
+  <a href="/posts/"><h2 >Blog <i class="fa fa-arrow-circle-right"></i></h2> </a>
+  <div class="row">
+  {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "posts").Reverse) }}
+  
+    {{ partial "post-summary" . }}
+    
+    {{ end }}
+  </div>  
+  {{ end }}
   </div>
 
 </div>
