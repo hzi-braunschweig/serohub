@@ -43,7 +43,7 @@
         </table>
 
         <h3>Study metadata as JSON</h3>
-        {{ highlight (.Params | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
+        {{ highlight ((merge .Params (dict "permalink" .Permalink )) | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
       </div>
 
       
