@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="982.88831mm"
+   height="467.55972mm"
+   viewBox="0 0 3714.8535 1767.1549"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1361"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4)"
+         style="fill:#002b4f;fill-opacity:1;fill-rule:evenodd;stroke:#002b4f;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1359" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1241"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4)"
+         style="fill:#002b4f;fill-opacity:1;fill-rule:evenodd;stroke:#002b4f;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1239" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1231"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(0.4)"
+         style="fill:#002b4f;fill-opacity:1;fill-rule:evenodd;stroke:#002b4f;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1229" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2267"
+       style="overflow:visible">
+      <path
+         id="path2265"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#002b4f;fill-opacity:1;fill-rule:evenodd;stroke:#002b4f;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-542.69561,-75.529531)">
+    <g
+       transform="matrix(2.9283754,0,0,2.9283754,-22240.065,-5912.8848)"
+       id="g2572">
+      <rect
+         style="opacity:1;fill:#005b9c;fill-opacity:1;stroke:none;stroke-width:29.8455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+         id="rect1117"
+         width="348.57144"
+         height="153.32899"
+         x="7780"
+         y="-2648.4204"
+         transform="scale(1,-1)" />
+      <rect
+         y="-2648.4204"
+         x="8240"
+         height="153.32899"
+         width="348.57144"
+         id="rect1119"
+         style="opacity:1;fill:#005b9c;fill-opacity:1;stroke:none;stroke-width:29.8455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+         transform="scale(1,-1)" />
+      <rect
+         style="opacity:1;fill:#005b9c;fill-opacity:1;stroke:none;stroke-width:29.8455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+         id="rect1121"
+         width="348.57144"
+         height="153.32899"
+         x="8700"
+         y="-2648.4204"
+         transform="scale(1,-1)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.3333px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff"
+         x="7953.2603"
+         y="2586.7212"
+         id="text1148"><tspan
+           id="tspan1146"
+           x="7953.2603"
+           y="2586.7212">Knowledge</tspan></text>
+      <text
+         id="text1155"
+         y="2592.6091"
+         x="8413.2607"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.3333px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff"
+         xml:space="preserve"><tspan
+           y="2592.6091"
+           x="8413.2607"
+           id="tspan1153">Activities</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.3333px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff"
+         x="8873.2607"
+         y="2593.2227"
+         id="text1159"><tspan
+           id="tspan1157"
+           x="8873.2607"
+           y="2593.2227">Evidence</tspan></text>
+      <path
+         style="opacity:1;fill:none;stroke:#002b4f;stroke-width:8.3162;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1361);stop-opacity:1"
+         d="m 8414.2857,2155.1276 v 93.6143"
+         id="use1205" />
+      <rect
+         style="opacity:1;fill:#002b4f;fill-opacity:1;stroke:none;stroke-width:56.8555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+         id="rect1125"
+         width="1264.9659"
+         height="153.32875"
+         x="7781.8027"
+         y="-2198.29"
+         transform="scale(1,-1)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:61.3333px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff"
+         x="8413.2607"
+         y="2132.6902"
+         id="text1167"><tspan
+           id="tspan1165"
+           x="8413.2607"
+           y="2132.6902">SeroHub</tspan></text>
+      <path
+         style="opacity:1;fill:none;stroke:#002b4f;stroke-width:8.3162;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1241);stop-opacity:1"
+         d="m 8411.8848,2438.9805 h -457.5991 v 31.9949"
+         id="use1207" />
+      <path
+         style="opacity:1;fill:none;stroke:#002b4f;stroke-width:8.3162;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1231);stop-opacity:1"
+         d="m 8414.2857,2377.3612 v 93.6142"
+         id="use1209" />
+      <path
+         id="path2263"
+         d="m 8416.6866,2438.9805 h 457.5991 v 31.9949"
+         style="opacity:1;fill:none;stroke:#002b4f;stroke-width:8.3162;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2267);stop-opacity:1" />
+      <rect
+         y="-2423.3552"
+         x="7781.8027"
+         height="153.32899"
+         width="1264.9659"
+         id="rect1123"
+         style="opacity:1;fill:#e4231f;fill-opacity:1;stroke:none;stroke-width:56.8556;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+         transform="scale(1,-1)" />
+      <text
+         id="text1163"
+         y="2357.7551"
+         x="8413.2607"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.3333px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff"
+         xml:space="preserve"><tspan
+           y="2357.7551"
+           x="8413.2607"
+           id="tspan1161">Meta repository and Analysis platform</tspan></text>
+    </g>
+  </g>
+</svg>

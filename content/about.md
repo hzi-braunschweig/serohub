@@ -14,4 +14,4 @@ In epidemiological terms __prevalence__ is the proportion of people in populatio
 
 Consequently  __seroprevalence__ the proportion of people who were tested positive for a specific disease based on serology (blood serum). Seroprevalence studies help determine the infection dynamics in geographical regions or population subgroups.
 
-{{< figure src="/img/overview.png" title="Serohub overview" >}}
+{{< figure src="/img/serohubBoxes.svg" title="Serohub overview" >}}
