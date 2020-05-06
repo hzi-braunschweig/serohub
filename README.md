@@ -46,6 +46,11 @@ We use a theme [hugo-infinite](https://github.com/lambdafu/hugo-finite) as the b
 From inside the website directory, run `hugo serve` to get a live local copy (typically on <http://localhost:1313>) that will update whenever you make changes.
 
 ## Infrastructure
+
+### GitHub
+We will host the solution on Netlify with the source files hosted on GitHub. This will
+enable HZI researchers to work in an open way and accept collaborations from others.
+
 ### Hugo
 This website uses [Hugo](https://gohugo.io). To work with Hugo locally, you will need to [install it](https://gohugo.io/getting-started/quick-start/).
 
@@ -55,19 +60,32 @@ communities due to its excellent support for markdown which enables researchers 
 programming techniques in R and Python to interleave analysis and text. 
 
 ### Netlify
-The website is hosted on [Netlify](https://netlify.com). 
+The website is hosted on [Netlify](https://netlify.com).
 
-### GitHub
-We will host the solution on Netlify with the source files hosted on GitHub. This will
-enable HZI researchers to work in an open way and accept collaborations from others.
+#### Automated deployments
+The website is automatically updated everytime there is a change to the master branch in GitHub. Additionally, any pull requests or branches will also have preview URLs built. The preview links for Pull Requests will be included in the Pull Request interface on GitHub.
+
+#### Authentication
+The Netlify hosting has Visitor access > OAuth authentication enabled with a [GitHub OAuth application](https://developer.github.com/apps/building-oauth-apps/) - this is important for the Netlify CMS to support open authoring.
+
+#### SSL
+Netlify can support custom SSL certificates to be associated with the intended domain of `serohub.helmholtz-hzi.de`  The SSL can either be a letsencrypt managed certificate or it can support [a wildcard domain SSL](https://docs.netlify.com/domains-https/https-ssl/#custom-certificates). Note that the custom certificate route requires the SSL certificate to be updated manually, whenever a new one is issued.
+
+### Netlify CMS
+The user interface for adding and managing studies is built using the [Netlify CMS](https://www.netlifycms.org/).
+
+#### How it works
+The CMS is used to provide an interface to GitHub and Git activities behind the scenes. When someone logs in at [serohub.netlify.app/admin](https://serohub.netlify.app/admin), if they have permissions on the underlying serohub repository it will support branch based editing of the site, otherwise it will create a fork of the repository in the users account and they can perform edits that will become pull requests for serohub maintainers to approve.
+
 
 ## Resources
 - Git
-    + [gitHub guides](https://guides.github.com/)
+    + [GitHub guides](https://guides.github.com/)
     + [Happy Git and GitHub for the useR](https://happygitwithr.com/)
     + [Version Control with Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 - Hugo
     + [Hugo Quickstart](https://gohugo.io/getting-started/quick-start/)
+    + In repo: [Intro to (Hu)go templates](content/posts/goisforlovers/index.md) and [Writing Markdown](content/posts/writing-markdown-latex/index.md)
     + [Intro to markdown](https://commonmark.org/help/tutorial/index.html)
     + [Maëlle Salmon](https://masalmon.eu/tags/hugo/), [ROpenSci](https://ropensci.org/tags/hugo/) blog posts
 - Netlify
