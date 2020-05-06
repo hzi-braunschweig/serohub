@@ -1,5 +1,6 @@
 +++
 title = "(Hu)go Template Primer"
+draft = true
 description = ""
 tags = [
     "go",
