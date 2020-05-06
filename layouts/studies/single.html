@@ -13,7 +13,7 @@
         <span class="post-date">
           <time datetime="{{ $.Date }}" itemprop="datePublished">{{ $.Date.Format (default "2 January 2006" (index $.Site.Params "date_format")) }}</time>
         </span>
-        <a href="{{ path.Join "/admin/#"  | relURL }}">Edit study information</a>
+        <a href="{{ "/admin/#"  | relURL }}">Edit study</a>
         {{ if isset $.Params "tags" }}
         {{ $tagsLen := len $.Params.tags }}
         {{ if gt $tagsLen 0 }}
@@ -29,7 +29,24 @@
       
       <div class="post-body" itemprop="articleBody">
         {{ .Content }}
+
+        <h2>Study metadata</h2>
+
+        <table>
+          <tr><th>Field</th><th>Property name</th><th>Value</th></tr>
+          <tr><td>Study title</td><td>title</td><td>{{.Title}}</td></tr>
+          <tr><td>Primary outcomes</td><td>study_info.primary_outcomes</td><td>{{.Params.study_info.primary_outcomes}}</td></tr>
+        
+        
+        
+        
+        </table>
+
+        <h3>Study metadata as JSON</h3>
+        {{ highlight (.Params | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
       </div>
+
+      
 
       <meta itemprop="wordCount" content="{{ .WordCount }}">
       <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02" }}">
