@@ -10,7 +10,7 @@ collections:
   - name: 'studies'
     label: 'Study'
     folder: 'content/studies'
-    path: '{{slug}}/index.md'
+    path: '{{slug}}.md'
     create: true
     fields:
       - label: "Study name"
@@ -112,4 +112,101 @@ collections:
       - label: "Study overview"
         name: "body"
         widget: "markdown"
-
+  - name: 'publications'
+    label: 'Publication'
+    folder: 'content/publication'
+    path: '{{slug}}.md'
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Authors"
+        name: "authors"
+        widget: "list"
+        required: false
+      - label: "Publication"
+        name: "publication"
+        widget: "string"
+        required: true
+      - label: "Publish date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        default: ""
+        required: false
+      - label: "Short abstract"
+        name: "abstract_short"
+        widget: "markdown"
+        required: false
+      - label: "Abstract"
+        name: "abstract"
+        widget: "markdown"
+        required: false
+      - label: "Main Image"
+        name: "image"
+        widget: "image"
+        allow_multiple: false
+        required: false
+      - label: "Thumbnail Image"
+        name: "image_preview"
+        widget: "image"
+        allow_multiple: false
+        required: false
+      - label: "Code URL"
+        name: "url_code"
+        widget: "string"
+        required: false
+      - label: "Dataset URL"
+        name: "url_dataset"
+        widget: "string"
+        required: false
+      - label: "PDF URL"
+        name: "url_pdf"
+        widget: "string"
+        required: false
+      - label: "Project URL"
+        name: "url_project"
+        widget: "string"
+        required: false
+      - label: "Slides URL"
+        name: "url_slides"
+        widget: "string"
+        required: false
+      - label: "Video URL"
+        name: "url_video"
+        widget: "string"
+        required: false
+      - label: "Additional information"
+        name: "body"
+        widget: "markdown"
+        default: ""
+  - name: 'posts'
+    label: 'General content'
+    folder: 'content/posts'
+    path: '{{slug}}.md'
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        required: true
+      - label: "Publish date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:MM:SS"
+        required: true
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        allow_multiple: false
+        required: false     
+      - label: "Post"
+        name: "body"
+        widget: "markdown"
+        default: ""
