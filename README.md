@@ -2,10 +2,7 @@
 This website is created by [Helmholtz HZI](https://www.helmholtz-hzi.de/en) to support the open collaboration of researchers around COVID-19.
 
 ## TODO
-- implement the Netlify CMS solution 
 - DNS change 
-- introduce a better data sharing mechanism
-- (maybe) add a blog section
 - (maybe) make site multi-lingual
 
 ## Get help
