@@ -10,7 +10,6 @@ collections:
   - name: 'studies'
     label: 'Study'
     folder: 'content/studies'
-    path: '{{slug}}.md'
     create: true
     fields:
       - label: "Study name"
@@ -117,7 +116,6 @@ collections:
   - name: 'publications'
     label: 'Publication'
     folder: 'content/publication'
-    path: '{{slug}}.md'
     create: true
     fields:
       - label: "Title"
@@ -187,7 +185,6 @@ collections:
   - name: 'posts'
     label: 'General content'
     folder: 'content/posts'
-    path: '{{slug}}.md'
     create: true
     fields:
       - label: "Title"
