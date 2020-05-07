@@ -15,7 +15,7 @@ To contribute content, you can create a Pull Request with the content.
 1. Draft your post in R Markdown or Markdown.
 1. (Optional) Preview and refine your post locally.
 1. Submit via pull request and preview your post.
-1. A serohub maintainer accepts your content, or requests changes.
+1. A SeroHub maintainer accepts your content, or requests changes.
 
 An excellent place to learn about contributing science related blog posts is [ropensci technical guidelines](https://blogguide.ropensci.org/technical.html).
 

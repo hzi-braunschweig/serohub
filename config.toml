@@ -1,5 +1,5 @@
 baseurl = "https://serohub.netlify.app/"
-title = "Serohub"
+title = "SeroHub"
 author = "Hermholtz HZI"
 copyright = "Copyright (c) 2020 Hermholtz HZI"
 canonifyurls = true

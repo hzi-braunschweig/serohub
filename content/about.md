@@ -7,7 +7,7 @@ menu:
 ---
 
 ## Scope
-The serohub is a platform to establish a research forum/ information environment, focusing on knowledge sharing, creating and fostering activities. Furthermore, Serohub provides a general overview of research activities about seroprevalence studies.
+The SeroHub is a platform to establish a research forum/ information environment, focusing on knowledge sharing, creating and fostering activities. Furthermore, SeroHub provides a general overview of research activities about seroprevalence studies.
 
 ## What is seroprevalence?
 In epidemiological terms __prevalence__ is the proportion of people in population who have a disease.

@@ -1,5 +1,5 @@
 ---
-title: Serohub blog
+title: SeroHub blog
 menu:
   main:
     weight: 3
