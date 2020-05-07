@@ -1,0 +1,38 @@
+---
+title: "The SeroHub"
+author: "Stephan Gloeckner"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+The SeroHub is a platform to establish an __open research forum and information environment__, focusing on knowledge sharing, creating and fostering activities. Furthermore, SeroHub provides a general overview of research activities about seroprevalence studies.
+
+### Overview Seroprevalence Studies
+
+The plattform will provide an overview of all participating studies, about their:
+    * Study Population,
+    * Time of sampling,
+    * Total population in the area,
+    * Research questions,
+    * Diagnostic test,
+    * When is the start of sampling expected,
+    * When are results expected and
+    * Funding source.
+    
+### Later stages
+
+All contributing researcher will get the opportiunity to submit anonymizied aggregated data and perfrom a meta-analysis with the data that other researchers share.
+
+The general webpage concept is split into the general public site and the service environment only participating researcher can use.
+
+{{< figure src="/img/webpage_concept.png" title="Webpage Concept" >}}
+
+
+
+
