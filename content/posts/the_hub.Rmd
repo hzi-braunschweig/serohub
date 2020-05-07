@@ -16,6 +16,7 @@ The SeroHub is a platform to establish an __open research forum and information 
 ### Overview Seroprevalence Studies
 
 The plattform will provide an overview of all participating studies, about their:
+
     * Study Population,
     * Time of sampling,
     * Total population in the area,
@@ -31,7 +32,7 @@ All contributing researcher will get the opportiunity to submit anonymizied aggr
 
 The general webpage concept is split into the general public site and the service environment only participating researcher can use.
 
-{{< figure src="/img/webpage_concept.png" title="Webpage Concept" >}}
+<img src="/img/webpage_concept.png" title="Webpage Concept" width="70%" align="center">
 
 
 
