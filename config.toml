@@ -8,6 +8,8 @@ theme="hugo-finite"
 
 [params]
 logo = "img/hzi_logo_white.png"
+sponsor = "Helmholtz HZI"
+sponsor_url = "https://www.helmholtz.de/en"
 # Date format (refer to Go's date format: http://flippinggodateformat.com)
 # Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 #date_format = "2 January 2006"
