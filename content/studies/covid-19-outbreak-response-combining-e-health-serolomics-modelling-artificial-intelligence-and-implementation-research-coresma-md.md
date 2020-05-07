@@ -2,11 +2,10 @@
 title: Covid-19 Outbreak Response combining E-health, Serolomics, Modelling,
   Artificial Intelligence and Implementation Research (CORESMA)
 study_info:
-  primary_outcomes: Seroprevalence, stratified by age and over time
-  methods_used: Euroimmune
-  research_question: proportion of humans with with idendentified IgG, IgA, IgM
-    antibodies against COVID-19
-  funding_sources: BMBF
+  primary_outcomes: Seroprevalence of COVID-19 antibodies in NAKO participants
+  methods_used: ""
+  research_question: Seroprevalence of COVID-19 antibodies in NAKO participants
+  funding_sources: Horizon 2020
 study_numbers:
   study_population: 9000
   population: 1100000
@@ -17,7 +16,7 @@ study_dates:
   study_first_results: ""
 study_pi:
   name: Gérard Krause
-  institution: HZI
+  institution: Helmholtz HZI
   role: Professor
   email: serohub@helmholtz-hzi.de
 ---
