@@ -3,7 +3,10 @@
   <div class="column small-12">
     <article>
       <header>
-          <h1>{{.Title}}</h1>
+          <h1>{{.Title}}</h1> 
+          <div class="post-metadata">
+            <a href="{{ "/admin/#"  | relURL }}">Add study</a> 
+          </div>
       </header>
       <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
       {{.Content}}
