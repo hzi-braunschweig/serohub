@@ -1,7 +1,7 @@
 publish_mode: editorial_workflow
 backend:
   name: github
-  repo: nightingalehq/serohub
+  repo: hzi-braunschweig/serohub
   open_authoring: true
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"

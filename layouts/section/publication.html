@@ -1,5 +1,13 @@
 {{ define "main" }}
 <div class="row">
+  <div class="column small-12 medium-6"> 
+  <h1>{{.Title}}</h1>
+  <div class="post-metadata">
+    <a href="{{ "/admin/#"  | relURL }}">Add publication</a>
+  </div>
+</div></div>
+<div class="row">
+  
   <div class="column small-12 medium-6">
     <h2>Work In Progress</h2>
     {{ range (where .Data.Pages "Params.publication" "==" "").GroupByDate "2006" "desc" }}
