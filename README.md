@@ -33,8 +33,11 @@ For changes to the website, there are a few key areas:
 
 ## Getting things set up locally
 ### Get the repo locally
-1. If you're a member of the organisation, `git clone  --recurse-submodules https://`
-2. If you're not a member of the organisation, fork the repo, then `git clone  --recurse-submodules https://`
+1. If you're a member of the organisation, `git clone --recurse-submodules git@github.com:hzi-braunschweig/serohub.git`
+2. If you're not a member of the organisation, fork the repo, then 
+    - `git clone --recurse-submodules git@github.com:<your account>/serohub.git`
+    - `git remote add upstream https://github.com/hzi-braunschweig/serohub.git`
+
 
 ### Get the submodule
 We use a theme [hugo-infinite](https://github.com/lambdafu/hugo-finite) as the basis for the site. The `--recurse-submodules` argument in `git clone` will have established a connection. *You should not make changes to contents in the submodule* instead, you should copy files from the themes structure and paste them into the corresponding section of the main repository and edit it there. You only work with the submodule contents directly if you want to fix a bug and that is best done with a fresh fork of the theme directly from the theme's repository.
