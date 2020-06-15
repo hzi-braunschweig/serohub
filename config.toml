@@ -22,7 +22,7 @@ bio_full = "Overview of all COVID19 Seroprevalance studies performed in Germany"
 twitter_feed = "serohub"
 
 # Number of posts to show on main page.
-default_count = 3
+default_count = 2
 
 sharing = true
 leaflet_enable = true
