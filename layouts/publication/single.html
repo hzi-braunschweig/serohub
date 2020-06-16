@@ -29,7 +29,13 @@
 	<div class="row">
 	  <div class="column small-2 medium-1 pub-row-heading">Date</div>
 	  <div class="column small-10 medium-11" itemprop="datePublished">{{ .Date.Format "January, 2006" }}</div>
-	</div>
+  </div>
+  {{ if .Params.doi }}
+	<div class="row">
+	  <div class="column small-2 medium-1 pub-row-heading">DOI</div>
+	  <div class="column small-10 medium-11"><a href="https://www.doi.org/{{ .Params.doi }}">{{ .Params.doi }}</a></div>
+  </div>
+  {{ end }}
 	<div class="row">
 	  <div class="column small-2 medium-1 pub-row-heading">Links</div>
 	  <div class="column small-10 medium-11">
