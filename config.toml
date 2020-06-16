@@ -1,5 +1,5 @@
 baseurl = "https://serohub.netlify.app/"
-title = "SeroHub"
+title = "LEOSS.sero-survey"
 author = "Hermholtz HZI"
 copyright = "Copyright (c) 2020 Hermholtz HZI"
 canonifyurls = true
@@ -68,7 +68,7 @@ leaflet_central_long = 13.4050
 [[menu.main]]
   name = "Publications"
   url = "/publication/"
-  weight = 2
+  weight = 4
 
 [[menu.main]]
   name = "Studies"

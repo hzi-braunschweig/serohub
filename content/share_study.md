@@ -3,7 +3,7 @@ title: Share data
 date: 2020-05-01
 menu:
   main:
-    weight: 5
+    weight: 2
 ---
 
 #
