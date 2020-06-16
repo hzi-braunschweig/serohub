@@ -4,9 +4,7 @@
     <article>
       <header>
           <h1>{{.Title}}</h1> 
-          <div class="post-metadata">
-            <a href="{{ "/admin/#"  | relURL }}">Add study</a> 
-          </div>
+          <a class="alert button" href="/admin">Add study</a>
       </header>
       <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
       {{.Content}}
