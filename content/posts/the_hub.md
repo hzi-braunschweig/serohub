@@ -1,5 +1,5 @@
 ---
-title: "The SeroHub"
+title: "The LEOSS.sero-survey "
 author: "Stephan Gloeckner"
 date: "2020-05-07"
 ---
@@ -7,7 +7,7 @@ date: "2020-05-07"
 
 ## Introduction
 
-The SeroHub is a platform to establish an __open research forum and information environment__, focusing on knowledge sharing, creating and fostering activities. Furthermore, SeroHub provides a general overview of research activities about seroprevalence studies.
+The LEOSS.sero-survey  is a platform to establish an __open research forum and information environment__, focusing on knowledge sharing, creating and fostering activities. Furthermore, LEOSS.sero-survey provides a general overview of research activities about seroprevalence studies.
 
 ### Overview of seroprevalence studies
 

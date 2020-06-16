@@ -1,0 +1,37 @@
+---
+title: "Minimal Dataset"
+author: "Stephan Glöckner"
+date: '2020-05-14'
+slug: minimal-dataset
+categories: []
+tags: []
+draft: no
+output: 
+  md_document:
+    preserve_yaml: true
+---
+
+## Minimal Dataset
+
+For all participating studies, we defined a minimal dataset, which can be downloaded [here](/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx). This file __includes__ metadata of every variable
+
+The needed variables can be split into two important parts:
+
+* methodology (used instruments, type of recritment, etc.)
+* case based minimal information (gender, age, etc.)
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(readxl)
+library(dplyr)
+library(tidyr)
+df <- read_excel("../../static/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx")
+
+df %>% 
+  select(Category = 1, Variable = 2) %>% 
+  fill(Category, .direction = "down") %>% 
+  filter(!is.na(Variable)) %>% 
+  knitr::kable() %>% 
+  kableExtra::kable_styling("striped")
+```
+
