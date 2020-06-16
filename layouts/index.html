@@ -18,7 +18,7 @@
   {{ $posts_count := index .Site.Params "default_count" | default 2 }}
   {{ $show_series := gt (len (where .Site.RegularPages.ByDate "Section" "studies")) 0  }}
   {{ if $show_series }}
-  <a href="/studies/"><h2 >Studies <i class="fa fa-arrow-circle-right"></i></h2> </a>
+  <a href="/studies/"><h2 >Participating Studies <i class="fa fa-arrow-circle-right"></i></h2> </a>
   <div class="row">
   {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "studies").Reverse) }}
   
@@ -29,7 +29,7 @@
   {{ end }}
   {{ $show_pubs := gt (len (where .Site.RegularPages.ByDate "Section" "publication")) 0  }}
   {{ if $show_pubs }}
-  <a href="/publication/"><h2 >Publications <i class="fa fa-arrow-circle-right"></i></h2> </a>
+  <a href="/publication/"><h2 >Seroprevalence Publications (worldwide) <i class="fa fa-arrow-circle-right"></i></h2> </a>
   <div class="row">
   {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "publication").Reverse) }}
   
