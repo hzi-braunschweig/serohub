@@ -26,4 +26,15 @@
     var  marker_{{ $i | safeJS }} = L.marker([{{ float (index $r 2) }}, {{ float (index $r 3) }}], {icon: pin}).addTo(mymap);
     marker_{{ $i | safeJS }}.bindPopup('<b>{{ index $r 0 }}</b><br>{{ index $r 1 }}<br><a href="mailto://{{ index $r 4 }}">{{ index $r 4 }}</a>').openPopup();
     {{ end }}
+
+    mymap.on('zoomend', function() {
+        var currentZoom = mymap.getZoom();
+        pin = new L.Icon({
+            iconUrl: '/img/pin2.png',
+            iconSize: [mymap.getZoom*2, mymap.getZoom*2],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+        });
+        marker.setIcon(busIcon);
+    });
 </script>
