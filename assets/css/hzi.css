@@ -6,7 +6,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  color: #005b9c;
+  color: #002b4f;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: white;
   font-size: 1em;
@@ -21,7 +21,7 @@ footer {
   color: white;
 }
 
-h2 {
+h1, h2 {
   color: #005b9c;
 }
 .row {
@@ -44,8 +44,8 @@ h2 {
 }
 a
 {
-    border-bottom: 1px dotted #005b9c;
-    color: #005b9c;
+    border-bottom: 1px dotted #002b4f;
+    color: #002b4f;
 }
 a:hover, a:active {
   color: #e42312;
@@ -71,28 +71,18 @@ footer h2, footer a h2, footer a {
 }
 
 .button.hollow.primary {
-  border: 1px solid #005b9c;
-  color: #005b9c;
-}
-.button.hollow.primary:hover, .button.hollow.primary:active {
   border: 1px solid #e42312;
   color: #e42312;
+}
+.button.hollow.primary:hover, .button.hollow.primary:active {
+
+  border: 1px solid #005b9c;
+  color: #005b9c;
 }
 .pub-icon {
   color: #002b4f;
 }
 
-.card {
-min-height:20vh;
- 
-}
-.card-divider {
-  padding-left: 1em;
-}
-
-.card-section {
-  padding-left: 1em;
-}
 
 /*--BURGER MENU--*/
 /*Made by Erik Terwan
