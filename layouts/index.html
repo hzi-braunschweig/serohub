@@ -7,7 +7,7 @@
     {{ .Content  }}</div>   
 </div>
 </div>
-<div class="row">
+
 <div class="column small-12 medium-5">
   <h2>Map of Participating Seroprevalence Studies</h2>
 {{ if .Site.Params.leaflet_enable }}
@@ -15,54 +15,50 @@
 {{ end}}
   </div>
 <div class="column medium-5">
-  {{ $posts_count := index .Site.Params "default_count" | default 2 }}
-  {{ $show_series := gt (len (where .Site.RegularPages.ByDate "Section" "studies")) 0  }}
-  {{ if $show_series }}
-  <a href="/studies/"><h2 >Participating Studies <i class="fa fa-arrow-circle-right"></i></h2> </a>
-  <div class="row">
-  {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "studies").Reverse) }}
-  
-    {{ partial "post-summary" . }}
-    
-    {{ end }}
-  </div>  
-  {{ end }}
-  {{ $show_pubs := gt (len (where .Site.RegularPages.ByDate "Section" "publication")) 0  }}
-  {{ if $show_pubs }}
-  <a href="/publication/"><h2 >Seroprevalence Publications (worldwide) <i class="fa fa-arrow-circle-right"></i></h2> </a>
-  <div class="row">
-  {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "publication").Reverse) }}
-  
-    {{ partial "post-summary" . }}
-    
-    {{ end }}
-  </div>  
-  {{ end }}
+  <h2>Contribute</h2>
+  <p>The LEOSS.sero-survey is an open intiative to provide a centralised hub of resources. 
+    Researchers can submit studies, publications, and even data to be included here. </p><button href="share_study" class="button hollow primary">Add a resource</button>
 
-  {{ $show_posts := gt (len (where .Site.RegularPages.ByDate "Section" "posts")) 0 }}
-  {{ if $show_posts }}
-  <a href="/posts/"><h2 >Blog <i class="fa fa-arrow-circle-right"></i></h2> </a>
-  <div class="row">
-  {{ range first $posts_count ((where .Site.RegularPages.ByDate "Section" "posts").Reverse) }}
-  
-    {{ partial "post-summary" . }}
-    
-    {{ end }}
-  </div>  
-  {{ end }}
-</div>
-  <div class="column small-12 medium-2">
-    <h2>Engage</h2>
-    <p>The SeroHub is an open intiative to provide a centralised hub of resources. 
-      Researchers can submit studies, publications, and even data to be included here via <a href="share_study" class="alert  button">Add a resource</a>.</p>
-    <ul class="fa-ul">
-      {{ range $.Site.Params.social }}
-      <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
-      {{ end }}
-    </ul>
-  {{ partial "livetwitterfeed.html" . }}
+  <h2>Stay up to date</h2>
 
+  <div class="card">
+    <div class="card-divider">
+      <a href="/posts/"><h3 >{{ .Site.Params.blogName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+    </div>
+    <div class="card-section">
+      <p>{{ .Site.Params.blogDescription }}</p>
+    </div>
   </div>
 
+  <div class="card">
+    <div class="card-divider">
+      <a href="/studies/"><h3 >{{ .Site.Params.studiesName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+    </div>
+    <div class="card-section">
+      <p>{{ .Site.Params.studiesDescription }}</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-divider">
+      <a href="/publication/"><h3 >{{ .Site.Params.publicationName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+    </div>
+    <div class="card-section">
+      <p>{{ .Site.Params.publicationDescription }}</p>
+    </div>
+  </div>
+
+
 </div>
+  <div class="column small-12 medium-2">
+
+  {{ partial "livetwitterfeed.html" . }}
+  <ul class="fa-ul">
+    {{ range $.Site.Params.social }}
+    <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
+    {{ end }}
+  </ul>
+  </div>
+
+
 {{ end }}
