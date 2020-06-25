@@ -75,7 +75,12 @@ Netlify can support custom SSL certificates to be associated with the intended d
 The user interface for adding and managing studies is built using the [Netlify CMS](https://www.netlifycms.org/).
 
 #### How it works
-The CMS is used to provide an interface to GitHub and Git activities behind the scenes. When someone logs in at [serohub.netlify.app/admin](https://serohub.netlify.app/admin), if they have permissions on the underlying serohub repository it will support branch based editing of the site, otherwise it will create a fork of the repository in the users account and they can perform edits that will become pull requests for serohub maintainers to approve.
+The CMS is used to provide an interface to GitHub and Git activities behind the scenes. 
+You can login with your Github account at [serohub.netlify.app/admin](https://serohub.netlify.app/admin).
+Please note,
+
+- You need to use a github account that has **NO access rights** to the [serohub repository](https://github.com/hzi-braunschweig/serohub). When you write a blog post ("General Content"), a study, or publication, it will create a fork of the repository in the users account and they can perform edits that will become pull requests for serohub maintainers to approve.
+- If you are a maintainer or have any write access rights to [serohub repository](https://github.com/hzi-braunschweig/serohub), you will end with an error `Failed to persist entry: API_ERROR: Not Found` when trying to save a new blog entry.
 
 
 ## Resources
