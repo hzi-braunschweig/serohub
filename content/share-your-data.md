@@ -1,5 +1,5 @@
 ---
-title: Share data
+title: Share your data
 date: 2020-05-01
 menu:
   main:
