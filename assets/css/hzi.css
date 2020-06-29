@@ -202,3 +202,10 @@ MIT License*/
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+
+/* font size for "study metadata", fix #25 
+ * overloads "finite.css" and "foundation.min.css"
+ **/
+ code.language-json {
+  font-size: 85%;
+}
