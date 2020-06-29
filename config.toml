@@ -1,4 +1,4 @@
-baseurl = "https://serohub.netlify.app/"
+baseurl = "https://leoss-serosurvey-plattform.helmholtz-hzi.de/"
 title = "LEOSS.sero-survey"
 author = "Hermholtz HZI"
 copyright = "Copyright (c) 2020 Hermholtz HZI"
