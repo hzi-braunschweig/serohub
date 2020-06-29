@@ -11,16 +11,16 @@
           <div class="column small-12 medium-3">
             <ul class="fa-ul">
               {{ range $.Site.Params.social }}
-              <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
+              <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}" target=_blank title="{{ .text }}" rel="external">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
               {{ end }}
             </ul>
           </div>
 
           <div class="column small-12 medium-3" style="margin-top: 3px;"> 
-            <a href="https://www.netlify.com">
+            <a href="https://www.netlify.com"  target=_blank rel="external">
               <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" />
             </a>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target=_blank rel="external"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
   </div>
         </div>
