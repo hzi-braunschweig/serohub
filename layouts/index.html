@@ -56,7 +56,7 @@
   {{ partial "livetwitterfeed.html" . }}
   <ul class="fa-ul">
     {{ range $.Site.Params.social }}
-    <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
+    <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}" target=_blank rel="external" title="{{ .text}}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
     {{ end }}
   </ul>
   </div>
