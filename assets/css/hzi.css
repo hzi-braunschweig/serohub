@@ -73,6 +73,19 @@ h4, h5, h6 {
   padding-left: 2em;
 }
 
+div.card {
+  background-color: #EDEDED;
+  border-style: solid;
+  border-color: #cfcfcf;
+  border-width: 0.1px;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+div.card .fa {
+  color: #005b9c;
+}
+
 .endofpage { 
   background-color: #002b4f;
 }
@@ -210,7 +223,7 @@ MIT License*/
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -5em;
-  padding: 50px;
+  padding: 50px 50px 50px 75px;
   padding-top: 125px;
   
   background: #ededed;

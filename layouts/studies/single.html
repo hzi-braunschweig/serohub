@@ -43,7 +43,7 @@
         </table>
 
         <h3>Study metadata as JSON</h3>
-        <code>Something was broken here</code>
+        <code> {{ highlight (.Params | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
       </div>
 
       
