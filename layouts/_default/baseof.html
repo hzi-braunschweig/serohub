@@ -28,12 +28,11 @@
 			<span></span>
 			<span></span>
 			
-			<ul id="menu">
-				<a href="/"><li>Home</li></a>
-				<a href="/studies"><li>Studies</li></a>
-				<a href="/publication"><li>Publications</li></a>
-				<a href="/about"><li>About</li></a>
-				<a href="/share_study"><li>Share your study</li></a>
+			<ul id="menu" class="popout">
+				{{ $currentNode := . }}
+				{{ range .Site.Menus.main }}
+				<li><a href="{{.URL}}">{{ .Name }}</a></li>
+				{{ end }}
 			</ul>
 			</div>
 		</nav>
