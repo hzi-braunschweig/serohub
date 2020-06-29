@@ -13,5 +13,5 @@ The minimal Dataset can be found here:
 
 <a class="button hollow primary" href="/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx">Download Minimal Dataset</a>
 
-If you'd like to share data with us, please fill out this form:
+If you'd like to share data with us, please fill out this form below. The submitted information will be send to us for review and we will contact you.
 {{< share_data >}}
