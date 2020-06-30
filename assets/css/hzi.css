@@ -60,6 +60,32 @@ h4, h5, h6 {
 .nav-bar ul {
     background-color: #002b4f;
 }
+
+.popout a {
+  background-color: transparent;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2em;
+}
+
+div.card {
+  background-color: #EDEDED;
+  border-style: solid;
+  border-color: #cfcfcf;
+  border-width: 0.1px;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+div.card .fa {
+  color: #005b9c;
+}
+
 .endofpage { 
   background-color: #002b4f;
 }
@@ -112,8 +138,7 @@ MIT License*/
 #menuToggle {
   display: inline-block;
   position: inline;
-  top: 50px;
-  left: 50px;
+  margin-top: .75em;
   
   z-index: 1;
   
@@ -138,8 +163,6 @@ MIT License*/
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
   
   cursor: pointer;
   
@@ -199,8 +222,8 @@ MIT License*/
 #menu {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
+  margin: -100px 0 0 -5em;
+  padding: 50px 50px 50px 75px;
   padding-top: 125px;
   
   background: #ededed;
@@ -229,4 +252,10 @@ MIT License*/
  **/
  code.language-json {
   font-size: 85%;
+}
+
+@media (max-width: 1275px){
+  .share-box {
+    display: none;
+  }
 }
