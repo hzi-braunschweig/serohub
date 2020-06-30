@@ -1,6 +1,6 @@
 ---
-title: About
-date: 2020-05-01
+title: Über Uns
+date: 2020-06-30
 lastmod: 2020-06-30
 menu:
   main:
