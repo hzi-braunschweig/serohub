@@ -1,16 +1,31 @@
 #baseurl = "https://leoss-serosurvey-plattform.helmholtz-hzi.de/"
 baseurl = "https://serohub.netlify.app/"
-title = "LEOSS.sero-survey"
 author = "Hermholtz HZI"
 copyright = "Copyright (c) 2020 Hermholtz HZI"
 canonifyurls = true
 paginate = 3
 theme="hugo-finite"
 
+# multilingual
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "LEOSS.sero-survey"
+    weight = 1    
+    sponsor_url = "https://www.helmholtz.de/en"
+  [languages.de]
+    languageName = "Deutsch"
+    title = "LEOSS.sero-survey"
+    weight = 2
+    sponsor_url = "https://www.helmholtz.de"
+
+
 [params]
 logo = "img/hzi_logo_white.png"
 sponsor = "Helmholtz HZI"
-sponsor_url = "https://www.helmholtz.de/en"
 # Date format (refer to Go's date format: http://flippinggodateformat.com)
 # Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 #date_format = "2 January 2006"
@@ -73,15 +88,24 @@ publicationDescription = "Find in progress or published relevant publications"
 # Navigation Links
 # The weight parameter defines the order that the links will appear in.
 
-[[menu.main]]
-  name = "Seroprevalence Publications"
-  url = "/publication/"
+[[languages.en.menu.main]]
+  name = "Publications"
+  url = "/en/publication/"
+  weight = 4
+[[languages.de.menu.main]]
+  name = "Veröffentlichungen"
+  url = "/de/publication/"
   weight = 4
 
-[[menu.main]]
+[[languages.en.menu.main]]
   name = "Studies"
-  url = "/studies/"
+  url = "/en/studies/"
   weight = 1
+[[languages.de.menu.main]]
+  name = "Studien"
+  url = "/de/studies/"
+  weight = 1
+
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
