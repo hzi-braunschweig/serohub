@@ -1,3 +1,3 @@
 ---
-Title: Seroprevalence publications
+title: Publications
 ---
