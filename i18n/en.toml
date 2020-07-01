@@ -1,0 +1,13 @@
+
+# layouts/shortcodes/share_data, and contribute.md 
+[YourName]
+other = "Your Name"
+
+[YourEmail]
+other = "Your Email"
+
+[YourAffiliation]
+other = "Your Affiliation(s)"
+
+[YourStudyName]
+other = "Study name"

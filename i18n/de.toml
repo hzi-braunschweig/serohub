@@ -1,0 +1,13 @@
+
+# layouts/shortcodes/share_data, and contribute.de.md 
+[YourName]
+other = "Dein Name"
+
+[YourEmail]
+other = "Dein Email"
+
+[YourAffiliation]
+other = "Zugehörige Institution(en)"
+
+[YourStudyName]
+other = "Name der Studie"
