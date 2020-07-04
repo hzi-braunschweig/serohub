@@ -254,6 +254,47 @@ MIT License*/
   font-size: 85%;
 }
 
+/*START Print document layout*/
+@media print {
+
+  h1{
+    text-transform: capitalize;
+  }
+
+  h2{
+    padding-top: 10px;
+  }
+
+  /*Make HZI logo visible by filling background*/
+  img{
+    background-color: #000 !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+  }
+
+ div p{
+   margin-top: 10px;
+ }
+
+ a{
+   text-decoration: none !important;
+ }
+
+  .post-metadata{
+    display: none;
+  }
+
+  .post-body{
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  .pagination{
+    display: none;
+  }
+  
+}/*END Print document layout*/
+
 @media (max-width: 1275px){
   .share-box {
     display: none;
