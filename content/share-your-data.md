@@ -1,5 +1,5 @@
 ---
-title: Share your data
+title: Contribute
 date: 2020-05-01
 menu:
   main:
