@@ -1,10 +1,12 @@
-<!-- simple EN or DE switch -->
+<!-- https://discourse.gohugo.io/t/language-switcher-in-menu/11570/3 -->
 <span>
 {{ if .Site.IsMultiLingual }}
-	{{ if eq "de" .Site.Language.Lang }}
-		<a href="/en/" title="Englische Version der Seite">EN
-	{{ else }}
-		<a href="/de/" title="German Version of the page">DE
+	{{ range .Site.Languages }}
+	{{ if not (eq . $.Site.Language) }}
+		{{ range $.Translations }}
+		<a href="{{ .Permalink }}" class="">{{ .Language.Lang }}
+		{{ end }}
+	{{ end }}
 	{{ end }}
 {{ end }}
 <i class="fa fa-exchange" aria-hidden="true"></i>
