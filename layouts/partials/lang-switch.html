@@ -4,11 +4,12 @@
 	{{ range .Site.Languages }}
 	{{ if not (eq . $.Site.Language) }}
 		{{ range $.Translations }}
-		<a href="{{ .Permalink }}" class="">{{ .Language.Lang }}
+		<a href="{{ .Permalink }}" class="">
+			{{ .Language.Lang }}
+			<i class="fa fa-exchange" aria-hidden="true"></i>
+		</a>
 		{{ end }}
 	{{ end }}
 	{{ end }}
 {{ end }}
-<i class="fa fa-exchange" aria-hidden="true"></i>
-</a>
 </span>
