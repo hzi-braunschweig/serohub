@@ -1,13 +1,31 @@
 
 # layouts/shortcodes/share_data, and contribute.md 
-[YourName]
+[ContributeName]
 other = "Your Name"
 
-[YourEmail]
+[ContributeEmail]
 other = "Your Email"
 
-[YourAffiliation]
+[ContributeAffiliation]
 other = "Your Affiliation(s)"
 
-[YourStudyName]
+[ContributeStudyName]
 other = "Study name"
+
+[ContributeDataUrl]
+other = "Data URL"
+
+[ContributeAccess]
+other = "Who this data can be shared with?"
+[ContributeAccessEveryone]
+other = "Everyone"
+[ContributeAccessGermany]
+other = "Researchers in German institutions"
+
+[ContributeAuth]
+other = "I confirm I have the authorisation to share the information and any data relating to this study"
+
+[ContributeDocuments]
+other = "Documents"
+[ContributeDocumentsText]
+other = "Send us study related documents directly via email to"

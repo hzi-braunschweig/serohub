@@ -1,13 +1,31 @@
 
 # layouts/shortcodes/share_data, and contribute.de.md 
-[YourName]
+[ContributeName]
 other = "Dein Name"
 
-[YourEmail]
+[ContributeEmail]
 other = "Dein Email"
 
-[YourAffiliation]
+[ContributeAffiliation]
 other = "Zugehörige Institution(en)"
 
-[YourStudyName]
+[ContributeStudyName]
 other = "Name der Studie"
+
+[ContributeDataUrl]
+other = "URL zu öffentlichen Dokumenten"
+
+[ContributeAccess]
+other = "Wer darf die Daten lesen?"
+[ContributeAccessEveryone]
+other = "Jeder"
+[ContributeAccessGermany]
+other = "Forscher an deutschen Institutionen"
+
+[ContributeAuth]
+other = "Ich bestätige, dass ich die Berechtigung habe, die Informationen und Daten zu dieser Studie weiterzugeben"
+
+[ContributeDocuments]
+other = "Dokumente"
+[ContributeDocumentsText]
+other = "Senden Sie uns studienbezogene Dokumente ggf. direkt an folgende E-Mail-Addresse"

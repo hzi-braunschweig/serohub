@@ -1,44 +1,60 @@
-<form name="contact" method="POST" data-netlify="true">
-    <div class="row">
-        <div class= "column medium-6">
-            <h2>Information</h2>
-            <p>
-              <label>{{ i18n "YourName" }}*: <input type="text" name="name" required/></label>   
-            </p>
-            <p>
-              <label>{{ i18n "YourEmail" }}*: <input type="email" name="email" required/></label>
-            </p>
-            <p>
-              <label>{{ i18n "YourAffiliation" }}*: <input type="text" name="affiliations" required/></label>
-            </p>
-                <p>
-                    <label>{{ i18n "YourStudyName" }}*: <input type="text" name="study_name" required/></label>
-                </p>
+<h2>Information</h2>
+<div class= "column medium-6">
+  <div class="row">
 
-  </div>
-  <div class= "column medium-6">
-  <h2>Study related documents</h2>
-  <p>Send us study related docutment directly via email to: <br><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></a> </p>
-  
-  <!-- 
-  <p>Share a link to where the file (e.g. study protocol) can be downloaded (preferable) or upload the files.</p>
+    <form name="contact" method="POST" data-netlify="true">
+      <div class="form-group">
+        <label>{{ i18n "ContributeName" }}*: <input type="text" name="name" required/></label>   
+      </div>
+
+      <div class="form-group">
+        <label>{{ i18n "ContributeEmail" }}*: <input type="email" name="email" required/></label>
+      </div>
+
+      <div class="form-group">
+        <label>{{ i18n "ContributeAffiliation" }}*: <input type="text" name="affiliations" required/></label>
+      </div>
+
+      <div class="form-group">
+        <label>{{ i18n "ContributeStudyName" }}*: <input type="text" name="study_name" required/></label>
+      </div>
+
+      <div class="form-group">
+        <label>{{ i18n "ContributeDataUrl" }}: <input type="text" name="data_url"/></label>
+        <!-- <small id="data_url_help" class="form-text text-muted">Share a link to where the file (e.g. study protocol) can be downloaded (preferable) or upload the files.</small> -->
+      </div>
+      <!-- 
+      <div class="form-group">
+        <label>Data files: <input type="file" name="data_files" multiple /></label>
+      </div>
+      -->
+      <div class="form-group">
+        <label>{{ i18n "ContributeAccess" }} </label>
+        <select class="form-control" name="role[]" multiple>
+          <option value="everyone">{{ i18n "ContributeAccessEveryone" }}</option>
+          <option value="germany">{{ i18n "ContributeAccessGermany" }}</option>
+        </select>    
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="authorisation" required>
+          {{ i18n "ContributeAuth" }}*
+        </label>   
+      </div>
+      <br>
+
+      <button type="submit" class="button hollow primary">Send</button>
+
+    </form>
+
+    <!-- temporary hint to send files -->
+    <h2>{{ i18n "ContributeDocuments" }}</h2>
     <p>
-    <label>Data URL: <input type="text" name="data_url"/></label>
-  </p>
-  <p>    <label>Data files: <input type="file" name="data_files" multiple /></label>
-  </p>
-  -->
-  <p>
-    <label>Who this data can be shared with: <select name="role[]" multiple>
-      <option value="everyone">Everyone</option>
-      <option value="germany">Researchers in German institutions</option>
-    </select></label>
-  </p>
-<p>  <input type="checkbox" id="authorisation" name="authorisation" required>
-  <label for="authorisation">I confirm I have the authorisation to share the information and any data relating to this study*</label> </p>
-  <p> 
-    <button type="submit" class="button hollow primary">Send</button>
-  </p>
+      {{ i18n "ContributeDocumentsText" }}: <br>
+      <b><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></b>
+    </p>
+  
   </div>
-    </div>
-</form>
+</div>
+
