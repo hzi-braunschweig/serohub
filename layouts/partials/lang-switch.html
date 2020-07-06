@@ -1,0 +1,12 @@
+<!-- simple EN or DE switch -->
+<span>
+{{ if .Site.IsMultiLingual }}
+	{{ if eq "de" .Site.Language.Lang }}
+		<a href="/en/" title="Englische Version der Seite">EN
+	{{ else }}
+		<a href="/de/" title="German Version of the page">DE
+	{{ end }}
+{{ end }}
+<i class="fa fa-exchange" aria-hidden="true"></i>
+</a>
+</span>
