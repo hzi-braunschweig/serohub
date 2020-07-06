@@ -24,7 +24,7 @@
     {{ $sep := "," }}
     {{ range $i, $r := after 1 (getCSV $sep $data) }}
     var  marker_{{ $i | safeJS }} = L.marker([{{ float (index $r 2) }}, {{ float (index $r 3) }}], {icon: pin}).addTo(mymap);
-    marker_{{ $i | safeJS }}.bindPopup('<b>{{ index $r 0 }}</b><br>{{ index $r 1 }}<br><a href="mailto://{{ index $r 4 }}">{{ index $r 4 }}</a>').openPopup();
+    marker_{{ $i | safeJS }}.bindPopup('<b>{{ index $r 0 }}</b><br>{{ index $r 5 }}<br><a href="mailto://{{ index $r 4 }}">{{ index $r 4 }}</a><br>{{ index $r 1 }}').openPopup();
     {{ end }}
 
     mymap.on('zoomend', function() {
