@@ -14,4 +14,7 @@ Die Spezifikation mit den Mindestanforderungen an den Datensatz können Sie hier
 <a class="button hollow primary" href="/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx">Download Minimal Dataset</a>
 
 Wenn Sie Daten mit uns teilen möchten, füllen Sie bitte dieses Formular aus. Die übermittelten Informationen werden uns zur Überprüfung zugesandt und wir werden Sie kontaktieren.
+
+Für DZIF-Partner besteht die Möglichkeit einer **Aufwandsentschädigung** für den Daten-Upload. Bitte kontaktieren Sie <b><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></b> für weitere Details.
+
 {{< share_data >}}
