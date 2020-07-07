@@ -1,4 +1,23 @@
 
+# layouts/index.html
+[FrontTitle]
+other = "Die Plattform für Seroprävalenzstudien zu SARS-CoV-2"
+
+[FrontSubtitle]
+other = "Willkommen bei LEOSS.sero-survey"
+
+[FrontMapHeading]
+other = "Orte der teilnehmenden COVID-19 Seroprävalenzstudien"
+
+[FrontContribute]
+other = "Daten Teilen"
+
+[FrontContributeText]
+other = "Die LEOSS.sero-survey Plattform ist eine offene Initiative, um Forschern eine zentrale Anlaufstelle für ihre SARS-Cov-2 Seroprävalenzstudien und Daten zu bieten."
+
+[FrontStayupdated]
+other = "Bleibe auf dem Laufenden"
+
 # layouts/shortcodes/share_data, and contribute.de.md 
 [ContributeName]
 other = "Dein Name"
@@ -62,3 +81,4 @@ other = "Daten"
 
 [PubIconsProject]
 other = "Projekt"
+
