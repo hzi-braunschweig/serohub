@@ -1,0 +1,7 @@
+<i class="fa-li fa {{ partial "pub-icon" . }}" style="padding-top:3px;"></i>
+{{ .Title | safeHTML }}
+<br />
+<span>
+    <a class="button hollow pub-link" href="{{ .Permalink }}">{{ i18n "PubIconsAbstract" }}</a> 
+    {{ partial "pub-links" . }}
+</span>

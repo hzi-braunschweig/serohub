@@ -50,3 +50,15 @@ other = "Veröffentlicht"
 [PubPublishedText]
 other = "Wissenschaftliche Arbeiten, die von Experten begutachtet und in einer wissenschaftlichen Zeitschrift veröffentlicht wurden."
 
+# layout/partials/pub-summary.html and pub-list.html
+[PubIconsAbstract]
+other = "Zusammenfassung"
+
+[PubIconsSlides]
+other = "Folien"
+
+[PubIconsData]
+other = "Daten"
+
+[PubIconsProject]
+other = "Projekt"

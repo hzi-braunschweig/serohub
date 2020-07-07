@@ -1,0 +1,54 @@
+{{ with $.Params.doi }}
+<a class="button pub-link hollow" href="https://doi.org/{{ . }}" target="_blank">
+    <i class="fa fa-external-link" aria-hidden="true"></i>
+    DOI
+</a>
+{{ end }}
+
+{{ with $.Params.url_pdf }}
+<a class="button pub-link hollow" href="{{ . | absURL }}" target="_blank">
+    <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+    PDF
+</a>
+{{ end }}
+
+{{ with $.Params.url_slides }}
+<a class="button pub-link hollow" href="{{ . | absURL }}" target="_blank">
+    <i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>
+    {{ i18n "PubIconsSlides" }}
+</a>
+{{ end }}
+
+{{ with $.Params.url_video }}
+<a class="button pub-link hollow" href="{{ . | absURL }}" target="_blank">
+    <i class="fa fa-film" aria-hidden="true"></i>
+    Video
+</a>
+{{ end }}
+
+{{ with $.Params.url_code }}
+<a class="button pub-link hollow" href="{{ . | absURL }}" target="_blank">
+    <i class="fa fa-code" aria-hidden="true"></i>
+    Code
+</a>
+{{ end }}
+
+{{ with $.Params.url_dataset }}
+<a class="button pub-link hollow" href="{{ . | absURL }}" target="_blank">
+    <i class="fa fa-database" aria-hidden="true"></i>
+    {{ i18n "PubIconsData" }}
+</a>
+{{ end }}
+
+{{ with $.Params.url_project }}
+<a class="button pub-link hollow" href="{{ . | absURL }}" target="_blank">
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    {{ i18n "PubIconsProject" }}
+</a>
+{{ end }}
+
+{{ range $.Params.url_custom }}
+<a class="button pub-link hollow" href="{{ .url | absURL }}" target="_blank">
+    {{ .name }}
+</a>
+{{ end }}

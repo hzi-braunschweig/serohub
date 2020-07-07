@@ -50,3 +50,16 @@ other = "Published"
 [PubPublishedText]
 other = "Scientific papers that have been peer-reviewed and published in a scientific journal."
 
+# layout/partials/pub-summary.html and pub-list.html
+[PubIconsAbstract]
+other = "Abstract"
+
+[PubIconsSlides]
+other = "Slides"
+
+[PubIconsData]
+other = "Dataset"
+
+[PubIconsProject]
+other = "Project"
+
