@@ -86,3 +86,15 @@ other = "Daten"
 [PubIconsProject]
 other = "Projekt"
 
+
+# layouts/section/studies.html
+[StudiesButton]
+other = "Studie hinzufügen"
+
+[StudiesName]
+other = "Studienname"
+
+[StudiesOutcome]
+other = "Ergebnisse"
+
+

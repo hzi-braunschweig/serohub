@@ -86,4 +86,12 @@ other = "Dataset"
 [PubIconsProject]
 other = "Project"
 
+# layouts/section/studies.html
+[StudiesButton]
+other = "Add a study"
 
+[StudiesName]
+other = "Study name"
+
+[StudiesOutcome]
+other = "Primary outcome"
