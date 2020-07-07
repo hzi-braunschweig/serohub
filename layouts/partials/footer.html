@@ -6,7 +6,11 @@
           </div>
           <div class="column small-12 medium-3">
             
-            <p>{{ .Site.Params.bio_full }}. You can provide details on a study to be included here, via <a href="{{ "/admin/#"  | absURL }}">Share a Study</a>.</p>
+            <p>
+              {{ .Site.Params.bio_full }}.
+              {{ i18n "FooterText" }}:
+              <a href="contribute">{{ i18n "FrontContribute" }}</a>.
+            </p>
           </div>
           <div class="column small-12 medium-3">
             <ul class="fa-ul">

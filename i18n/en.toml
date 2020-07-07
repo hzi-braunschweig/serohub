@@ -18,6 +18,10 @@ other = "The LEOSS.sero-survey platform is an open intiative to provide a centra
 [FrontStayupdated]
 other = "Stay up to date"
 
+# layouts/partials/footer.html
+[FooterText]
+other = "You can register a study here"
+
 # layouts/shortcodes/share_data, and contribute.md 
 [ContributeName]
 other = "Your Name"
@@ -81,4 +85,5 @@ other = "Dataset"
 
 [PubIconsProject]
 other = "Project"
+
 
