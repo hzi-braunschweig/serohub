@@ -1,8 +1,10 @@
 {{ define "top-bar-right" }}
-{{ partial "share.html" $ }}
+<!-- {{ partial "share.html" $ }} -->
+{{ partial "lang-switch.html" $ }}
 {{ end }}
 {{ define "title-bar-right" }}
-{{ partial "share.html" $ }}
+<!-- {{ partial "share.html" $ }} -->
+{{ partial "lang-switch.html" $ }}
 {{ end }}
 {{ define "main" }}
 <div class="row" >
@@ -10,29 +12,29 @@
   <img src="{{.Params.image}}" alt="{{.Title}}" style="max-height:10vh; text-align:center;" />
 </div>
   <div class="column medium-10">
-  <h3>Welcome to the LEOSS.sero-survey</h3>
-  <h1>The Seroprevalance Studies Plattform about SARS-CoV-2</h1>
+  <h3>{{ i18n "FrontSubtitle" }}</h3>
+  <h1>{{ i18n "FrontTitle" }}</h1>
     {{ .Content  }}</div>   
 </div>
 </div>
 
 <div class="row" >
 <div class="column small-12 medium-5">
-  <h2>Map of Participating Seroprevalence Studies</h2>
+  <h2>{{ i18n "FrontMapHeading" }}</h2>
 {{ if .Site.Params.leaflet_enable }}
 {{ partial "leaflet.html" . }}
 {{ end}}
   </div>
 <div class="column medium-5">
-  <h2>Contribute</h2>
-  <p>The LEOSS.sero-survey is an open intiative to provide a centralised hub of resources. 
-    Researchers can submit studies, publications, and even data to be included here. </p><a href="{{ $.Site.BaseURL }}share-your-data" class="button hollow primary">Add a resource</a>
+  <h2>{{ i18n "FrontContribute" }}</h2>
+  <p>{{ i18n "FrontContributeText" }}</p>
+  <a href="contribute" class="button hollow primary">{{ i18n "FrontContribute" }}</a>
 
-  <h2>Stay up to date</h2>
+  <h2>{{ i18n "FrontStayupdated" }}</h2>
 
   <div class="card">
     <div class="card-divider">
-      <a href="/posts/"><h3 >{{ .Site.Params.blogName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+      <a href="posts/"><h3 >{{ .Site.Params.blogName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
     </div>
     <div class="card-section">
       <p>{{ .Site.Params.blogDescription }}</p>
@@ -41,7 +43,7 @@
 
   <div class="card">
     <div class="card-divider">
-      <a href="/studies/"><h3 >{{ .Site.Params.studiesName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+      <a href="studies/"><h3 >{{ .Site.Params.studiesName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
     </div>
     <div class="card-section">
       <p>{{ .Site.Params.studiesDescription }}</p>
@@ -50,7 +52,7 @@
 
   <div class="card">
     <div class="card-divider">
-      <a href="/publication/"><h3 >{{ .Site.Params.publicationName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+      <a href="publication/"><h3 >{{ .Site.Params.publicationName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
     </div>
     <div class="card-section">
       <p>{{ .Site.Params.publicationDescription }}</p>

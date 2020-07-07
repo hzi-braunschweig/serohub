@@ -40,7 +40,7 @@
 	    <div class="title-bar-title site-title">
 	      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 	    </div>
-	    <div class="title-bar-right pull-right">
+	    <div class="title-bar float-right">
 	      {{ block "title-bar-right" . }}
 	      {{ end }}
 	    </div>
@@ -58,8 +58,8 @@
 		  <li><a href="{{.URL}}">{{ .Name }}</a></li>
 		  {{ end }}
 		</ul>
-	      </div>
-	      <div class="top-bar-right show-for-medium">
+		  </div>
+	      <div class="top-bar-right show-for-medium" style="padding: 0.7rem 0.8rem; line-height: 1;">
 		{{ block "top-bar-right" . }}
 		{{ end }}
 	      </div>

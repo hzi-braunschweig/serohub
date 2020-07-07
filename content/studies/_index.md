@@ -1,3 +1,3 @@
 ---
-Title: Seroprevalence studies
+title: Seroprevalence studies
 ---

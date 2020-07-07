@@ -45,6 +45,13 @@ h4, h5, h6 {
   margin-top: 1rem !important;
 }
 
+/* language switcher, enforce size => directly hacked into baseof.html **/
+/* .top-bar-right span {
+  padding: 0.7rem 0.8rem !important; 
+  line-height: 1 !important;
+} */
+
+/**/
 .row {
   max-width: 150rem;
   margin-bottom: 10px;

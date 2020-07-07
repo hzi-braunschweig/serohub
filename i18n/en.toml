@@ -1,0 +1,97 @@
+
+# layouts/index.html
+[FrontTitle]
+other = "The platform for seroprevalence studies on SARS-CoV-2"
+
+[FrontSubtitle]
+other = "Welcome to the LEOSS.sero-survey"
+
+[FrontMapHeading]
+other = "Locations of participating SARS-Cov-2 seroprevalence studies"
+
+[FrontContribute]
+other = "Contribute"
+
+[FrontContributeText]
+other = "The LEOSS.sero-survey platform is an open intiative to provide a centralised hub of resources. Researchers can submit SARS-Cov-2 seroprevalence studies, publications, and even data to be included here."
+
+[FrontStayupdated]
+other = "Stay up to date"
+
+# layouts/partials/footer.html
+[FooterText]
+other = "You can register a study here"
+
+# layouts/shortcodes/share_data, and contribute.md 
+[ContributeName]
+other = "Your Name"
+
+[ContributeEmail]
+other = "Your Email"
+
+[ContributeAffiliation]
+other = "Your Affiliation(s)"
+
+[ContributeStudyName]
+other = "Study name"
+
+[ContributeDataUrl]
+other = "Data URL"
+
+[ContributeAccess]
+other = "Who this data can be shared with?"
+[ContributeAccessEveryone]
+other = "Everyone"
+[ContributeAccessGermany]
+other = "Researchers in German institutions"
+
+[ContributeAuth]
+other = "I confirm I have the authorisation to share the information and any data relating to this study"
+
+[ContributeDocuments]
+other = "Documents"
+[ContributeDocumentsText]
+other = "Send us study related documents directly via email to"
+
+
+# layout/section/publication.html
+[PubButtonText]
+other = "Add Publication"
+
+[PubReferToEnSite]
+other = ""
+
+[PubPreprints]
+other = "Preprints"
+
+[PubPreprintsText]
+other = "Scientific papers that have not been subjected to a formal peer review process."
+
+[PubPublished]
+other = "Published"
+
+[PubPublishedText]
+other = "Scientific papers that have been peer-reviewed and published in a scientific journal."
+
+# layout/partials/pub-summary.html and pub-list.html
+[PubIconsAbstract]
+other = "Abstract"
+
+[PubIconsSlides]
+other = "Slides"
+
+[PubIconsData]
+other = "Dataset"
+
+[PubIconsProject]
+other = "Project"
+
+# layouts/section/studies.html
+[StudiesButton]
+other = "Add a study"
+
+[StudiesName]
+other = "Study name"
+
+[StudiesOutcome]
+other = "Primary outcome"

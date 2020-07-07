@@ -1,0 +1,15 @@
+<!-- https://discourse.gohugo.io/t/language-switcher-in-menu/11570/3 -->
+<span>
+{{ if .Site.IsMultiLingual }}
+	{{ range .Site.Languages }}
+	{{ if not (eq . $.Site.Language) }}
+		{{ range $.Translations }}
+		<a href="{{ .Permalink }}" class="">
+			{{ .Language.Lang }}
+			<i class="fa fa-exchange" aria-hidden="true"></i>
+		</a>
+		{{ end }}
+	{{ end }}
+	{{ end }}
+{{ end }}
+</span>

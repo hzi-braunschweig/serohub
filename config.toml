@@ -1,16 +1,45 @@
 #baseurl = "https://leoss-serosurvey-plattform.helmholtz-hzi.de/"
 baseurl = "https://serohub.netlify.app/"
-title = "LEOSS.sero-survey"
 author = "Hermholtz HZI"
 copyright = "Copyright (c) 2020 Hermholtz HZI"
 canonifyurls = true
 paginate = 3
 theme="hugo-finite"
 
+# multilingual
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "LEOSS.sero-survey"
+    weight = 1    
+    sponsor_url = "https://www.helmholtz.de/en"
+    bio_full = "Overview of SARS-Cov-2 seroprevalance studies in context of the worldwide COVID-19 pandemic"
+    blogName = "LEOSS.Sero-survey blog"
+    blogDescription = "Stay up to date with the latest opportunities to collaborate on SARS-Cov-2 seroprevalence studies"
+    studiesName = "Seroprevalence studies"
+    studiesDescription = "Find out about participating SARS-Cov-2 seroprevalence studies."
+    publicationName = "Publications"
+    publicationDescription = "Preprints and peer-reviewed scientific papers about SARS-Cov-2 seropravalence studies."
+  [languages.de]
+    languageName = "Deutsch"
+    title = "LEOSS.sero-survey"
+    weight = 2
+    sponsor_url = "https://www.helmholtz.de"
+    bio_full = "Übersicht von SARS-Cov-2 Seroprävalenzstudien im Kontext der weltweiten COVID-19-Pandemie"
+    blogName = "LEOSS.Sero-survey blog"
+    blogDescription = "Bleiben Sie auf dem Laufenden mit den neuesten Möglichkeiten zur Zusammenarbeit bei SARS-Cov-2 Seroprävalenzstudien"
+    studiesName = "Seroprävalenzstudien"
+    studiesDescription = "Übersicht und Details über die teilnehmenden SARS-Cov-2 Seroprävalenzstudien."
+    publicationName = "Veröffentlichungen"
+    publicationDescription = "Vorab-Veröffentlichungen und begutachte Veröffentlichungen über SARS-Cov-2 Seroprävalenzstudien."
+
+
 [params]
 logo = "img/hzi_logo_white.png"
 sponsor = "Helmholtz HZI"
-sponsor_url = "https://www.helmholtz.de/en"
 # Date format (refer to Go's date format: http://flippinggodateformat.com)
 # Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 #date_format = "2 January 2006"
@@ -19,7 +48,6 @@ sponsor_url = "https://www.helmholtz.de/en"
 # Publications can have a Params.kind, such as "book".
 # Both parameters are mapped to an icon in partials/pub-icon.html.
 
-bio_full = "Overview of all COVID19 Seroprevalance studies performed in Germany"
 twitter_feed = "serohub"
 
 # Number of posts to show on main page.
@@ -31,13 +59,6 @@ leaflet_source = "data/researchers.csv"
 mapbox_token = "pk.eyJ1Ijoic3RlcGhsb2NrZSIsImEiOiJjazlzOWg4Nm4wMnloM2Ztb3ZqcDl1bnZiIn0.TbIjIGJN69vEyaINwJTclA"
 leaflet_central_lat = 52.5200
 leaflet_central_long = 13.4050
-
-blogName = "LEOSS.Sero-survey blog"
-blogDescription = "Stay up to date with the latest opportunities to collaborate on Seroprevalence studies"
-studiesName = "Seroprevalence studies"
-studiesDescription = "Find out about relevant seropravalence studies"
-publicationName = "Seroprevalence publications"
-publicationDescription = "Find in progress or published relevant publications"
 
 [markup]
   [markup.highlight]
@@ -73,15 +94,24 @@ publicationDescription = "Find in progress or published relevant publications"
 # Navigation Links
 # The weight parameter defines the order that the links will appear in.
 
-[[menu.main]]
-  name = "Seroprevalence Publications"
-  url = "/publication/"
+[[languages.en.menu.main]]
+  name = "Publications"
+  url = "/en/publication/"
+  weight = 4
+[[languages.de.menu.main]]
+  name = "Veröffentlichungen"
+  url = "/de/publication/"
   weight = 4
 
-[[menu.main]]
+[[languages.en.menu.main]]
   name = "Studies"
-  url = "/studies/"
+  url = "/en/studies/"
   weight = 1
+[[languages.de.menu.main]]
+  name = "Studien"
+  url = "/de/studies/"
+  weight = 1
+
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

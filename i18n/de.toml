@@ -1,0 +1,100 @@
+
+# layouts/index.html
+[FrontTitle]
+other = "Die Plattform für Seroprävalenzstudien zu SARS-CoV-2"
+
+[FrontSubtitle]
+other = "Willkommen bei LEOSS.sero-survey"
+
+[FrontMapHeading]
+other = "Orte der teilnehmenden SARS-Cov-2 Seroprävalenzstudien"
+
+[FrontContribute]
+other = "Daten Teilen"
+
+[FrontContributeText]
+other = "Die LEOSS.sero-survey Plattform ist eine offene Initiative, um Forschern eine zentrale Anlaufstelle für ihre SARS-Cov-2 Seroprävalenzstudien und Daten zu bieten."
+
+[FrontStayupdated]
+other = "Bleibe auf dem Laufenden"
+
+# layouts/partials/footer.html
+[FooterText]
+other = "Sie können eine Studie hier anmelden"
+
+# layouts/shortcodes/share_data, and contribute.de.md 
+[ContributeName]
+other = "Dein Name"
+
+[ContributeEmail]
+other = "Dein Email"
+
+[ContributeAffiliation]
+other = "Zugehörige Institution(en)"
+
+[ContributeStudyName]
+other = "Name der Studie"
+
+[ContributeDataUrl]
+other = "URL zu öffentlichen Dokumenten"
+
+[ContributeAccess]
+other = "Wer darf die Daten lesen?"
+[ContributeAccessEveryone]
+other = "Jeder"
+[ContributeAccessGermany]
+other = "Forscher an deutschen Institutionen"
+
+[ContributeAuth]
+other = "Ich bestätige, dass ich die Berechtigung habe, die Informationen und Daten zu dieser Studie weiterzugeben"
+
+[ContributeDocuments]
+other = "Dokumente"
+[ContributeDocumentsText]
+other = "Senden Sie uns studienbezogene Dokumente ggf. direkt an folgende E-Mail-Addresse"
+
+
+# layout/section/publication.html
+[PubButtonText]
+other = "Aufsatz Hinzufügen"
+
+[PubReferToEnSite]
+other = "Hier sind nur in deutscher Sprache verfasste wissenschaftliche Arbeiten aufgelistet. Bitte besuche die englischsprachige Version, um internationale Veröffentlichungen zu verfolgen."
+
+[PubPreprints]
+other = "Diskussionspapiere"
+
+[PubPreprintsText]
+other = "Vorab-Veröffentlichungen, Arbeitspapiere, Diskussionspapier, oder Preprints, die noch nicht einen formellen Peer-Review-Prozess unterzogen wurden."
+
+[PubPublished]
+other = "Veröffentlicht"
+
+[PubPublishedText]
+other = "Wissenschaftliche Arbeiten, die von Experten begutachtet und in einer wissenschaftlichen Zeitschrift veröffentlicht wurden."
+
+# layout/partials/pub-summary.html and pub-list.html
+[PubIconsAbstract]
+other = "Zusammenfassung"
+
+[PubIconsSlides]
+other = "Folien"
+
+[PubIconsData]
+other = "Daten"
+
+[PubIconsProject]
+other = "Projekt"
+
+
+# layouts/section/studies.html
+[StudiesButton]
+other = "Studie hinzufügen"
+
+[StudiesName]
+other = "Studienname"
+
+[StudiesOutcome]
+other = "Ergebnisse"
+
+
