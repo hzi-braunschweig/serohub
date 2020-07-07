@@ -29,3 +29,24 @@ other = "Ich bestätige, dass ich die Berechtigung habe, die Informationen und D
 other = "Dokumente"
 [ContributeDocumentsText]
 other = "Senden Sie uns studienbezogene Dokumente ggf. direkt an folgende E-Mail-Addresse"
+
+
+# layout/section/publication.html
+[PubButtonText]
+other = "Aufsatz Hinzufügen"
+
+[PubReferToEnSite]
+other = "Hier sind nur in deutscher Sprache verfasste wissenschaftliche Arbeiten aufgelistet. Bitte besuche die englischsprachige Version, um internationale Veröffentlichungen zu verfolgen."
+
+[PubPreprints]
+other = "Diskussionspapiere"
+
+[PubPreprintsText]
+other = "Vorab-Veröffentlichungen, Arbeitspapiere, Diskussionspapier, oder Preprints, die noch nicht einen formellen Peer-Review-Prozess unterzogen wurden."
+
+[PubPublished]
+other = "Veröffentlicht"
+
+[PubPublishedText]
+other = "Wissenschaftliche Arbeiten, die von Experten begutachtet und in einer wissenschaftlichen Zeitschrift veröffentlicht wurden."
+

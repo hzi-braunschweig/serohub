@@ -8,16 +8,20 @@
 {{ end }}
 {{ define "main" }}
 <div class="row">
-  <div class="column small-12 medium-6"> 
+  <div class="column small-12 medium-12"> 
   <h1>{{.Title}}</h1>
+  {{ if not (eq .Lang "en") }}
+    <p><a href='/en/publication'>{{ i18n "PubReferToEnSite" }}<a></p>
+  {{ end }}
   <div class="post-metadata">
-    <a href="{{ "/admin/#"  | relURL }}" class="button hollow primary">Add publication</a>
+    <a href="{{ "/admin/#"  | relURL }}" class="button hollow primary">{{ i18n "PubButtonText" }}</a>
   </div>
 </div></div>
 <div class="row">
   
   <div class="column small-12 medium-6">
-    <h2>Preprints</h2>
+    <h2>{{ i18n "PubPreprints" }}</h2>
+    <p><small>*{{ i18n "PubPreprintsText" }}</small></p>
     {{ range (where .Data.Pages "Params.publication" "==" "").GroupByDate "2006" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
@@ -34,7 +38,8 @@
     {{ end }}
   </div>
   <div class="column small-12 medium-6">
-    <h2>Published</h2>
+    <h2>{{ i18n "PubPublished" }}</h2>
+    <p><small>*{{ i18n "PubPublishedText" }}</small></p>
     {{ range (where .Data.Pages "Params.publication" "!=" "").GroupByDate "2006" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
@@ -44,7 +49,7 @@
 	<ul class="compact fa-ul">
 	  {{ range .Pages.ByDate.Reverse }}
 	  <li>{{ partial "pub-summary" . }}</li>
-	  {{ end }}
+    {{ end }}
 	</ul>
       </div>
     </div>

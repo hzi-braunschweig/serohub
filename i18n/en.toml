@@ -29,3 +29,24 @@ other = "I confirm I have the authorisation to share the information and any dat
 other = "Documents"
 [ContributeDocumentsText]
 other = "Send us study related documents directly via email to"
+
+
+# layout/section/publication.html
+[PubButtonText]
+other = "Add Publication"
+
+[PubReferToEnSite]
+other = ""
+
+[PubPreprints]
+other = "Preprints"
+
+[PubPreprintsText]
+other = "Scientific papers that have not been subjected to a formal peer review process."
+
+[PubPublished]
+other = "Published"
+
+[PubPublishedText]
+other = "Scientific papers that have been peer-reviewed and published in a scientific journal."
+
