@@ -1,6 +1,7 @@
 ---
 title: Frequently asked questions
 date: 2020-05-06
+disable_date: true
 ---
 
 ## How do I add a study? { #addstudy}
