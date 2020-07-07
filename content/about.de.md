@@ -8,19 +8,18 @@ menu:
 ---
 
 ## Scope
-The LEOSS.sero-survey is a platform to establish a research forum/ information environment, focusing on knowledge sharing, creating and fostering activities. Furthermore, LEOSS.sero-survey provides a general overview of research activities about seroprevalence studies.
+Die LEOSS.sero-survey Webseite ist eine Plattform zur Einrichtung eines Forschungsforums / einer Informationsumgebung mit Schwerpunkt auf Wissensaustausch, Schaffung und Förderung von Aktivitäten. Darüber hinaus bietet die LEOSS.sero-Umfrage einen allgemeinen Überblick über Forschungsaktivitäten zu Seroprävalenzstudien.
 
-## What is seroprevalence?
-In epidemiological terms __prevalence__ is the proportion of people in a population who have a disease.
+## Was ist Seroprävalenz?
+In der Epidemiologie ist die __Prävalenz__ der Anteil der Menschen in einer Bevölkerung, die eine Krankheit hat.
 
-Consequently __seroprevalence__ is the proportion of people who were tested positive for a specific disease based on serology (blood serum). Seroprevalence studies help determine the infection dynamics in geographical regions or population subgroups.
+Entsprechend ist die __Seroprävalenz__ der Anteil der Personen, die aufgrund der Serologie (Blutserum) positiv auf eine bestimmte Krankheit getestet wurden. Seroprävalenzstudien helfen bei der Bestimmung der Infektionsdynamik in bestimmten Regionen oder Bevölkerungsuntergruppen.
 
 {{< figure src="/img/serohubBoxes.svg" title="Serohub overview" width="50%" align="center" >}}
 
-## Contact Us
+## Kontaktiere uns
+Wir sind ein interdisziplinäres Team von Epidemiologen und Datenanalysten am [Helmholtz-Zentrum für Infektionsforschung](https://www.helmholtz-hzi.de/) in Braunschweig.
 
-We are an interdisciplinary team of epidemiologists and data analysts at the Helmholtz Centre for Infection Research, Braunschweig, Germany.
-
-* Head of the Department: Gérard Krause 
-* Lead of the LEOSS.sero-survey: Stephan Glöckner, stephan.gloeckner@helmhotz-hzi.de, +49 531 6181 3125
-* Lead Software Development: Steph Locke
+* Head of the Department: [Gérard Krause](https://www.helmholtz-hzi.de/de/forschung/forschungsschwerpunkte/bakterielle-und-virale-krankheitserreger/epidemiologie/gerard-krause/) 
+* Projektleiter, LEOSS.sero-survey: Stephan Glöckner, stephan.gloeckner@helmhotz-hzi.de, +49 531 6181 3125
+* Mitwirkende am [hzi-braunschweig/serohub](https://github.com/hzi-braunschweig/serohub/graphs/contributors) repository: [Steph Locke](https://github.com/stephlocke), [Oz Locke](https://github.com/OzLocke), [Ulf Hamster](https://github.com/ulf1), [Candice Louw](https://github.com/Candice-Louw)
