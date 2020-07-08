@@ -49,30 +49,51 @@
 
   <div class="column small-12 medium-4">
     <div class="card">
-      <div class="card-divider">
-        <a href="posts/"><h3 >{{ .Site.Params.blogName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
-      </div>
-      <div class="card-section">
-        <p>{{ .Site.Params.blogDescription }}</p>
-      </div>
+		<div class="card-divider">
+			<a href="posts/">
+				<div class="left">
+					<i class="fa fa-newspaper-o thumb"></i>
+				</div>
+				<div class="right">
+					<h3>{{ .Site.Params.blogName }} <i class="fa fa-arrow-circle-right"></i></h3>
+				</div>
+			</a>
+		</div>
+		<div class="card-section">
+			<p>{{ .Site.Params.blogDescription }}</p>
+		</div>
+    </div>
+  </div>
+
+  <div class="column small-12 medium-4">
+    <div class="card">
+		<div class="card-divider">
+			<a href="studies/">
+				<div class="left">
+					<i class="fa fa-bar-chart thumb"></i>
+				</div>
+				<div class="right">
+					<h3>{{ .Site.Params.studiesName }} <i class="fa fa-arrow-circle-right"></i></h3> 
+				</div>
+			</a>	
+		</div>			
+		<div class="card-section">
+			<p>{{ .Site.Params.studiesDescription }}</p>
+		</div>
     </div>
   </div>
 
   <div class="column small-12 medium-4">
     <div class="card">
       <div class="card-divider">
-        <a href="studies/"><h3 >{{ .Site.Params.studiesName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
-      </div>
-      <div class="card-section">
-        <p>{{ .Site.Params.studiesDescription }}</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column small-12 medium-4">
-    <div class="card">
-      <div class="card-divider">
-        <a href="publication/"><h3 >{{ .Site.Params.publicationName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+        <a href="publication/">
+			<div class="left">
+				<i class="fa fa-file-text-o thumb"></i>
+			</div>
+			<div class="right">
+				<h3 >{{ .Site.Params.publicationName }} <i class="fa fa-arrow-circle-right"></i></h3>
+			</div>
+		</a>
       </div>
       <div class="card-section">
         <p>{{ .Site.Params.publicationDescription }}</p>
