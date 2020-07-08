@@ -8,10 +8,10 @@
 {{ end }}
 {{ define "main" }}
 <div class="row" >
-<div class="column medium-2">
-  <img src="{{.Params.image}}" alt="{{.Title}}" style="max-height:10vh; text-align:center;" />
+<div class="column medium-3">
+  <img src="{{.Params.image}}" alt="{{.Title}}" style="max-height:50vh; text-align:center;" />
 </div>
-  <div class="column medium-10">
+  <div class="column medium-9">
   <h3>{{ i18n "FrontSubtitle" }}</h3>
   <h1>{{ i18n "FrontTitle" }}</h1>
     {{ .Content  }}</div>   
