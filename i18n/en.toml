@@ -90,8 +90,23 @@ other = "Project"
 [StudiesButton]
 other = "Add a study"
 
+[StudiesPeriod]
+other = "Period"
+
+[StudiesLocation]
+other = "Location"
+
 [StudiesName]
 other = "Study name"
 
 [StudiesOutcome]
 other = "Primary outcome"
+
+[StudiesPi]
+other = "Principal Investigator"
+
+[StudiesInst]
+other = "Institute"
+
+[StudiesAbbr]
+other = "Project"

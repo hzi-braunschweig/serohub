@@ -91,10 +91,23 @@ other = "Projekt"
 [StudiesButton]
 other = "Studie hinzufügen"
 
+[StudiesPeriod]
+other = "Zeitraum"
+
+[StudiesLocation]
+other = "Ort"
+
 [StudiesName]
 other = "Studienname"
 
 [StudiesOutcome]
-other = "Ergebnisse"
+other = "Ziel"
 
+[StudiesPi]
+other = "Studienkoordinator/in"
 
+[StudiesInst]
+other = "Institut"
+
+[StudiesAbbr]
+other = "Projekt"
