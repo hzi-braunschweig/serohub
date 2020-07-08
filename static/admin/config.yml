@@ -20,6 +20,10 @@ collections:
         name: "url"
         widget: "string"
         required: false
+      - label: "Study abbreviation"
+        name: "abbreviation"
+        widget: "string"
+        required: false
       - label: "Study info"
         name: study_info
         collapsed: true
