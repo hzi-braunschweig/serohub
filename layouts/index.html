@@ -18,59 +18,68 @@
 </div>
 </div>
 
-<div class="row" >
-<div class="column small-12 medium-5">
-  <h2>{{ i18n "FrontMapHeading" }}</h2>
-{{ if .Site.Params.leaflet_enable }}
-{{ partial "leaflet.html" . }}
-{{ end}}
-  </div>
-<div class="column medium-5">
-  <h2>{{ i18n "FrontContribute" }}</h2>
-  <p>{{ i18n "FrontContributeText" }}</p>
-  <a href="contribute" class="button hollow primary">{{ i18n "FrontContribute" }}</a>
-
-  <h2>{{ i18n "FrontStayupdated" }}</h2>
-
-  <div class="card">
-    <div class="card-divider">
-      <a href="posts/"><h3 >{{ .Site.Params.blogName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
-    </div>
-    <div class="card-section">
-      <p>{{ .Site.Params.blogDescription }}</p>
-    </div>
+<div class="row">
+  <div class="column small-12 medium-9">
+    <h2>{{ i18n "FrontMapHeading" }}</h2>
+    {{ if .Site.Params.leaflet_enable }}
+    {{ partial "leaflet.html" . }}
+    {{ end}}
   </div>
 
-  <div class="card">
-    <div class="card-divider">
-      <a href="studies/"><h3 >{{ .Site.Params.studiesName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
-    </div>
-    <div class="card-section">
-      <p>{{ .Site.Params.studiesDescription }}</p>
-    </div>
+  <div class="column medium-3">
+    <h2>{{ i18n "FrontContribute" }}</h2>
+    <p>{{ i18n "FrontContributeText" }}</p>
+    <a href="contribute" class="button hollow primary">{{ i18n "FrontContribute" }}</a>
+
+    {{ partial "livetwitterfeed.html" . }}
+    <ul class="fa-ul">
+      {{ range $.Site.Params.social }}
+      <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}" target=_blank rel="external" title="{{ .text}}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
+      {{ end }}
+    </ul>  
   </div>
-
-  <div class="card">
-    <div class="card-divider">
-      <a href="publication/"><h3 >{{ .Site.Params.publicationName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
-    </div>
-    <div class="card-section">
-      <p>{{ .Site.Params.publicationDescription }}</p>
-    </div>
-  </div>
-
-
 </div>
-  <div class="column small-12 medium-2">
 
-  {{ partial "livetwitterfeed.html" . }}
-  <ul class="fa-ul">
-    {{ range $.Site.Params.social }}
-    <li><i class="fa-li {{ .icon_pack }} {{ .icon_pack}}-{{ .icon }}" style="padding-top:3px;"></i><a href="{{ .link }}" target=_blank rel="external" title="{{ .text}}">{{ .text }}</a>{{ if .site}} on {{ .site }}{{ end }}</li>
-    {{ end }}
-  </ul>
+
+<div class="row">
+
+  <div class="column small-12 medium-12">
+    <h2>{{ i18n "FrontStayupdated" }}</h2>
   </div>
 
+  <div class="column small-12 medium-4">
+    <div class="card">
+      <div class="card-divider">
+        <a href="posts/"><h3 >{{ .Site.Params.blogName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+      </div>
+      <div class="card-section">
+        <p>{{ .Site.Params.blogDescription }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column small-12 medium-4">
+    <div class="card">
+      <div class="card-divider">
+        <a href="studies/"><h3 >{{ .Site.Params.studiesName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+      </div>
+      <div class="card-section">
+        <p>{{ .Site.Params.studiesDescription }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column small-12 medium-4">
+    <div class="card">
+      <div class="card-divider">
+        <a href="publication/"><h3 >{{ .Site.Params.publicationName }} <i class="fa fa-arrow-circle-right"></i></h3> </a>
+      </div>
+      <div class="card-section">
+        <p>{{ .Site.Params.publicationDescription }}</p>
+      </div>
+    </div>
+  </div>
 </div>
+
 
 {{ end }}
