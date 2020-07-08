@@ -49,6 +49,44 @@ collections:
           widget: "markdown"
           minimal: true
           required: false
+      - label: "Recruitment"
+        name: "recruitment"
+        collapsed: true
+        widget: "object"
+        fields:
+        - label: "Location"
+          name: "location"
+          widget: "string"
+          required: false
+        - label: "Country"
+          name: "country"
+          widget: "string"
+          required: false
+        - label: "Type of recruitment"
+          name: "type"
+          widget: "select"
+          multiple: false
+          required: false
+          options: 
+            - { label: "invited", value: "Randomised individual invited	voluntary"}
+            - { label: "randomwalk", value: "random walk" }
+            - { label: "others", value: "others" }
+            - { label: "unknown", value: "not specified" }
+        - label: "Type of population"
+          name: "group"
+          widget: "select"
+          multiple: false
+          required: false
+          options:
+            - { label: "general", value: "general population" }
+            - { label: "medical", value: "medical personnel" }
+            - { label: "company", value: "members of companies or organizations" }
+            - { label: "person", value: "persons with defined exposure" }
+            - { label: "household", value: "entire households" }
+            - { label: "convalescent", value: "Convalescent" }
+            - { label: "treated", value: "patients under treatment" }
+            - { label: "others", value: "others" }
+            - { label: "unknown", value: "not specified" }
       - label: "Study values"
         name: study_numbers
         collapsed: true
