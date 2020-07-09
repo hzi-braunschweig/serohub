@@ -8,7 +8,8 @@ study_info:
   funding_sources: Federal Ministry of Education and Research (BMBF)
 recruitment:
   country: Germany
-  type: invited
+  location: Reutlingen, Freiburg
+  type: randomised individual invited	voluntary
 study_numbers:
   study_population: 60000
 study_dates:

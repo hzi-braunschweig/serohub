@@ -137,6 +137,14 @@ footer h2, footer a h2, footer a {
   color: #002b4f;
 }
 
+/* see layouts/studies/single.html **/
+#study-details tr td:nth-child(1) {
+  font-weight: bold; 
+  text-align: right;
+}
+#study-details tr td:nth-child(1)::after {
+  content: ":";
+}
 
 /*--BURGER MENU--*/
 /*Made by Erik Terwan
