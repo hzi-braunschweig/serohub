@@ -3,12 +3,12 @@ title: Covid-19 Outbreak Response combining E-health, Serolomics, Modelling,
   Artificial Intelligence and Implementation Research 
 abbreviation: CORESMA
 study_info:
-  primary_outcomes: Seroprevalence of COVID-19 antibodies in Nepal and Germany
+  primary_outcomes: Seroprevalence of SARS-Cov-2 antibodies in Nepal and Germany
   methods_used: ""
-  research_question: Seroprevalence of COVID-19 antibodies in Nepal and Germany
+  research_question: Seroprevalence of SARS-Cov-2 antibodies in Nepal and Germany
   funding_sources: Horizon 2020
 recruitment:
-  country: Germany, Nepal
+  country: [Germany, Nepal]
 study_numbers:
   study_population: 9000
   population: 1100000
