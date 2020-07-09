@@ -8,7 +8,7 @@
 {{ end }}
 {{ define "main" }}
 <div class="row">
-  <div class="column small-12">
+  <div class="column small-12 medium-9">
     <article>
       <header>
           <h1>{{.Title}}</h1>
@@ -25,5 +25,6 @@
   {{ end }}
   </ul>
   </div>
+  <div class="column small-8 medium-3">{{ partial "livetwitterfeed.html" . }}</div>
 </div>
 {{ end }}

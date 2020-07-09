@@ -1,6 +1,5 @@
 {{ define "top-bar-right" }}
-<!-- {{ partial "share.html" . }} -->
-{{ partial "lang-switch.html" $ }}
+{{ partial "share.html" . }}
 {{ end }}
 {{ define "main" }}
 <div class="row">
@@ -30,20 +29,46 @@
       
       <div class="post-body" itemprop="articleBody">
         {{ .Content }}
-
-        <h2>Study metadata</h2>
-
+        
+        <h2>Study Overview</h2>
+        
         <table>
-          <tr><th>Field</th><th>Property name</th><th>Value</th></tr>
-          <tr><td>Study title</td><td>title</td><td>{{.Title}}</td></tr>
-          <tr><td>Primary outcomes</td><td>study_info.primary_outcomes</td><td>{{.Params.study_info.primary_outcomes}}</td></tr>
+          <tr>
+            <td colspan="3"><b>Title:</b><br>{{.Title}}</td>
+            <td colspan="1"><b>Abbrevation Title</b><br> </td>
+          <tr>
+            <td colspan="2"><b>Logo</b></td>
+            <td><b>Sonsor</b><br>{{.Params.study_info.funding_sources}}</td>
+            <td><b>Region</b><br>{{.Params.recruitment.country}}</td>
+          <tr>
+            <td colspan="2"><b>Primary outcomes:</b><br>{{.Params.study_info.primary_outcomes}}</td>
+            <td colspan="2"><b>Research Question:</b><br>{{.Params.study_info.research_question}}</td>
+          <tr>
+            <td colspan="4"><b>Method used:</b><br>{{.Params.study_info.methods_used}}</td>
+          <tr>
+            <td colspan="2"><b>Study population:</b><br>{{.Params.study_numbers.study_population}}</td>
+            <td colspan="2"><b>Total population in area:</b><br>{{.Params.study_numbers.population}}</td>
+          <tr>
+            <td colspan="4"><b>Primary outcomes:</b><br>{{.Params.study_info.primary_outcomes}}</td>
+          <tr>
+            <td colspan="2"><b>Principle investigator</b><br>{{.Params.study_pi.name}}</td>
+            <td><b>Institution:</b><br>{{.Params.study_pi.institution}}</td>
+            <td><b>Contact:</b><br>{{.Params.study_pi.email}}</td>
+          <tr>
+            <td><b>Sampling start:</b><br>{{.Params.study_dates.sample_start}}</td>
+            <td><b>Sampling end:</b><br>{{.Params.study_dates.sample_end}}</td>
+            <td><b>Study start:</b><br>{{.Params.study_dates.study_start}}</td>
+            <td><b>First results expected:</b><br>{{.Params.study_dates.study_first_results}}</td>
+          </tr>
         
         
         
         
         </table>
 
-        <h3>Study metadata as JSON</h3>
+        <h2>Study metadata</h2>
+
+        
         <code> {{ highlight (.Params | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
       </div>
 
