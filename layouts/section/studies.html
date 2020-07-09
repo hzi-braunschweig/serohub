@@ -33,7 +33,12 @@
       <tr>
         <td>{{.Params.abbreviation}}</td>
         <td>{{.Params.study_dates.sample_start}} -- {{.Params.study_dates.sample_end}}</td>
-        <td>{{.Params.recruitment.location}} {{.Params.recruitment.country}}</td>
+        <td>
+          {{ with .Params.recruitment.location }} 
+            {{ i18n "StudiesLocationCount" (len .) }} in
+          {{ end }}
+          {{ delimit .Params.recruitment.country ", " }}
+        </td>
         <td>{{.Params.study_numbers.study_population}}</td>
         <td>{{.Params.study_info.primary_outcomes}}</td>
         <td><a href="{{.Permalink}}"> {{.Title}}</a></td>

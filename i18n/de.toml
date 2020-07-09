@@ -97,6 +97,10 @@ other = "Zeitraum"
 [StudiesLocation]
 other = "Ort"
 
+[StudiesLocationCount]
+one = "{{.Count}} Ort"
+other = "{{.Count}} Orte"
+
 [StudiesName]
 other = "Studienname"
 

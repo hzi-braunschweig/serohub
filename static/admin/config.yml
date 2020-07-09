@@ -56,11 +56,11 @@ collections:
         fields:
         - label: "Sampling Locations"
           name: "location"
-          widget: "string"
+          widget: "list"
           required: false
         - label: "Country"
           name: "country"
-          widget: "string"
+          widget: "list"
           required: false
         - label: "Type of recruitment"
           name: "type"

@@ -7,8 +7,8 @@ study_info:
   research_question: The proportion of humans with idendentified IgG, IgA, IgM antibodies against COVID-19
   funding_sources: Federal Ministry of Education and Research (BMBF)
 recruitment:
-  country: Germany
-  location: Reutlingen, Freiburg
+  country: [Germany]
+  location: [Reutlingen, Freiburg, Osnabrück, Aachen, Hannover]
   type: randomised individual invited	voluntary
 study_numbers:
   study_population: 60000
