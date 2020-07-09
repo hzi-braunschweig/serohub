@@ -9,7 +9,7 @@ study_info:
 recruitment:
   country: Germany
   location: Reutlingen, Freiburg
-  type: invited
+  type: randomised individual invited	voluntary
 study_numbers:
   study_population: 60000
 study_dates:

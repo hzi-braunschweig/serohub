@@ -68,25 +68,25 @@ collections:
           multiple: false
           required: false
           options: 
-            - { label: "invited", value: "Randomised individual invited	voluntary"}
-            - { label: "randomwalk", value: "random walk" }
+            - { label: "randomised individual invited	voluntary", value: "randomised individual invited	voluntary"}
+            - { label: "random walk", value: "random walk" }
             - { label: "others", value: "others" }
-            - { label: "unknown", value: "not specified" }
+            - { label: "not specified", value: "not specified" }
         - label: "Type of population"
           name: "group"
           widget: "select"
           multiple: false
           required: false
           options:
-            - { label: "general", value: "general population" }
-            - { label: "medical", value: "medical personnel" }
-            - { label: "company", value: "members of companies or organizations" }
-            - { label: "person", value: "persons with defined exposure" }
-            - { label: "household", value: "entire households" }
-            - { label: "convalescent", value: "Convalescent" }
-            - { label: "treated", value: "patients under treatment" }
+            - { label: "general population", value: "general population" }
+            - { label: "medical personnel", value: "medical personnel" }
+            - { label: "members of companies or organizations", value: "members of companies or organizations" }
+            - { label: "persons with defined exposure", value: "persons with defined exposure" }
+            - { label: "entire households", value: "entire households" }
+            - { label: "convalescent", value: "convalescent" }
+            - { label: "patients under treatment", value: "patients under treatment" }
             - { label: "others", value: "others" }
-            - { label: "unknown", value: "not specified" }
+            - { label: "not specified", value: "not specified" }
       - label: "Study values"
         name: study_numbers
         collapsed: true
