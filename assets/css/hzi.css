@@ -302,6 +302,27 @@ MIT License*/
   
 }/*END Print document layout*/
 
+.left{
+	float:left;
+	width:20%;
+	padding-top:20px;
+}
+
+.right{
+	float:left;
+	width:80%;
+}
+
+.thumb{
+	font-size: 3.6vmax;
+}
+
+@media only screen and (max-width: 640px) {
+ .thumb {
+	  font-size: 10vw;
+  }
+}
+
 @media (max-width: 1275px){
   .share-box {
     display: none;
