@@ -271,6 +271,17 @@ MIT License*/
 
 /*START Print document layout*/
 @media print {
+  /* Set page layout (top right bottom left) 
+   * hack the browser's headers/footers away
+   **/
+  @page {
+    margin: 2.0cm 2.0cm 6cm 2.5cm;
+  }
+
+  /* hide header navigation and footer */
+  header nav, footer {
+    display: none;
+  }
 
   h1{
     text-transform: capitalize;
@@ -280,20 +291,23 @@ MIT License*/
     padding-top: 10px;
   }
 
-  /*Make HZI logo visible by filling background*/
+  /* Make HZI logo visible by filling background as white 
+   * Limit max. image width to 100%
+   **/
   img{
-    background-color: #000 !important;
-    color: #000 !important;
+    background-color: #FFF !important;
+    color: #FFF !important;
     -webkit-print-color-adjust: exact;
+    max-width: 100%;
   }
 
- div p{
-   margin-top: 10px;
- }
+  div p{
+    margin-top: 10px;
+  }
 
- a{
-   text-decoration: none !important;
- }
+  a{
+    text-decoration: none !important;
+  }
 
   .post-metadata{
     display: none;
