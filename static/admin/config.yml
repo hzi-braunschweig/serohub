@@ -54,7 +54,7 @@ collections:
         collapsed: true
         widget: "object"
         fields:
-        - label: "Location"
+        - label: "Sampling Locations"
           name: "location"
           widget: "string"
           required: false
