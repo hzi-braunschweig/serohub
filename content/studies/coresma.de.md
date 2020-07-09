@@ -3,9 +3,9 @@ title: Covid-19 Outbreak Response combining E-health, Serolomics, Modelling,
   Artificial Intelligence and Implementation Research (CORESMA)
 abbreviation: CORESMA
 study_info:
-  primary_outcomes: Seroprevalence of COVID-19 antibodies in NAKO participants
+  primary_outcomes: Seroprevalence of SARS-Cov-2 antibodies in NAKO participants
   methods_used: ""
-  research_question: Seroprevalence of COVID-19 antibodies in NAKO participants
+  research_question: Seroprevalence of SARS-Cov-2 antibodies in NAKO participants
   funding_sources: Horizon 2020
 recruitment:
   country: Germany, Nepal
