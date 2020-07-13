@@ -4,7 +4,7 @@
 other = "Die Plattform für Seroprävalenzstudien zu SARS-CoV-2"
 
 [FrontSubtitle]
-other = "Willkommen bei LEOSS.sero-survey"
+other = "Willkommen auf der LEOSS.sero-survey Plattform"
 
 [FrontMapHeading]
 other = "Orte der teilnehmenden SARS-CoV-2 Seroprävalenzstudien"
@@ -13,7 +13,7 @@ other = "Orte der teilnehmenden SARS-CoV-2 Seroprävalenzstudien"
 other = "Daten Teilen"
 
 [FrontContributeText]
-other = "Die LEOSS.sero-survey Plattform ist eine offene Initiative, um Forschern eine zentrale Anlaufstelle für ihre SARS-CoV-2 Seroprävalenzstudien und Daten zu bieten."
+other = "Die LEOSS.sero-survey Plattform ist eine offene Initiative, um Forschern eine zentrale Anlaufstelle für ihre SARS-CoV-2 Seroprävalenzstudien und ihren Daten zu bieten."
 
 [FrontStayupdated]
 other = "Bleibe auf dem Laufenden"
