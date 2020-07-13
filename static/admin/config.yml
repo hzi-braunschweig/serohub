@@ -68,7 +68,7 @@ collections:
           multiple: false
           required: false
           options: 
-            - { label: "randomised individual invited	voluntary", value: "randomised individual invited	voluntary"}
+            - { label: "randomised individual invited voluntary", value: "randomised individual invited voluntary"}
             - { label: "random walk", value: "random walk" }
             - { label: "others", value: "others" }
             - { label: "not specified", value: "not specified" }
