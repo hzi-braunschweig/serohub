@@ -1,10 +1,6 @@
 # SeroHub
 This website is created by [Helmholtz HZI](https://www.helmholtz-hzi.de/en) to support the open collaboration of researchers around COVID-19.
 
-## TODO
-- DNS change 
-- (maybe) make site multi-lingual
-
 ## Get help
 For any issues with the site including typos or rendering issues, please file an [issue](https://github.com/INSERTREPO/issues) or send a pull request. The site automatically deploys once pull requests are merged.
 
@@ -30,6 +26,20 @@ For changes to the website, there are a few key areas:
 - [baseof.html](layouts/_default/baseof.html) describes header and footer content used across the site. This is where you would change things like JavaScript files, the nav bar, and the footer
 - [share_study.md](content/share_study.md) contains the html used to generate the contact form that will submit the contents to netlify. Note the Netlify free tier has an upload limit of 10Mb per month. This is *not*  a long-term solution.
 - [hzi.css](assets/hzi.css) is the custom style sheet for the website. Use this to tweak or override the website appearance.
+
+
+### Publications
+The default site (en):
+
+- The folder `content/publication` contains the reference to scientific papers. **It's our main folder to curate publications!**
+- Each `.md` refers to one scientific paper, and is named by its DOI, e.g. `10.1101-2020.05.18.20103283.md`
+- The markdown files are organized by the publisher, e.g. `content/publication/biorxiv/10.1101-2020.05.18.20103283.md`
+
+The language-specific sites (e.g. de):
+
+- The majority of scientific papers are written in English language. 
+- In `config.toml` each language (except `en`) has an additional content folder defined, e.g. `contentDir="content_de"` for the German site. 
+- In order to display English papers, we will copy/mirror whole folders to the language-specific directory, e.g. `cp content/publication/biorxiv content_de/publication/biorxiv`
 
 ## Getting things set up locally
 ### Get the repo locally

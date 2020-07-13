@@ -61,9 +61,6 @@ other = "Senden"
 [PubButtonText]
 other = "Aufsatz Hinzufügen"
 
-[PubReferToEnSite]
-other = "Hier sind nur in deutscher Sprache verfasste wissenschaftliche Arbeiten aufgelistet. Bitte besuche die englischsprachige Version, um internationale Veröffentlichungen zu verfolgen."
-
 [PubPreprints]
 other = "Diskussionspapiere"
 

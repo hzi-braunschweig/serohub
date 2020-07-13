@@ -24,6 +24,7 @@ defaultContentLanguageInSubdir = true
     publicationName = "Publications"
     publicationDescription = "Preprints and peer-reviewed scientific papers about SARS-Cov-2 seropravalence studies."
   [languages.de]
+    contentDir = "content_de"
     languageName = "Deutsch"
     title = "LEOSS.sero-survey"
     weight = 2
