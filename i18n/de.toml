@@ -53,6 +53,9 @@ other = "Dokumente"
 [ContributeDocumentsText]
 other = "Senden Sie uns studienbezogene Dokumente ggf. direkt an folgende E-Mail-Addresse"
 
+[ContributeSend]
+other = "Senden"
+
 
 # layout/section/publication.html
 [PubButtonText]
@@ -92,7 +95,7 @@ other = "Projekt"
 other = "Studie hinzufügen"
 
 [StudiesPeriod]
-other = "Zeitraum"
+other = "Beprobung"
 
 [StudiesLocation]
 other = "Ort"

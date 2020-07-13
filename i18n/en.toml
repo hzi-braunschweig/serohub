@@ -53,6 +53,9 @@ other = "Documents"
 [ContributeDocumentsText]
 other = "Send us study related documents directly via email to"
 
+[ContributeSend]
+other = "Send"
+
 
 # layout/section/publication.html
 [PubButtonText]
