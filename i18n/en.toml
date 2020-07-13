@@ -39,7 +39,7 @@ other = "Study name"
 other = "Data URL"
 
 [ContributeAccess]
-other = "Who this data can be shared with?"
+other = "Who can this data be shared with?"
 [ContributeAccessEveryone]
 other = "Everyone"
 [ContributeAccessGermany]
