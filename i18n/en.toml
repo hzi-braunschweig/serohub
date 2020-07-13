@@ -97,7 +97,7 @@ other = "Add a study"
 other = "Period"
 
 [StudiesLocation]
-other = "Location"
+other = "Location(s)"
 
 [StudiesLocationCount]
 one = "{{.Count}} location"
@@ -117,3 +117,47 @@ other = "Institute"
 
 [StudiesAbbr]
 other = "Project"
+
+# layouts/studies/single.html
+[StudiesEditButton]
+other = "Edit study"
+
+[StudiesOverview]
+other = "Study Overview"
+
+[StudiesMetadata]
+other = "Study metadata"
+
+[StudiesSponsor]
+other = "Sponsor"
+
+[StudiesRegion]
+other = "Region(s)"
+
+[StudiesResearchQuestion]
+other = "Research Question"
+
+[StudiesMethod]
+other = "Method used"
+
+[StudiesSamplesize]
+other = "Study population N"
+
+[StudiesPopulationInArea]
+other = "Total population in the area"
+
+[StudiesStart]
+other = "Study start"
+
+[StudiesFirstResults]
+other = "First results expected"
+
+# layouts/studies/single.html
+[StudiesPaginationNext]
+other = "Next"
+
+[StudiesPaginationPrev]
+other = "Previous"
+
+[StudiesPaginationPage]
+other = "study"

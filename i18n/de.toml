@@ -98,7 +98,7 @@ other = "Studie hinzufügen"
 other = "Beprobung"
 
 [StudiesLocation]
-other = "Ort"
+other = "Ort(e)"
 
 [StudiesLocationCount]
 one = "{{.Count}} Ort"
@@ -118,3 +118,48 @@ other = "Institut"
 
 [StudiesAbbr]
 other = "Projekt"
+
+# layouts/studies/single.html
+[StudiesEditButton]
+other = "Bearbeite die Studie"
+
+[StudiesOverview]
+other = "Übersicht"
+
+[StudiesMetadata]
+other = "Meta-Angaben"
+
+[StudiesSponsor]
+other = "Sponsor"
+
+[StudiesRegion]
+other = "Region(en)"
+
+[StudiesResearchQuestion]
+other = "Forschungsfrage"
+
+[StudiesMethod]
+other = "Testverfahren"
+
+[StudiesSamplesize]
+other = "Stichprobenumfang N"
+
+[StudiesPopulationInArea]
+other = "Gesamtbevölkerung in der Region"
+
+[StudiesStart]
+other = "Studienbeginn"
+
+[StudiesFirstResults]
+other = "Erste Ergebnisse"
+
+
+# layouts/studies/single.html
+[StudiesPaginationNext]
+other = "Nächste"
+
+[StudiesPaginationPrev]
+other = "Vorige"
+
+[StudiesPaginationPage]
+other = "Studie"

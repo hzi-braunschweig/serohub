@@ -13,7 +13,7 @@
         <!-- <span class="post-date">
           <time datetime="{{ $.Date }}" itemprop="datePublished">{{ $.Date.Format (default "2 January 2006" (index $.Site.Params "date_format")) }}</time>
         </span> -->
-        <a href="{{ "/admin/#"  | relURL }}">Edit study</a>
+        <a href="{{ "/admin/#"  | relURL }}">{{ i18n "StudiesEditButton" }}</a>
         {{ if isset $.Params "tags" }}
         {{ $tagsLen := len $.Params.tags }}
         {{ if gt $tagsLen 0 }}
@@ -30,108 +30,108 @@
       <div class="post-body" itemprop="articleBody">
         {{ .Content }}
         
-        <h2>Study Overview</h2>
+        <h2>{{ i18n "StudiesOverview" }}</h2>
         
         <table id="study-details">
           <tr>
-            <td>Title</td>
+            <td>{{ i18n "StudiesName" }}</td>
             <td>{{.Title}}</td>
           </tr>
 
           {{ with .Params.abbreviation }}
           <tr>
-            <td>Project Abbr.</td>
+            <td>{{ i18n "StudiesAbbr" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_info.funding_sources }}
           <tr>
-            <td>Sponsor</td>
+            <td>{{ i18n "StudiesSponsor" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.recruitment.country }}
           <tr>
-            <td>Region(s)</td>
+            <td>{{ i18n "StudiesRegion" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.recruitment.location }}
           <tr>
-            <td>Location(s)</td>
+            <td>{{ i18n "StudiesLocation" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_info.primary_outcomes }}
           <tr>
-            <td>Primary outcomes</td>
+            <td>{{ i18n "StudiesOutcome" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_info.research_question }}
           <tr>
-            <td>Research Question</td>
+            <td>{{ i18n "StudiesResearchQuestion" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_info.methods_used }}
           <tr>
-            <td>Method used</td>
+            <td>{{ i18n "StudiesMethod" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_numbers.study_population }}
           <tr>
-            <td>Study population</td>
+            <td>{{ i18n "StudiesSamplesize" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_numbers.population }}
           <tr>
-            <td>Total population in the area</td>
+            <td>{{ i18n "StudiesPopulationInArea" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_info.primary_outcomes }}
           <tr>
-            <td>Primary outcomes</td>
+            <td>{{ i18n "StudiesOutcome" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_pi.name }}
           <tr>
-            <td>Principle investigator</td>
+            <td>{{ i18n "StudiesPi" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_pi.institution }}
           <tr>
-            <td>Institution</td>
+            <td>{{ i18n "StudiesInst" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_pi.email }}
           <tr>
-            <td>Contact</td>
+            <td>Email</td>
             <td><a href="mailto:{{ . }}">{{ . }}</a></td>
           </tr>
           {{ end }}
 
           {{ if .Params.study_dates.sample_start }}
           <tr>
-            <td>Sampling period</td>
+            <td>{{ i18n "StudiesPeriod" }}</td>
             <td>
               {{ .Params.study_dates.sample_start }}
               {{ with .Params.study_dates.sample_end }}
@@ -143,21 +143,21 @@
 
           {{ with .Params.study_dates.study_start }}
           <tr>
-            <td>Study start</td>
+            <td>{{ i18n "StudiesStart" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.study_dates.study_first_results }}
           <tr>
-            <td>First results expected</td>
+            <td>{{ i18n "StudiesFirstResults" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
         
         </table>
 
-        <h2>Study metadata</h2>
+        <h2>{{ i18n "StudiesMetadata" }}</h2>
 
         
         <code> {{ highlight (.Params | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
@@ -172,10 +172,21 @@
 
     <ul class="pagination" role="navigation" aria-label="Pagination">
       {{ if .PrevInSection }}
-      <li class="arrow" aria-disabled="true"><a href="{{.PrevInSection.Permalink}}">&laquo; <em>Previous<span class="show-for-sr"> page</span></em>: {{ .PrevInSection.Title }}</a></li>
+      <li class="arrow" aria-disabled="true">
+        <a href="{{.PrevInSection.Permalink}}">
+          &laquo; 
+          <em>{{ i18n "StudiesPaginationPrev" }}<span class="show-for-sr"> {{ i18n "StudiesPaginationPage" }}</span></em> : 
+          {{ .PrevInSection.Title }}
+        </a>
+      </li>
       {{ end }}
       {{ if .NextInSection }}
-      <li class="arrow" aria-disabled="true"><a href="{{.NextInSection.Permalink}}"><em>Next<span class="show-for-sr"> page</span></em>: {{ .NextInSection.Title }}&nbsp;&raquo;</a></li>
+      <li class="arrow" aria-disabled="true">
+        <a href="{{.NextInSection.Permalink}}">
+          <em>{{ i18n "StudiesPaginationNext" }}<span class="show-for-sr"> {{ i18n "StudiesPaginationPage" }}</span></em> : 
+          {{ .NextInSection.Title }}&nbsp;&raquo;
+        </a>
+      </li>
       {{ end }}
     </ul>
 
