@@ -17,7 +17,7 @@ collections:
         widget: "string"
         required: true
       - label: "Study URL"
-        name: "url"
+        name: "project_url"
         widget: "string"
         required: false
       - label: "Study Logo"

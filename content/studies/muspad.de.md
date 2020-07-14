@@ -1,5 +1,6 @@
 ---
 title: Multilokale und Serielle Prävalenzstudie zu Antikörpern gegen SARS-2-Coronavirus in Deutschland
+project_url: https://hzi-c19-antikoerperstudie.de
 logo_url: /img/uploads/muspad_logo_blau_trans.png
 abbreviation: MuSPAD
 study_info:
@@ -18,6 +19,7 @@ recruitment:
     - Aachen
     - Hannover
   type: randomised individual invited voluntary
+  group: general population
 study_numbers:
   study_population: 60000
 study_dates:
