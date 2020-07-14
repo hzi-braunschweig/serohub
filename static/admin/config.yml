@@ -20,6 +20,13 @@ collections:
         name: "url"
         widget: "string"
         required: false
+      - label: "Study Logo"
+        name: "logo_url"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            multiple: false
       - label: "Study abbreviation"
         name: "abbreviation"
         widget: "string"
