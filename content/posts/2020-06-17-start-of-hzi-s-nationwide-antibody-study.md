@@ -2,9 +2,10 @@
 title: Start of HZI’s nationwide antibody study
 author: Susanne Thiele
 date: '2020-06-17'
+lastmod: "2020-07-14"
 slug: start-of-hzi-s-nationwide-antibody-study
 categories: []
-tags: []
+tags: [MuSPAD, seroprevalence study, antibody testing, serological test, serological survey, screening]
 draft: no
 ---
 
@@ -16,4 +17,7 @@ In this context, the Helmholtz Centre for Infection Research (HZI) in Braunschwe
 
 The district of Reutlingen has now entered into a cooperation agreement with the HZI. From 1 July 2020, the test centre will be operated by the Johanniter-Unfall-Hilfe at the former parcel post site in Reutlingen. The HZI designed the study, under the direction of Prof. Gérard Krause, head of the Department of [Epidemiology](https://www.helmholtz-hzi.de/en/info-centre/glossary/entry/epidemiology/). The Centre is responsible for planning, implementing and evaluating the process, together with the participation of the district’s health office. The city of Reutlingen provides a site for the test containers. The study teams consist of HZI and Johanniter’s staff specially trained for this purpose. Initially, tests will be performed centrally in one laboratory. Later, they will be confirmed and further analysed at the HZI and the NMI Natural and Medical Sciences Institute at the University of Tübingen. In order to ensure a representative regional sample, MuSPAD participants will be contacted individually. Participation in the study for people who have not been specifically selected is not envisaged, as this would lead to bias in the results. Consequently, voluntary reporting of participants is not possible.
 
-The whole Press Release from the district of Reutlingen you can find [here.](https://www.kreis-reutlingen.de/de/Aktuelles/Landkreis-aktuell/Landkreis-aktuell?view=publish&item=article&id=1977 "Opens external link in a new window")
+The whole Press Release from the district of Reutlingen you can find [here.](https://www.kreis-reutlingen.de/de/Aktuelles/Landkreis-aktuell/Landkreis-aktuell?view=publish&item=article&id=1977)
+
+
+[Original article](https://www.helmholtz-hzi.de/en/news-events/news/view/article/complete/start-der-bundesweiten-seropraevalenzstudie-des-hzi0/)
