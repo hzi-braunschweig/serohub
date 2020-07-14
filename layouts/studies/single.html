@@ -164,10 +164,10 @@
         
         </table>
 
-        <h2>{{ i18n "StudiesMetadata" }}</h2>
-
-        
-        <code> {{ highlight (.Params | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
+        <div id="study-meta-data-json">
+          <h2>{{ i18n "StudiesMetadata" }}</h2>
+          <code> {{ highlight (.Params | jsonify  (dict "prefix" " " "indent" "  ") ) "json"  "linenos=false" }}</code>
+        </div>
       </div>
 
       

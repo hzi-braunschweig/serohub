@@ -321,6 +321,11 @@ MIT License*/
   .pagination{
     display: none;
   }
+
+  /* hide the JSON meta data on the study details page **/
+  #study-meta-data-json {
+    display: none;
+  }
   
 }/*END Print document layout*/
 
