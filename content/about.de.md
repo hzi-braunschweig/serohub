@@ -9,7 +9,7 @@ menu:
 ---
 
 ## Scope
-Die LEOSS.sero-survey Webseite ist eine Plattform zur Einrichtung eines Forschungsforums / einer Informationsumgebung mit Schwerpunkt auf Wissensaustausch, Schaffung und Förderung von Aktivitäten. Darüber hinaus bietet die LEOSS.sero-Umfrage einen allgemeinen Überblick über Forschungsaktivitäten zu Seroprävalenzstudien.
+Die LEOSS.sero-survey Webseite ist eine Plattform für den Wissensaustausch, Schaffung und Förderung von Aktivitäten im Zusammenhang mit SARS-CoV-2 Seroprävalenzstudien. Darüber hinaus bietet die LEOSS.sero-survey Website einen allgemeinen Überblick über Forschungsaktivitäten zu Seroprävalenzstudien.
 
 ## Was ist Seroprävalenz?
 In der Epidemiologie ist die __Prävalenz__ der Anteil der Menschen in einer Bevölkerung, die eine Krankheit hat.
@@ -18,7 +18,7 @@ Entsprechend ist die __Seroprävalenz__ der Anteil der Personen, die aufgrund de
 
 {{< figure src="/img/serohubBoxes.svg" title="Serohub overview" width="50%" align="center" >}}
 
-## Kontaktiere uns
+## Kontakt
 Wir sind ein interdisziplinäres Team von Epidemiologen und Datenanalysten am [Helmholtz-Zentrum für Infektionsforschung](https://www.helmholtz-hzi.de/) in Braunschweig.
 
 * Head of the Department: [Gérard Krause](https://www.helmholtz-hzi.de/de/forschung/forschungsschwerpunkte/bakterielle-und-virale-krankheitserreger/epidemiologie/gerard-krause/) 

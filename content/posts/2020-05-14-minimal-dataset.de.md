@@ -1,35 +1,31 @@
 ---
-title: "Minimal Dataset"
+title: "Anforderungen an den Datensätzen"
 author: "Stephan Glöckner"
 date: '2020-05-14'
 lastmod: "2020-07-14"
-slug: minimal-dataset
+slug: datensatz-spezifikation
 categories: []
-tags: [standardization, data specification]
+tags: [Standardisierung, Datenspezifikation]
 draft: no
 output: 
   md_document:
     preserve_yaml: true
 ---
 
-Minimal Dataset
----------------
+Für alle teilnehmenden Studien haben wir Mindestanforderungen an einem Datensatz spezifiziert, die hier zum Download zur Verfügung gestellt ist:
 
-For all participating studies, we defined a minimal dataset, which can
-be downloaded
-[here](/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx). This
-file **includes** metadata of every variable
+<a class="button hollow primary" href="/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx">Download Datensatz-Spezifikation</a>
 
-The needed variables can be split into two important parts:
+Es gibt zwei Arten von Variablen:
 
--   methodology (used instruments, type of recritment, etc.)
--   case based minimal information (gender, age, etc.)
+- Methodik (z.B. Instrumentarium, Rekrutierung)
+- Fallbasierte Information (z.B. Alter, Geschlecht)
 
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Category</th>
-<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">Kategorie</th>
+<th style="text-align: left;">Variabel</th>
 </tr>
 </thead>
 <tbody>

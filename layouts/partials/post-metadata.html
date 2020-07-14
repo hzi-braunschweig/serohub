@@ -1,5 +1,11 @@
 <div class="post-metadata">
   <span class="post-date" {{ if .Params.disable_date }}style="display:none"{{end}}>
-    <time datetime="{{ $.Date }}" itemprop="datePublished">{{ $.Date.Format (default "2 January 2006" (index $.Site.Params "date_format")) }}</time>
+    <time datetime="{{ $.Date }}" itemprop="datePublished">
+      {{ if (eq .Lang "de") }}
+      {{ $.Date.Format (default "02.01.2006" (index $.Site.Params "date_format")) }}
+      {{ else }}
+        {{ $.Date.Format (default "2 January 2006" (index $.Site.Params "date_format")) }}
+      {{ end }}
+    </time>
   </span>
 </div>

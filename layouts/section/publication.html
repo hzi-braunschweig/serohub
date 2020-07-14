@@ -10,9 +10,6 @@
 <div class="row">
   <div class="column small-12 medium-12"> 
   <h1>{{.Title}}</h1>
-  {{ if not (eq .Lang "en") }}
-    <p><a href='/en/publication'>{{ i18n "PubReferToEnSite" }}<a></p>
-  {{ end }}
   <div class="post-metadata">
     <a href="{{ "/admin/#"  | relURL }}" class="button hollow primary">{{ i18n "PubButtonText" }}</a>
   </div>

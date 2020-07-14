@@ -24,17 +24,18 @@ defaultContentLanguageInSubdir = true
     publicationName = "Publications"
     publicationDescription = "Preprints and peer-reviewed scientific papers about SARS-Cov-2 seropravalence studies."
   [languages.de]
+    contentDir = "content_de"
     languageName = "Deutsch"
     title = "LEOSS.sero-survey"
     weight = 2
     sponsor_url = "https://www.helmholtz.de"
-    bio_full = "Übersicht von SARS-Cov-2 Seroprävalenzstudien im Kontext der weltweiten COVID-19-Pandemie"
-    blogName = "LEOSS.Sero-survey blog"
-    blogDescription = "Bleiben Sie auf dem Laufenden mit den neuesten Möglichkeiten zur Zusammenarbeit bei SARS-Cov-2 Seroprävalenzstudien"
+    bio_full = "Übersicht von SARS-CoV-2 Seroprävalenzstudien im Kontext der weltweiten COVID-19-Pandemie"
+    blogName = "LEOSS.Sero-survey Blog"
+    blogDescription = "Bleiben Sie auf dem Laufenden über Möglichkeiten der Zusammenarbeit bei SARS-CoV-2 Seroprävalenzstudien."
     studiesName = "Seroprävalenzstudien"
-    studiesDescription = "Übersicht und Details über die teilnehmenden SARS-Cov-2 Seroprävalenzstudien."
+    studiesDescription = "Übersicht und Details über die teilnehmenden SARS-CoV-2 Seroprävalenzstudien."
     publicationName = "Veröffentlichungen"
-    publicationDescription = "Vorab-Veröffentlichungen und begutachte Veröffentlichungen über SARS-Cov-2 Seroprävalenzstudien."
+    publicationDescription = "Vorab-Veröffentlichungen und begutachte Veröffentlichungen über SARS-CoV-2 Seroprävalenzstudien."
 
 
 [params]

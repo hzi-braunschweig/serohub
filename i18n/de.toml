@@ -4,16 +4,16 @@
 other = "Die Plattform für Seroprävalenzstudien zu SARS-CoV-2"
 
 [FrontSubtitle]
-other = "Willkommen bei LEOSS.sero-survey"
+other = "Willkommen auf der LEOSS.sero-survey Plattform"
 
 [FrontMapHeading]
-other = "Orte der teilnehmenden SARS-Cov-2 Seroprävalenzstudien"
+other = "Orte der teilnehmenden SARS-CoV-2 Seroprävalenzstudien"
 
 [FrontContribute]
 other = "Daten Teilen"
 
 [FrontContributeText]
-other = "Die LEOSS.sero-survey Plattform ist eine offene Initiative, um Forschern eine zentrale Anlaufstelle für ihre SARS-Cov-2 Seroprävalenzstudien und Daten zu bieten."
+other = "Die LEOSS.sero-survey Plattform ist eine offene Initiative, um Forschern eine zentrale Anlaufstelle für ihre SARS-CoV-2 Seroprävalenzstudien und ihren Daten zu bieten."
 
 [FrontStayupdated]
 other = "Bleibe auf dem Laufenden"
@@ -24,10 +24,10 @@ other = "Sie können eine Studie hier anmelden"
 
 # layouts/shortcodes/share_data, and contribute.de.md 
 [ContributeName]
-other = "Dein Name"
+other = "Name"
 
 [ContributeEmail]
-other = "Dein Email"
+other = "Email"
 
 [ContributeAffiliation]
 other = "Zugehörige Institution(en)"
@@ -53,13 +53,13 @@ other = "Dokumente"
 [ContributeDocumentsText]
 other = "Senden Sie uns studienbezogene Dokumente ggf. direkt an folgende E-Mail-Addresse"
 
+[ContributeSend]
+other = "Senden"
+
 
 # layout/section/publication.html
 [PubButtonText]
 other = "Aufsatz Hinzufügen"
-
-[PubReferToEnSite]
-other = "Hier sind nur in deutscher Sprache verfasste wissenschaftliche Arbeiten aufgelistet. Bitte besuche die englischsprachige Version, um internationale Veröffentlichungen zu verfolgen."
 
 [PubPreprints]
 other = "Diskussionspapiere"
@@ -92,10 +92,10 @@ other = "Projekt"
 other = "Studie hinzufügen"
 
 [StudiesPeriod]
-other = "Zeitraum"
+other = "Beprobung"
 
 [StudiesLocation]
-other = "Ort"
+other = "Ort(e)"
 
 [StudiesLocationCount]
 one = "{{.Count}} Ort"
@@ -108,10 +108,55 @@ other = "Studienname"
 other = "Ziel"
 
 [StudiesPi]
-other = "Studienkoordinator/in"
+other = "Studienleiter/in"
 
 [StudiesInst]
 other = "Institut"
 
 [StudiesAbbr]
 other = "Projekt"
+
+# layouts/studies/single.html
+[StudiesEditButton]
+other = "Bearbeite die Studie"
+
+[StudiesOverview]
+other = "Übersicht"
+
+[StudiesMetadata]
+other = "Meta-Angaben"
+
+[StudiesSponsor]
+other = "Sponsor"
+
+[StudiesRegion]
+other = "Region(en)"
+
+[StudiesResearchQuestion]
+other = "Forschungsfrage"
+
+[StudiesMethod]
+other = "Testverfahren"
+
+[StudiesSamplesize]
+other = "Stichprobenumfang N"
+
+[StudiesPopulationInArea]
+other = "Gesamtbevölkerung in der Region"
+
+[StudiesStart]
+other = "Studienbeginn"
+
+[StudiesFirstResults]
+other = "Erste Ergebnisse"
+
+
+# layouts/studies/single.html
+[StudiesPaginationNext]
+other = "Nächste"
+
+[StudiesPaginationPrev]
+other = "Vorige"
+
+[StudiesPaginationPage]
+other = "Studie"
