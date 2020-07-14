@@ -1,6 +1,5 @@
 ---
-title: Multilocal and serial prevalence study for antibodies against SARS-2
-  coronavirus in Germany
+title: Multilokale und Serielle Prävalenzstudie zu Antikörpern gegen SARS-2-Coronavirus in Deutschland
 logo_url: /img/uploads/muspad_logo_blau_trans.png
 abbreviation: MuSPAD
 study_info:

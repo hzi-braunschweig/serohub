@@ -269,6 +269,22 @@ MIT License*/
   font-size: 85%;
 }
 
+/* Study detail page, study logo **/
+#study-logo {
+  margin-bottom: 2.5rem;
+  margin-left: 0.1rem;
+}
+#study-logo img {
+  max-height: 12rem
+}
+#study-log-spacer {
+  height: 0;
+  line-height: 0;
+  font-size:0;
+  margin: 0;
+  padding: 0;
+}
+
 /*START Print document layout*/
 @media print {
   /* Set page layout (top right bottom left) 
@@ -277,6 +293,9 @@ MIT License*/
   @page {
     margin: 2.0cm 2.0cm 6cm 2.5cm;
   }
+  @page :first {
+    margin-top: 1.0cm !important;
+  }
 
   /* hide header navigation and footer */
   header nav, footer {
@@ -284,7 +303,7 @@ MIT License*/
   }
 
   h1{
-    text-transform: capitalize;
+    text-transform: none;
   }
 
   h2{
@@ -321,8 +340,20 @@ MIT License*/
   .pagination{
     display: none;
   }
-  
+
+  /* Study detail page, study logo **/
+  #study-logo {
+    margin-bottom: 3rem;
+  }
+  #study-logo img {
+    max-height: 9rem;
+  }
+  #study-log-spacer {
+    height: 1cm;
+  }
+
 }/*END Print document layout*/
+
 
 .left{
 	float:left;
