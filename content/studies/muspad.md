@@ -1,22 +1,33 @@
 ---
-title: Multilocal and serial prevalence study for antibodies against SARS-2 coronavirus in Germany
+title: Multilocal and serial prevalence study for antibodies against SARS-2
+  coronavirus in Germany
+url: https://hzi-c19-antikoerperstudie.de
+logo_url: /img/uploads/muspad_logo_blau_trans.png
 abbreviation: MuSPAD
 study_info:
   primary_outcomes: Seroprevalence, stratified by age and over time
   methods_used: Euroimmune
-  research_question: The proportion of humans with idendentified IgG, IgA, IgM antibodies against COVID-19
+  research_question: The proportion of humans with idendentified IgG, IgA, IgM
+    antibodies against COVID-19
   funding_sources: Federal Ministry of Education and Research (BMBF)
 recruitment:
-  country: [Germany]
-  location: [Reutlingen, Freiburg, Osnabrück, Aachen, Hannover]
+  country:
+    - Germany
+  location:
+    - Reutlingen
+    - Freiburg
+    - Osnabrück
+    - Aachen
+    - Hannover
   type: randomised individual invited voluntary
+  group: general population
 study_numbers:
   study_population: 60000
 study_dates:
-  sample_start: "2020-06"
-  sample_end: "2021-05"
-  study_start: "2020-06"
-  study_first_results: "2020-07"
+  sample_start: 2020-06
+  sample_end: 2021-05
+  study_start: 2020-06
+  study_first_results: 2020-07
 study_pi:
   name: Gérard Krause
   institution: Helmholtz HZI
