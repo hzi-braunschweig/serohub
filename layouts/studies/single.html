@@ -129,6 +129,13 @@
           </tr>
           {{ end }}
 
+          {{ with .Params.project_url }}
+          <tr>
+            <td>WWW</td>
+            <td><a href="{{ . }}">{{ . }}</a></td>
+          </tr>
+          {{ end }}
+
           {{ if .Params.study_dates.sample_start }}
           <tr>
             <td>{{ i18n "StudiesPeriod" }}</td>
