@@ -1,17 +1,18 @@
 ---
-title: Multilokale und Serielle Prävalenzstudie zu Antikörpern gegen SARS-2-Coronavirus in Deutschland
+title: Multilokale und Serielle Prävalenzstudie zu Antikörpern gegen
+  SARS-2-Coronavirus in Deutschland
 project_url: https://hzi-c19-antikoerperstudie.de
 logo_url: /img/uploads/muspad_logo_blau_trans.png
 abbreviation: MuSPAD
 study_info:
-  primary_outcomes: Seroprevalence, stratified by age and over time
+  primary_outcomes: Seroprävalenz nach Alter und im Zeitverlauf
   methods_used: Euroimmune
-  research_question: The proportion of humans with idendentified IgG, IgA, IgM
-    antibodies against COVID-19
-  funding_sources: Federal Ministry of Education and Research (BMBF)
+  research_question: Der Anteil der Bevölkerung in der IgG-, IgA- und
+    IgM-Antikörpern gegen COVID-19 identifiziert wurde
+  funding_sources: Bundesministerium für Bildung und Forschung (BMBF)
 recruitment:
   country:
-    - Germany
+    - Deutschland
   location:
     - Reutlingen
     - Freiburg
@@ -33,4 +34,13 @@ study_pi:
   role: Professor
   email: serohub@helmholtz-hzi.de
 ---
-Um Antikörper bei wiederhergestellten COVID-19-Patienten nachzuweisen, entwickelt das HZI Tests für epidemiologische Studien, um die Viruserkrankung und damit die möglicherweise erworbene Immunität gegen SARS-CoV-2 besser verfolgen zu können. Diese Tests helfen dabei, das tatsächliche Ausmaß der Infektion zu bestimmen. In einer vom HZI koordinierten Bevölkerungsstudie wird das Blut von mehr als 100.000 Spendern regelmäßig auf Antikörper gegen den COVID-19-Erreger untersucht. Diese Seroprävalenzstudien liefern ein genaueres Bild der bereits erworbenen Immunität und der weiteren Entwicklung der Pandemie. Gemeinsam mit dem RKI untersucht das HZI in mehreren groß angelegten Studien in besonders betroffenen Gebieten die tatsächliche Ausbreitung des Virus in Deutschland.
+Die **Multilokale und Serielle Prävalenzstudie zu Antikörpern gegen SARS-2-Coronavirus in Deutschland** (kurz **MuSPAD**) hat zum Ziel, die tatsächliche Verbreitung von Infektionen mit SARS-CoV-2 und die entsprechende Immunität in verschiedenen Bevölkerungsgruppen in Deutschland zuverlässiger zu bestimmen. Zu diesem Zweck wird das Blut der bis zu 60.000 Studienteilnehmer auf SARS-CoV-2 Antikörper untersucht und selbst berichtete Symptome abgefragt. Die teilnehmenden Landkreise gewinnen dadurch Anhaltspunkte über das lokale Infektionsgeschehen und können Erkenntnisse mit anderen Landkreisen vergleichen. So kann ein Beitrag geleistet werden, um in einem sinnvollen Rahmen eine Normalisierung anzustreben.
+
+## Mehrfache Testung der Studienteilnehmer
+Die Studienpopulation besteht aus bis zu 60.000 Personen ab 18 Jahren aus bis zu 10 Landkreisen in Deutschland. Die Beprobung erfolgt über einen Zeitraum von einem Jahr. Vier Monate nach dem ersten Test werden die Antikörper der Studienteilnehmer ein zweites Mal getestet. Das Forschungsdesign ermöglicht es, die folgenden Bereiche zu bearbeiten:
+
+- Erlange weitere Erkenntnisse über die **Dauer der Immunität** gegen SARS-CoV-2 durch Vergleich Antikörperkonzentration bei positiv berichteten COVID-19-Patienten zu unterschiedlichen Zeitpunkten.
+- Analysiere den **Einfluss von Lockerungsmaßnahmen** und dokumentiere das Voranschreiten der "Durchseuchung" der Bevölkerung.
+
+## Finanzierung der Studie
+Die bundesweite Antikörperstudie wird derzeit aus HZI-Mitteln finanziert. Die weitere Finanzierung wird durch das BMBF sichergestellt.
