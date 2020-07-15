@@ -34,4 +34,13 @@ study_pi:
   role: Professor
   email: serohub@helmholtz-hzi.de
 ---
-In order to detect antibodies in recovered COVID-19 patients, the HZI is developing tests for epidemiological studies to better track the viral disease and thus the possible acquired immunity against SARS-CoV-2. These tests help to determine the infection’s actual extent. In a population study coordinated by the HZI, the blood of more than 60,000 donors is regularly analyzed for antibodies against the COVID-19 pathogen. These seroprevalence studies provide a more accurate picture of already acquired immunity and the further development of the pandemic. Together with the RKI, the HZI is investigating the actual spread of the virus in Germany in several large-scale studies in particularly affected areas.
+The **Multilocal and serial prevalence study for antibodies against SARS-2 coronavirus in Germany** (**MuSPAD**)  aims to more reliably determine the actual spread of infections with SARS-CoV-2 and the corresponding immunity in different population groups in Germany. For this purpose, the blood of up to 60,000 study participants is examined for SARS-CoV-2 antibodies and self-reported symptoms are queried. The participating counties thereby gain knowledge about the local spread of the disease and can compare findings with other counties. In this way, findings from the MuSPAD study might help to take steps towards responsible normalization.
+
+## Multiple testing of study participants
+The study population consist of up to 60,000 people aged 18 or older from up to 10 counties in Germany. The sampling takes place over the course of one year. Four months after the initial test, the antibodies of study participants are tested for a second time. The research design allows to study the following areas:
+
+- Gain insight about the **duration of immunity** against SARS-CoV-2 by comparing changes of antibody concentration in positive reported COVID-19 patients.
+- Analyse the **impact of easing measures** and document the spread of the disease in the population.
+
+## Research funding
+The Germany-wide SARS-Cov-2 antibody study is temporarily financed with HZI funds. Further funding will be ensured by the BMBF.
