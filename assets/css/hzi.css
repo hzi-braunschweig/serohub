@@ -352,6 +352,11 @@ MIT License*/
     height: 1cm;
   }
 
+  /* hide the JSON meta data on the study details page **/
+  #study-meta-data-json {
+    display: none;
+  }
+  
 }/*END Print document layout*/
 
 
