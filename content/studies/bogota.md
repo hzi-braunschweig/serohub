@@ -38,6 +38,36 @@ study_coord:
   name: Nathalie Verónica Fernández Villalobos
   role: PhD student
   email: serohub@helmholtz-hzi.de
+team:
+  - role: Principal Investigator
+    name: Gérard Krause
+    institution: Helmholtz Centre for Infection Research (HZI)
+    position: Head of Department Epidemiology
+    email: ""
+  - institution: Helmholtz Centre for Infection Research (HZI)
+    name: Tobias Kerrinnes
+    role: Co-principal investigator
+    position: ""
+    email: ""
+  - name: Monika Strengert
+    role: Co-principal investigator
+    position: Head of Laboratory
+    institution: Helmholtz Centre for Infection Research (HZI)
+    email: ""
+  - role: Co-principal investigator
+    name: Fernando Pio De La Hoz Restrepo
+    institution: Universidad Nacional de Colombia
+    email: ""
+  - name: Johanna Carolina Torres Páez
+    institution: Helmholtz Centre for Infection Research (HZI)
+    email: ""
+    role: Scientist
+    position: PhD Student
+  - role: Scientist
+    name: Nathalie Verónica Fernández Villalobos
+    institution: Helmholtz Centre for Infection Research (HZI)
+    email: ""
+    position: PhD Student
 ---
 Some of the COVID-19 cases have been found to have no or only mild symptoms. Those asymptomatic cases can become a source of transmission of the virus, especially for vulnerable groups such as older adults or people with comorbidities. Due to that, it is important to estimate the real burden of the disease and to go beyond symptomatic cases.
 
