@@ -179,6 +179,15 @@ collections:
           name: "email"
           widget: "string"
           required: false
+      - label: "Team Members"
+        name: team
+        widget: "list"
+        fields:
+          - {label: "Team role", name: "role", widget: "string"}
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Institution", name: "institution", widget: "string"}
+          - {label: "Position at institution", name: "position", widget: "string", required: false}
+          - {label: "Contact email", name: "email", widget: "string", required: false}
       - label: "Study overview"
         name: "body"
         widget: "markdown"
