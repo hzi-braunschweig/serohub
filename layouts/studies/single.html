@@ -129,17 +129,17 @@
           </tr>
           {{ end }}
 
-          {{ if .Params.study_coord.name }}
+          {{ if .Params.team }}
           <tr>
-            <td>{{ i18n "StudiesPi" }}</td>
+            <td>{{ i18n "StudiesTeam" }}</td>
             <td>
-              {{ .Params.study_coord.name }}
-              {{ with .Params.study_coord.institution }}
-                , {{ . }}
+              <ul style="margin-bottom: 0;">
+              {{ range $member := $.Params.team }}
+                <li>
+                  {{ with $member.name }}{{ . }}{{ end }}{{ with $member.role }}, {{ . }}{{ end }}{{ with $member.institution }}, {{ . }}{{ end }}
+                </li>
               {{ end }}
-              {{ with .Params.study_coord.email }}
-                , <a href="mailto:{{ . }}">{{ . }}</a>
-              {{ end }}
+              </ul>
             </td>
           </tr>
           {{ end }}
