@@ -92,6 +92,7 @@ collections:
             - { label: "entire households", value: "entire households" }
             - { label: "convalescent", value: "convalescent" }
             - { label: "patients under treatment", value: "patients under treatment" }
+            - { label: "children", value: "children" }
             - { label: "others", value: "others" }
             - { label: "not specified", value: "not specified" }
       - label: "Study values"
