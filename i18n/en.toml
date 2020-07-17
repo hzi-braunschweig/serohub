@@ -40,10 +40,14 @@ other = "Data URL"
 
 [ContributeAccess]
 other = "Who can this data be shared with?"
-[ContributeAccessEveryone]
-other = "Everyone"
-[ContributeAccessGermany]
-other = "Researchers in German institutions"
+[ContributeAccessPublic]
+other = "Public"
+[ContributeAccessContributors]
+other = "Only PIs who contribute data"
+[ContributeAccessDZIF]
+other = "Only DZIF members"
+[ContributeAccessPrivate]
+other = "Me (Private)"
 
 [ContributeAuth]
 other = "I confirm I have the authorisation to share the information and any data relating to this study"
