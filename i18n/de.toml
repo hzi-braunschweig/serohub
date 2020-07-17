@@ -40,10 +40,14 @@ other = "URL zu öffentlichen Dokumenten"
 
 [ContributeAccess]
 other = "Wer darf die Daten lesen?"
-[ContributeAccessEveryone]
-other = "Jeder"
-[ContributeAccessGermany]
-other = "Forscher an deutschen Institutionen"
+[ContributeAccessPublic]
+other = "Öffentlich"
+[ContributeAccessContributors]
+other = "Studienleiter, die Daten teilen"
+[ContributeAccessDZIF]
+other = "Nur DZIF Mitglieder"
+[ContributeAccessPrivate]
+other = "Nur der Studienleiter (Privat)"
 
 [ContributeAuth]
 other = "Ich bestätige, dass ich die Berechtigung habe, die Informationen und Daten zu dieser Studie weiterzugeben"
