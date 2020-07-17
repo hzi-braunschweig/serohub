@@ -110,6 +110,9 @@ other = "Ziel"
 [StudiesPi]
 other = "Studienleiter/in"
 
+[StudiesCoord]
+other = "Studienkoordinator/in"
+
 [StudiesInst]
 other = "Institut"
 
