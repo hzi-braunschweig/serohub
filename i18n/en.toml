@@ -113,8 +113,8 @@ other = "Primary outcome"
 [StudiesPi]
 other = "Principal Investigator"
 
-[StudiesCoord]
-other = "Study Coordinator"
+[StudiesTeam]
+other = "Team members"
 
 [StudiesInst]
 other = "Institute"
