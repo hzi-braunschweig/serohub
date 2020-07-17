@@ -1,5 +1,6 @@
 ---
-title: bogota
+title: "Estimation of the incidence of SARS-CoV-2 infection in children and
+  adolescents in Bogotá, Colombia, 2020: A sero-epidemiological study"
 study_info:
   research_question: (1) Estimate the proportion of SARS-CoV-2 positive
     individuals in children and adolescents. (2) Determine the proportion of
