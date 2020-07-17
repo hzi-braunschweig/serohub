@@ -36,10 +36,14 @@ study_pi:
 ---
 Some of the COVID-19 cases have been found to have no or only mild symptoms. Those asymptomatic cases can become a source of transmission of the virus, especially for vulnerable groups such as older adults or people with comorbidities. Due to that, it is important to estimate the real burden of the disease and to go beyond symptomatic cases.
 
+## Study population
 We propose a cross-sectional study to estimate SARS-CoV-2 seroprevalence in children and adolescents between 6 and 17 years old residents of the city of Bogotá, Colombia. It also seeks to explore factors associated with SARS-CoV-2 seropositivity and symptomatology.
 
-We designed a specific questionnaire for COVID-19 to collect information related to symptoms, exposure, and associated factors. Moreover, we are going to collect venous blood samples and to study the presence of antibodies to SARS-CoV-2 using a differential multiple serology.
+## Methodology
+We designed a specific questionnaire for COVID-19 to collect information related to symptoms, exposure, and associated factors. Moreover, we are going to collect venous blood samples and to study the presence of antibodies to SARS-CoV-2 using a differential multiple serology. The diagnostic test is based on luminescence (Luminex) that would allow the detection of specific humoral immune responses in serum samples.
 
+## Analysis
 We propose a descriptive analysis of the data according sex, age and age groups, exposure, and self-reported symptoms. We are going to calculate the proportion of seropositive individuals, and the proportion of symptomatic and asymptomatic cases. We will perform univariate, bivariate, stratified and multivariate analysis, and will calculate measures of association.
 
+## Insights
 We consider that our results will have a significant impact on the knowledge of the epidemiology of SARS-CoV-2 in Colombia. It will provide information on the incidence of the virus in children and adolescents and will provide information on risk and protective factors.
