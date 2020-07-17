@@ -20,9 +20,9 @@ recruitment:
   country:
     - Colombia
   type: random walk
-  group: others
+  group: children
 study_numbers:
-  study_population: 3
+  study_population: ""
 study_dates:
   sample_start: 2020-08
   sample_end: 2020-09
@@ -30,8 +30,13 @@ study_dates:
   study_first_results: ""
 study_pi:
   name: Gérard Krause
-  institution: Professor
-  role: Helmholtz Centre for Infection Research (HZI)
+  institution: Helmholtz (HZI)
+  role: Professor
+  email: serohub@helmholtz-hzi.de
+study_coord:
+  institution: Helmholtz (HZI)
+  name: Nathalie Verónica Fernández Villalobos
+  role: PhD student
   email: serohub@helmholtz-hzi.de
 ---
 Some of the COVID-19 cases have been found to have no or only mild symptoms. Those asymptomatic cases can become a source of transmission of the virus, especially for vulnerable groups such as older adults or people with comorbidities. Due to that, it is important to estimate the real burden of the disease and to go beyond symptomatic cases.
