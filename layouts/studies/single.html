@@ -61,14 +61,14 @@
           {{ with .Params.recruitment.country }}
           <tr>
             <td>{{ i18n "StudiesRegion" }}</td>
-            <td>{{ . }}</td>
+            <td>{{ delimit . ", " }}</td>
           </tr>
           {{ end }}
 
           {{ with .Params.recruitment.location }}
           <tr>
             <td>{{ i18n "StudiesLocation" }}</td>
-            <td>{{ . }}</td>
+            <td>{{ delimit . ", " }}</td>
           </tr>
           {{ end }}
 
