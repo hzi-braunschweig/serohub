@@ -114,24 +114,33 @@
           </tr>
           {{ end }}
 
-          {{ with .Params.study_pi.name }}
+          {{ if .Params.study_pi.name }}
           <tr>
             <td>{{ i18n "StudiesPi" }}</td>
-            <td>{{ . }}</td>
+            <td>
+              {{ .Params.study_pi.name }}
+              {{ with .Params.study_pi.institution }}
+                , {{ . }}
+              {{ end }}
+              {{ with .Params.study_pi.email }}
+                , <a href="mailto:{{ . }}">{{ . }}</a>
+              {{ end }}
+            </td>
           </tr>
           {{ end }}
 
-          {{ with .Params.study_pi.institution }}
+          {{ if .Params.study_coord.name }}
           <tr>
-            <td>{{ i18n "StudiesInst" }}</td>
-            <td>{{ . }}</td>
-          </tr>
-          {{ end }}
-
-          {{ with .Params.study_pi.email }}
-          <tr>
-            <td>Email</td>
-            <td><a href="mailto:{{ . }}">{{ . }}</a></td>
+            <td>{{ i18n "StudiesPi" }}</td>
+            <td>
+              {{ .Params.study_coord.name }}
+              {{ with .Params.study_coord.institution }}
+                , {{ . }}
+              {{ end }}
+              {{ with .Params.study_coord.email }}
+                , <a href="mailto:{{ . }}">{{ . }}</a>
+              {{ end }}
+            </td>
           </tr>
           {{ end }}
 
