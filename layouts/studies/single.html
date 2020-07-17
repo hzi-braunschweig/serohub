@@ -1,5 +1,6 @@
 {{ define "top-bar-right" }}
-{{ partial "share.html" . }}
+<!-- {{ partial "share.html" $ }} -->
+{{ partial "lang-switch.html" $ }}
 {{ end }}
 {{ define "main" }}
 <div class="row">
@@ -204,5 +205,6 @@
 
     <!-- FIXME <a href="/post/archives/">All Posts by Date</a> &middot; <a href="/categories/">All Posts by Category</a> -->
   </div>
+
 </div>
 {{ end }}
