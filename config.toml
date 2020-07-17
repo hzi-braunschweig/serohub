@@ -1,7 +1,6 @@
-#baseurl = "https://leoss-serosurvey-plattform.helmholtz-hzi.de/"
-baseurl = "https://serohub.netlify.app/"
-author = "Hermholtz HZI"
-copyright = "Copyright (c) 2020 Hermholtz HZI"
+baseurl = "https://serohub.net/"
+author = "Helmholtz HZI"
+copyright = "Copyright (c) 2020 Helmholtz HZI"
 canonifyurls = true
 paginate = 3
 theme="hugo-finite"
