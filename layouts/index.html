@@ -9,7 +9,7 @@
 {{ define "main" }}
 <div class="row" >
 <div class="column medium-3">
-  <img src="{{.Params.image}}" alt="{{.Title}}" style="max-height:50vh; text-align:center;" />
+  <img src="../img/LEOSS_sero-survey_rgb.png" alt="{{.Title}}" style="max-height:15vh; text-align:center;" />
 </div>
   <div class="column medium-9">
   <h3>{{ i18n "FrontSubtitle" }}</h3>
@@ -27,12 +27,26 @@
   </div>
 
   <div class="column medium-4">
-    <h2>{{ i18n "FrontContribute" }}</h2>
-    <p>{{ i18n "FrontContributeText" }}</p>
-    <a href="contribute" class="button hollow primary">{{ i18n "FrontContribute" }}</a>
+    
     <!--
     {{ partial "livetwitterfeed.html" . }}
     -->
+    <div class="row">
+      <h2>{{ i18n "FrontWhy" }}</h2>
+      <div class="column small-2 medium-6">
+        <p>{{ i18n "FrontWhyText" }}</p>
+      </div>
+      <div class="column small-10 medium-6">
+        <img src="{{.Params.image}}" style="max-height:20vh; margin-left:auto; margin-right:auto;" />
+      </div>
+    </div>
+    <div class="row">
+      <h2>{{ i18n "FrontContribute" }}</h2>
+      <div class="column small-12 medium-12">
+        <p>{{ i18n "FrontContributeText" }}</p>
+        <a href="contribute" class="button hollow primary">{{ i18n "FrontContribute" }}</a>
+      </div>  
+    </div>
   </div>
 </div>
 

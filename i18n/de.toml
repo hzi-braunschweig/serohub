@@ -15,6 +15,12 @@ other = "Daten Teilen"
 [FrontContributeText]
 other = "Die LEOSS.sero-survey Plattform ist eine offene Initiative, um Forschern eine zentrale Anlaufstelle für ihre SARS-CoV-2 Seroprävalenzstudien und ihren Daten zu bieten."
 
+[FrontWhy]
+other = "Warum"
+
+[FrontWhyText]
+other = "Der LEOSS.sero-survey fokussiert sich auf vier Hauptziele über Seroprävalenzstudien von SARS-CoV-2: den Aufbau und Austausch einer Forscher Community, kritische Zusammenfassungen der Ergebnisse aktueller Studien, ein Dokumentenhub für Protokolle oder Fragebögen und einer cloudbasierten Meta-Analyse Plattform."
+
 [FrontStayupdated]
 other = "Bleibe auf dem Laufenden"
 
