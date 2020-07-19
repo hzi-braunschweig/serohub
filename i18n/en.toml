@@ -7,13 +7,19 @@ other = "The platform for seroprevalence studies on SARS-CoV-2"
 other = "Welcome to the LEOSS.sero-survey"
 
 [FrontMapHeading]
-other = "Locations of participating SARS-Cov-2 seroprevalence studies"
+other = "Locations of participating SARS-CoV-2 seroprevalence studies"
 
 [FrontContribute]
 other = "Contribute"
 
 [FrontContributeText]
 other = "The LEOSS.sero-survey platform is an open intiative to provide a centralised hub of resources. Researchers can submit SARS-Cov-2 seroprevalence studies, publications, and even data to be included here."
+
+[FrontWhy]
+other = "Why"
+
+[FrontWhyText]
+other = "The LEOSS.sero-survey focuses on four primary aims about seroprevalence of SARS-CoV-2: a community platform for researcher, a platform for critical appraisal of diagnostic trials, a platform of study related documents and a cloud based meta analysis platform"
 
 [FrontStayupdated]
 other = "Stay up to date"
@@ -59,7 +65,6 @@ other = "Send us study related documents directly via email to"
 
 [ContributeSend]
 other = "Send"
-
 
 # layout/section/publication.html
 [PubButtonText]
