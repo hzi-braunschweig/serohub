@@ -58,6 +58,8 @@ study_dates:
   sample_end: 2020-05
   study_start: 2020-05
   study_first_results: 2020-07
+results:
+  - doi_preprint: 10.1101/2020.07.15.20154112
 study_pi:
   name: Mathias W. Pletz, MD; Sebastian Weis, MD
   institution: Institut für Infektionsmedizin und Krankenhaushygiene, Universitätsklinikum Jena, 07747 Jena, Germany
