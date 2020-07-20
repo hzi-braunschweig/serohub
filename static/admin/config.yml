@@ -45,6 +45,10 @@ collections:
           name: "diagnostic_test"
           widget: "list"
           required: false
+          fields: 
+            - {label: "Test kit product name", name: "product", widget: "string"}
+            - {label: "Test kit manufacturer", name: "company", widget: "string", required: false}
+            - {label: "Manufacturer address", name: "address", widget: "string", hint: "city and country is sufficient", required: false}
         - label: "Primary outcomes"
           name: "primary_outcomes"
           widget: "markdown"
