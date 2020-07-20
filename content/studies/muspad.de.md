@@ -7,7 +7,13 @@ abbreviation: MuSPAD
 study_info:
   primary_outcomes: Seroprävalenz nach Alter und im Zeitverlauf
   diagnostic_test: 
-    - Euroimmune
+    - product: SARS-CoV-2 IgG ELISA kit 
+      company: Euroimmune
+      address: Lübeck, Germany
+  tested_antibody_classes:
+    - IgG
+    - IgA
+    - IgM
   research_question: Der Anteil der Bevölkerung in der IgG-, IgA- und
     IgM-Antikörpern gegen COVID-19 identifiziert wurde
   funding_sources: Bundesministerium für Bildung und Forschung (BMBF)

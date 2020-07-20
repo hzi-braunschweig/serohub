@@ -149,6 +149,9 @@ other = "Research Question"
 [StudiesMethod]
 other = "Diagnostic test(s) used"
 
+[StudiesAntibody]
+other = "Antibody class(es)"
+
 [StudiesSamplesize]
 other = "Study population N"
 

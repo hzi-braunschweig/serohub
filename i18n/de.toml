@@ -149,7 +149,10 @@ other = "Region(en)"
 other = "Forschungsfrage"
 
 [StudiesMethod]
-other = "Verwendete(r) diagnostischer Test(s)"
+other = "Verwendete(r) diagnostische(r) Test(s)"
+
+[StudiesAntibody]
+other = "Antikörperklasse(n)"
 
 [StudiesSamplesize]
 other = "Stichprobenumfang N"

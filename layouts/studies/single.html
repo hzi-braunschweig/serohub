@@ -86,18 +86,30 @@
           </tr>
           {{ end }}
 
-          {{ with .Params.study_info.diagnostic_test }}
+          {{ if .Params.study_info.diagnostic_test }}
           <tr>
             <td>{{ i18n "StudiesMethod" }}</td>
             <td>
-              {{ if eq (len .) 1 }}
-                {{ index . 0 }}
-              {{ else }}
-                {{ range $item := . }}
-                <li>{{ $item }} </li>
+              <ul style="margin-bottom: 0;">
+                {{ range $item := $.Params.study_info.diagnostic_test }}
+                <li>
+                  {{ with $item.product }}{{ . }}{{ end }}
+                  {{ if $item.company }}
+                    , {{ $item.company }}
+                    {{ with $item.address }}({{ . }}){{ end }}
+                  {{ end }}
+                  {{ with $item.type }}, {{ . }}{{ end }}
+                </li>
                 {{ end }}
-              {{ end }}
+              </ul>
             </td>
+          </tr>
+          {{ end }}
+
+          {{ with .Params.study_info.tested_antibody_classes }}
+          <tr>
+            <td>{{ i18n "StudiesAntibody" }}</td>
+            <td>{{ delimit . ", " }}</td>
           </tr>
           {{ end }}
 
