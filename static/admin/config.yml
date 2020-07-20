@@ -16,7 +16,7 @@ collections:
         name: "title"
         widget: "string"
         required: true
-      - label: "Study URL"
+      - label: "Project URL"
         name: "project_url"
         widget: "string"
         required: false
@@ -160,7 +160,7 @@ collections:
         name: team
         widget: "list"
         fields:
-          - {label: "Team role", name: "role", widget: "string"}
+          - {label: "Team role", name: "role", widget: "string", required: false}
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Academic title", name: "title", widget: "string", required: false}
           - {label: "Institution", name: "institution", widget: "string", required: false}
