@@ -1,7 +1,6 @@
 ---
 title: Seroprävalenz von SARS-CoV-2-Antikörpern in einer vollständig PCR-untersuchten und unter Quarantäne gestellten Gemeinschaft nach einem COVID-19-Ausbruch - die CoNAN-Studie
 project_url: https://www.medrxiv.org/content/10.1101/2020.07.15.20154112v1
-logo_url: 
 abbreviation: CoNAN
 study_info:
   primary_outcomes: Seroprävalenz für SARS-CoV-2
@@ -48,8 +47,6 @@ recruitment:
     - Deutschland
   location:
     - Neustadt am Rennsteig
-  type: explorative bevölkerungsbasierte Kohortenstudie
-  group: Generelle Population
 study_numbers:
   study_population: 626
   population: 883
@@ -59,7 +56,7 @@ study_dates:
   study_start: 2020-05
   study_first_results: 2020-07
 results:
-  - doi_preprint: 10.1101/2020.07.15.20154112
+  doi_preprint: 10.1101/2020.07.15.20154112
 study_pi:
   name: Mathias W. Pletz und Sebastian Weis
   institution: Institut für Infektionsmedizin und Krankenhaushygiene, Universitätsklinikum Jena (07747 Jena, Germany)
