@@ -5,13 +5,42 @@ logo_url:
 abbreviation: CoNAN
 study_info:
   primary_outcomes: Seroprävalenz für SARS-CoV-2
-  methods_used: |
-    - EDI Novel Coronavirus SARS-CoV-2 IgG ELISA kit (Epitope Diagnostics Inc., San Diego, USA)
-    - SARS-CoV-2 IgG ELISA kit (Euroimmun, Lübeck, Germany)
-    - SARS-CoV-2 S1/S2 IgG CLIA kit (DiaSorin, Saluggia, Italy)
-    - 2019-nCoV IgG kit (Snibe Co., Ltd., Shenzhen, China)
-    - SARS-CoV-2 IgG CMIA kit (Abbott, Chicago, USA)
-    - Elecsys Anti-SARS-CoV-2 kit (Roche, Basel Switzerland)
+study_info:
+  primary_outcomes: Seroprevalence for SARS-CoV-2
+  diagnostic_test: 
+    - product: EDI Novel Coronavirus SARS-CoV-2 IgG ELISA kit 
+      company: Epitope Diagnostics Inc.
+      address: San Diego, USA
+      antibody_classes:
+        - IgG
+    - product: SARS-CoV-2 IgG ELISA kit
+      company: Euroimmun
+      address: Lübeck, Germany
+      antibody_classes:
+        - IgG   
+    - product: SARS-CoV-2 S1/S2 IgG CLIA kit
+      company: DiaSorin
+      address: Saluggia, Italy
+      antibody_classes:
+        - IgG 
+    - product: 2019-nCoV IgG kit
+      company: Snibe Co., Ltd.
+      address: Shenzhen, China
+      antibody_classes:
+        - IgG    
+    - product: SARS-CoV-2 IgG CMIA kit
+      company: Abbott
+      address: Chicago, USA
+      antibody_classes:
+        - IgG    
+    - product: Elecsys Anti-SARS-CoV-2 kit
+      company: Roche
+      address: Basel, Switzerland
+      antibody_classes:
+        - IgG 
+  tested_antibody_classes:
+    - IgG
+    - IgM
   research_question: Primäres Ziel war es, den SARS-CoV-2-Antikörperstatus (Serokonversionsrate) der Bevölkerung von Neustadt-am-Rennsteig mit einem definierten Abstand zum Ende der Quarantänezeit zu bestimmen. Der SARS-CoV-2-Antikörperstatus wurde als „positiv“ definiert, wenn die Teilnehmer in ≥ 2 der sechs Antikörpertests ein positives Testergebnis hatten (Details unten); ansonsten wurden die Teilnehmer als „negativ“ eingestuft. Die sekundären Ziele der Studie waren i.) Die Bestimmung der Serokonversionsrate bei Kindern; ii.) mögliche Risikofaktoren für symptomatische vs. asymptomatische Covid19 Verläufe zu bestimmen; iii.) die Rate der Viruspersistenz zu untersuchen (als Teil zukünftiger Follow-up-Bewertungen).
   funding_sources: Thüringer Ministerium für Wirtschaft, Wissenschaft und Digitale Gesellschaft (TMWWDG)
 recruitment:
