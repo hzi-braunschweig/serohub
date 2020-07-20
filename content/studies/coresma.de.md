@@ -5,7 +5,8 @@ abbreviation: CORESMA
 study_info:
   primary_outcomes: Seroprävalenz von SARS-CoV-2-Antikörpern bei Probanden der
     NAKO-Studie und in Nepal
-  methods_used: Multiplexserologiepanel
+  diagnostic_test: 
+    - Multiplexserologiepanel
   research_question: Seroprävalenz von SARS-CoV-2-Antikörpern bei Probanden der
     NAKO-Studie und in Nepal
   funding_sources: Horizon 2020

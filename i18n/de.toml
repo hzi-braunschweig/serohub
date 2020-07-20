@@ -149,7 +149,7 @@ other = "Region(en)"
 other = "Forschungsfrage"
 
 [StudiesMethod]
-other = "Testverfahren"
+other = "Verwendete(r) diagnostischer Test(s)"
 
 [StudiesSamplesize]
 other = "Stichprobenumfang N"

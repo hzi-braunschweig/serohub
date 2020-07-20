@@ -8,7 +8,8 @@ study_info:
     (3) Explore social, demographic, economic, and clinical factors that may be
     potentially associated with seropositivity to SARS-CoV-2 in children and
     adolescents.
-  methods_used: Luminex
+  diagnostic_test: 
+    - Luminex
   primary_outcomes: (1) Proportion of SARS-CoV-2 positive and negative
     individuals. (2) Proportion of symptomatic and asymptomatic infections in
     SARS-CoV-2 positive individuals. (3) Clinical, socioeconomic, and
@@ -81,7 +82,8 @@ Some of the COVID-19 cases have been found to have no or only mild symptoms. Tho
 We propose a cross-sectional study to estimate SARS-CoV-2 seroprevalence in children and adolescents between 6 and 17 years old residents of the city of Bogotá, Colombia. It also seeks to explore factors associated with SARS-CoV-2 seropositivity and symptomatology.
 
 ## Methodology
-We designed a specific questionnaire for COVID-19 to collect information related to symptoms, exposure, and associated factors. Moreover, we are going to collect venous blood samples and to study the presence of antibodies to SARS-CoV-2 using a differential multiple serology. The diagnostic test is based on luminescence (Luminex) that would allow the detection of specific humoral immune responses in serum samples.
+We designed a specific questionnaire for COVID-19 to collect information related to symptoms, exposure, and associated factors. Moreover, we are going to collect venous blood samples and to study the presence of antibodies to SARS-CoV-2 using a differential multiple serology.
+ The diagnostic test is based on luminescence (Luminex) that would allow the detection of specific humoral immune responses in serum samples.
 
 ## Analysis
 We propose a descriptive analysis of the data according sex, age and age groups, exposure, and self-reported symptoms. We are going to calculate the proportion of seropositive individuals, and the proportion of symptomatic and asymptomatic cases. We will perform univariate, bivariate, stratified and multivariate analysis, and will calculate measures of association.

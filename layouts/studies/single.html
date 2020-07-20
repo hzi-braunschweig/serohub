@@ -86,10 +86,18 @@
           </tr>
           {{ end }}
 
-          {{ with .Params.study_info.methods_used }}
+          {{ with .Params.study_info.diagnostic_test }}
           <tr>
             <td>{{ i18n "StudiesMethod" }}</td>
-            <td>{{ . }}</td>
+            <td>
+              {{ if eq (len .) 1 }}
+                {{ index . 0 }}
+              {{ else }}
+                {{ range $item := . }}
+                <li>{{ $item }} </li>
+                {{ end }}
+              {{ end }}
+            </td>
           </tr>
           {{ end }}
 
