@@ -2,7 +2,7 @@
 title: Seroprevalence of SARS-CoV-2 antibodies in an entirely PCR sampled and
   quarantined community after a COVID-19 outbreak - the CoNAN study
 project_url: https://www.medrxiv.org/content/10.1101/2020.07.15.20154112v1
-logo_url: /img/uploads/1280px-universitätsklinikum_jena_logo.png
+logo_url: /img/uploads/jena-logo.png
 abbreviation: CoNAN
 study_info:
   primary_outcomes: Seroprevalence for SARS-CoV-2
