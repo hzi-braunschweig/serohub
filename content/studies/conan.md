@@ -58,10 +58,22 @@ study_dates:
 results:
   - doi_preprint: 10.1101/2020.07.15.20154112
 study_pi:
-  name: Mathias W. Pletz, MD; Sebastian Weis, MD
-  institution: Institute for Infectious Diseases and Infection Control, Jena University Hospital, 07747 Jena, Germany
-  role: a) Prof. Head of Institute; b) Attending Physician
-  email: Mathias.Pletz@med.uni-jena.de; Sebastian.Weis@med.uni-jena.de
+  name: Mathias W. Pletz and Sebastian Weis
+  institution: Institute for Infectious Diseases and Infection Control, Jena University Hospital (07747 Jena, Germany)
+  email: Sebastian.Weis@med.uni-jena.de
+team:
+  - role: Principal Investigator
+    name: Mathias W. Pletz
+    institution: Institute for Infectious Diseases and Infection Control, Jena University Hospital (07747 Jena, Germany)
+    position: Head of Institute
+    email: Mathias.Pletz@med.uni-jena.de
+    title: Prof. Dr. med.
+  - role: Principal Investigator
+    name: Sebastian Weis
+    institution: Institute for Infectious Diseases and Infection Control, Jena University Hospital (07747 Jena, Germany)
+    position: Attending Physician
+    email: Sebastian.Weis@med.uni-jena.de
+    title: OA PD Dr. med.
 ---
 
 __Seroprevalence of SARS-CoV-2 antibodies in an entirely PCR-sampled and quarantined community after a COVID-19 outbreak - the CoNAN study__
