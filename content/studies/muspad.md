@@ -6,11 +6,21 @@ logo_url: /img/uploads/muspad_logo_blau_trans.png
 abbreviation: MuSPAD
 study_info:
   primary_outcomes: Seroprevalence, stratified by age and over time
-  diagnostic_test: 
-    - company: Euroimmune
+  diagnostic_test:
+    - company: EUROIMMUN
+      product: multiple SARS-CoV-2 ELISA kits
+      address: Lübeck, Germany
+      antibody_classes:
+        - IgG
+        - IgM
+        - IgA
   research_question: The proportion of humans with identified IgG, IgA, IgM
     antibodies against COVID-19
   funding_sources: Federal Ministry of Education and Research (BMBF)
+  tested_antibody_classes:
+    - IgG
+    - IgM
+    - IgA
 recruitment:
   country:
     - Germany
@@ -34,6 +44,16 @@ study_pi:
   institution: Helmholtz HZI
   role: Professor
   email: serohub@helmholtz-hzi.de
+team:
+  - role: Principal Investigator
+    name: Gérard Krause
+    title: Prof. Dr. med.
+    institution: Helmholtz (HZI)
+    position: Head of Department Epidemiolog
+  - role: Study coordinator
+    name: Daniela Gornyk
+    institution: Helmholtz (HZI)
+    position: PhD student
 ---
 The **Multilocal and serial prevalence study for antibodies against SARS-2 coronavirus in Germany** (**MuSPAD**)  aims to more reliably determine the actual spread of infections with SARS-CoV-2 and the corresponding immunity in different population groups in Germany. For this purpose, the blood of up to 60,000 study participants is examined for SARS-CoV-2 antibodies and self-reported symptoms are queried. The participating counties thereby gain knowledge about the local spread of the disease and can compare findings with other counties. In this way, findings from the MuSPAD study might help to take steps towards responsible normalization.
 
