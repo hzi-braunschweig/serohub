@@ -8,8 +8,9 @@ study_info:
     (3) Explore social, demographic, economic, and clinical factors that may be
     potentially associated with seropositivity to SARS-CoV-2 in children and
     adolescents.
-  diagnostic_test: 
+  diagnostic_test:
     - company: Luminex Corp.
+      product: not specified
   primary_outcomes: (1) Proportion of SARS-CoV-2 positive and negative
     individuals. (2) Proportion of symptomatic and asymptomatic infections in
     SARS-CoV-2 positive individuals. (3) Clinical, socioeconomic, and
@@ -33,11 +34,6 @@ study_pi:
   name: Gérard Krause
   institution: Helmholtz (HZI)
   role: Professor
-  email: serohub@helmholtz-hzi.de
-study_coord:
-  institution: Helmholtz (HZI)
-  name: Nathalie Verónica Fernández Villalobos
-  role: PhD student
   email: serohub@helmholtz-hzi.de
 team:
   - role: Principal Investigator
@@ -75,6 +71,11 @@ team:
     email: ""
     position: PhD Student
     title: MSc.
+study_coord:
+  institution: Helmholtz (HZI)
+  name: Nathalie Verónica Fernández Villalobos
+  role: PhD student
+  email: serohub@helmholtz-hzi.de
 ---
 Some of the COVID-19 cases have been found to have no or only mild symptoms. Those asymptomatic cases can become a source of transmission of the virus, especially for vulnerable groups such as older adults or people with comorbidities. Due to that, it is important to estimate the real burden of the disease and to go beyond symptomatic cases.
 
