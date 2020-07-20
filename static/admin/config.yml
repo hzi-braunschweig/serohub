@@ -152,29 +152,6 @@ collections:
         - label: "Institution"
           name: "institution"
           widget: "string"
-        - label: "Position at institution"
-          name: "role"
-          widget: "string"
-          required: false
-        - label: "Contact email"
-          name: "email"
-          widget: "string"
-          required: false
-      - label: "Study Coordinator"
-        name: study_coord
-        collapsed: true
-        widget: "object"
-        fields:
-        - label: "Name"
-          name: "name"
-          widget: "string"
-        - label: "Institution"
-          name: "institution"
-          widget: "string"
-        - label: "Position at institution"
-          name: "role"
-          widget: "string"
-          required: false
         - label: "Contact email"
           name: "email"
           widget: "string"
@@ -186,7 +163,7 @@ collections:
           - {label: "Team role", name: "role", widget: "string"}
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Academic title", name: "title", widget: "string", required: false}
-          - {label: "Institution", name: "institution", widget: "string"}
+          - {label: "Institution", name: "institution", widget: "string", required: false}
           - {label: "Position at institution", name: "position", widget: "string", required: false}
           - {label: "Contact email", name: "email", widget: "string", required: false}
       - label: "Study overview"
