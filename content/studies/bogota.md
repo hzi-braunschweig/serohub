@@ -9,7 +9,7 @@ study_info:
     potentially associated with seropositivity to SARS-CoV-2 in children and
     adolescents.
   diagnostic_test: 
-    - Luminex
+    - company: Luminex Corp.
   primary_outcomes: (1) Proportion of SARS-CoV-2 positive and negative
     individuals. (2) Proportion of symptomatic and asymptomatic infections in
     SARS-CoV-2 positive individuals. (3) Clinical, socioeconomic, and

@@ -5,7 +5,7 @@ abbreviation: CORESMA
 study_info:
   primary_outcomes: Seroprevalence of SARS-Cov-2 antibodies in Nepal and Germany
   diagnostic_test: 
-    - Multiplex Serology panels
+    - type: Multiplex Serology panels
   research_question: Seroprevalence of SARS-Cov-2 antibodies in Nepal and Germany
   funding_sources: Horizon 2020
 recruitment:
