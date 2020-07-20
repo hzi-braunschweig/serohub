@@ -77,6 +77,7 @@ collections:
           options: 
             - { label: "randomised individual invited voluntary", value: "randomised individual invited voluntary"}
             - { label: "random walk", value: "random walk" }
+            - { label: "exploratory population-based cohort study", value: "exploratory population-based cohort study" }
             - { label: "others", value: "others" }
             - { label: "not specified", value: "not specified" }
         - label: "Type of population"
