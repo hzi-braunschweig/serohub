@@ -1,12 +1,13 @@
 ---
-title: Seroprevalence of SARS-CoV-2 antibodies in an entirely PCR sampled and quarantined community after a COVID-19 outbreak - the CoNAN study
+title: Seroprevalence of SARS-CoV-2 antibodies in an entirely PCR sampled and
+  quarantined community after a COVID-19 outbreak - the CoNAN study
 project_url: https://www.medrxiv.org/content/10.1101/2020.07.15.20154112v1
-logo_url: 
+logo_url: /img/uploads/jena-logo.png
 abbreviation: CoNAN
 study_info:
   primary_outcomes: Seroprevalence for SARS-CoV-2
-  diagnostic_test: 
-    - product: EDI Novel Coronavirus SARS-CoV-2 IgG ELISA kit 
+  diagnostic_test:
+    - product: EDI Novel Coronavirus SARS-CoV-2 IgG ELISA kit
       company: Epitope Diagnostics Inc.
       address: San Diego, USA
       antibody_classes:
@@ -15,31 +16,42 @@ study_info:
       company: Euroimmun
       address: Lübeck, Germany
       antibody_classes:
-        - IgG   
+        - IgG
     - product: SARS-CoV-2 S1/S2 IgG CLIA kit
       company: DiaSorin
       address: Saluggia, Italy
       antibody_classes:
-        - IgG 
+        - IgG
     - product: 2019-nCoV IgG kit
       company: Snibe Co., Ltd.
       address: Shenzhen, China
       antibody_classes:
-        - IgG    
+        - IgG
     - product: SARS-CoV-2 IgG CMIA kit
       company: Abbott
       address: Chicago, USA
       antibody_classes:
-        - IgG    
+        - IgG
     - product: Elecsys Anti-SARS-CoV-2 kit
       company: Roche
       address: Basel, Switzerland
       antibody_classes:
-        - IgG 
+        - IgG
   tested_antibody_classes:
     - IgG
-  research_question: The primary objective was to determine the SARS-CoV-2 antibody status (sero-conversion rate) of the population of Neustadt-am-Rennsteig with a defined distance to the end of the quarantine period. SARS-CoV-2 antibody status was defined as ”positive” if participants had a positive test result in ≥ 2 of the six antibody tests (details below); otherwise participants were classified as “negative”. The secondary objectives of the study were i.) to determine the rate of seroconversion in children; ii.) to determine potential risk factors for symptomatic vs. asymptomatic Covid19 courses; iii.) to investigate the rate of virus persistence (as part of future follow-up assessments).
-  funding_sources: Thuringian Ministry for Economic Affairs, Science and Digital Society (TMWWDG)
+    - IgM
+  research_question: The primary objective was to determine the SARS-CoV-2
+    antibody status (sero-conversion rate) of the population of
+    Neustadt-am-Rennsteig with a defined distance to the end of the quarantine
+    period. SARS-CoV-2 antibody status was defined as ”positive” if participants
+    had a positive test result in ≥ 2 of the six antibody tests (details below);
+    otherwise participants were classified as “negative”. The secondary
+    objectives of the study were i.) to determine the rate of seroconversion in
+    children; ii.) to determine potential risk factors for symptomatic vs.
+    asymptomatic Covid19 courses; iii.) to investigate the rate of virus
+    persistence (as part of future follow-up assessments).
+  funding_sources: Thuringian Ministry for Economic Affairs, Science and Digital
+    Society (TMWWDG)
 recruitment:
   country:
     - Germany
@@ -59,18 +71,21 @@ results:
   - doi_preprint: 10.1101/2020.07.15.20154112
 study_pi:
   name: Mathias W. Pletz and Sebastian Weis
-  institution: Institute for Infectious Diseases and Infection Control, Jena University Hospital (07747 Jena, Germany)
+  institution: Institute for Infectious Diseases and Infection Control, Jena
+    University Hospital (07747 Jena, Germany)
   email: Sebastian.Weis@med.uni-jena.de
 team:
   - role: Principal Investigator
     name: Mathias W. Pletz
-    institution: Institute for Infectious Diseases and Infection Control, Jena University Hospital (07747 Jena, Germany)
+    institution: Institute for Infectious Diseases and Infection Control, Jena
+      University Hospital (07747 Jena, Germany)
     position: Head of Institute
     email: Mathias.Pletz@med.uni-jena.de
     title: Prof. Dr. med.
   - role: Principal Investigator
     name: Sebastian Weis
-    institution: Institute for Infectious Diseases and Infection Control, Jena University Hospital (07747 Jena, Germany)
+    institution: Institute for Infectious Diseases and Infection Control, Jena
+      University Hospital (07747 Jena, Germany)
     position: Attending Physician
     email: Sebastian.Weis@med.uni-jena.de
     title: OA PD Dr. med.
