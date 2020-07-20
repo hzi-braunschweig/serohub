@@ -142,6 +142,21 @@ collections:
           default: ""
           hint: "Stores the year and month when first results are expected"
           required: false
+      - label: "Results"
+        name: results
+        collapsed: true
+        widget: "object"
+        fields:
+        - {label: "Preprint DOI", name: "doi_preprint", widget: "string", required: false}
+        - {label: "Journal DOI", name: "doi_journal", widget: "string", required: false}
+        - {label: "Data DOI", name: "doi_data", widget: "string", required: false}
+        - label: "Misc Sources"
+          name: "misc"
+          widget: "list"
+          fields:
+          - {label: "URL", name: "url", widget: "string", required: false}
+          - {label: "Description", name: "desc", widget: "string", required: false}
+          - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD", required: false}
       - label: "Study Principal Investigator (PI)"
         name: study_pi
         collapsed: true
