@@ -45,6 +45,32 @@ collections:
           name: "diagnostic_test"
           widget: "list"
           required: false
+          fields: 
+            - {label: "Test kit product name", name: "product", widget: "string"}
+            - {label: "Test kit manufacturer", name: "company", widget: "string", required: false}
+            - {label: "Manufacturer address", name: "address", widget: "string", hint: "city and country is sufficient", required: false}
+            - label: "Tested antibody classes (kit specific)"
+              name: "antibody_classes"
+              widget: "select"
+              multiple: true
+              required: false
+              options:
+              - { label: "IgG", value: "IgG" }
+              - { label: "IgM", value: "IgM" }
+              - { label: "IgA", value: "IgA" }
+              - { label: "other immune response", value: "other immune response" }
+              - { label: "not specified", value: "not specified" }
+        - label: "Tested antibody classes in the study"
+          name: "antibody_classes"
+          widget: "select"
+          multiple: true
+          required: false
+          options:
+          - { label: "IgG", value: "IgG" }
+          - { label: "IgM", value: "IgM" }
+          - { label: "IgA", value: "IgA" }
+          - { label: "other immune response", value: "other immune response" }
+          - { label: "not specified", value: "not specified" }
         - label: "Primary outcomes"
           name: "primary_outcomes"
           widget: "markdown"
