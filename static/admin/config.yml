@@ -42,9 +42,8 @@ collections:
           minimal: true
           required: false
         - label: "Used Diagnostic test"
-          name: "methods_used"
-          widget: "markdown"
-          minimal: true
+          name: "diagnostic_test"
+          widget: "list"
           required: false
         - label: "Primary outcomes"
           name: "primary_outcomes"

@@ -6,7 +6,8 @@ logo_url: /img/uploads/muspad_logo_blau_trans.png
 abbreviation: MuSPAD
 study_info:
   primary_outcomes: Seroprevalence, stratified by age and over time
-  methods_used: Euroimmune
+  diagnostic_test: 
+    - Euroimmune
   research_question: The proportion of humans with identified IgG, IgA, IgM
     antibodies against COVID-19
   funding_sources: Federal Ministry of Education and Research (BMBF)

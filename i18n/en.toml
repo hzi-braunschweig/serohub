@@ -147,7 +147,7 @@ other = "Region(s)"
 other = "Research Question"
 
 [StudiesMethod]
-other = "Method used"
+other = "Diagnostic test(s) used"
 
 [StudiesSamplesize]
 other = "Study population N"
