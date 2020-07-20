@@ -4,8 +4,6 @@ title: Seroprävalenz von SARS-CoV-2-Antikörpern in einer vollständig PCR-unte
 project_url: https://www.medrxiv.org/content/10.1101/2020.07.15.20154112v1
 abbreviation: CoNAN
 study_info:
-  primary_outcomes: Seroprävalenz für SARS-CoV-2
-study_info:
   primary_outcomes: Seroprevalence for SARS-CoV-2
   diagnostic_test: 
     - product: EDI Novel Coronavirus SARS-CoV-2 IgG ELISA kit 
