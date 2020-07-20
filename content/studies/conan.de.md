@@ -61,10 +61,22 @@ study_dates:
 results:
   - doi_preprint: 10.1101/2020.07.15.20154112
 study_pi:
-  name: Mathias W. Pletz, MD; Sebastian Weis, MD
-  institution: Institut für Infektionsmedizin und Krankenhaushygiene, Universitätsklinikum Jena, 07747 Jena, Germany
-  role: a) Prof. Institutsdirektor; b) Behandelnder Arzt
-  email: Mathias.Pletz@med.uni-jena.de; Sebastian.Weis@med.uni-jena.de
+  name: Mathias W. Pletz und Sebastian Weis
+  institution: Institut für Infektionsmedizin und Krankenhaushygiene, Universitätsklinikum Jena (07747 Jena, Germany)
+  email: Sebastian.Weis@med.uni-jena.de
+team:
+  - role: Studienleiter
+    name: Mathias W. Pletz
+    institution: Institut für Infektionsmedizin und Krankenhaushygiene, Universitätsklinikum Jena (07747 Jena, Germany)
+    position: Institutsdirektor
+    email: Mathias.Pletz@med.uni-jena.de
+    title: Prof. Dr. med.
+  - role: Studienleiter
+    name: Sebastian Weis
+    institution: Institut für Infektionsmedizin und Krankenhaushygiene, Universitätsklinikum Jena (07747 Jena, Germany)
+    position: Behandelnder Arzt
+    email: Sebastian.Weis@med.uni-jena.de
+    title: OA PD Dr. med.
 ---
 
 Pressemitteilung zur Studie: https://www.uniklinikum-jena.de/Uniklinikum+Jena/Aktuelles/Pressemitteilungen/Gemeinsam+zu+neuen+Corona_Erkenntnissen-pos-0-p-24628.html
