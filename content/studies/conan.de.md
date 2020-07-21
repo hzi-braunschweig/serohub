@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Seroprävalenz von SARS-CoV-2-Antikörpern in einer vollständig
   PCR-untersuchten und unter Quarantäne gestellten Gemeinschaft nach einem
   COVID-19-Ausbruch - die CoNAN-Studie
