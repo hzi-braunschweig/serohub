@@ -28,6 +28,9 @@ other = "Stay up to date"
 [FooterText]
 other = "You can register a study here"
 
+[FooterImprint]
+other = "Imprint"
+
 # layouts/shortcodes/share_data, and contribute.md 
 [ContributeName]
 other = "Your Name"

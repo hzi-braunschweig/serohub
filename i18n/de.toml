@@ -28,6 +28,9 @@ other = "Bleibe auf dem Laufenden"
 [FooterText]
 other = "Sie können eine Studie hier anmelden"
 
+[FooterImprint]
+other = "Impressum"
+
 # layouts/shortcodes/share_data, and contribute.de.md 
 [ContributeName]
 other = "Name"
