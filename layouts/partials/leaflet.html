@@ -28,11 +28,12 @@
       {{ $abbr := .Params.abbreviation }}
       {{ $email := .Params.study_pi.email }}
       {{ $inst := .Params.study_pi.institution }}
+      {{ $link := .Permalink }}
       {{ range .Params.recruitment.location }}
       {{ if .latitude }}
       {{ if .longitude }}
       var  marker_{{ $.Scratch.Get "counter" | safeJS }} = L.marker([{{ float .latitude }}, {{ float .longitude }}], {icon: pin}).addTo(mymap);
-      marker_{{ $.Scratch.Get "counter" | safeJS }}.bindPopup('<b>{{ $abbr }}</b><br>{{ .place_name }}<br><a href="mailto://{{ $email }}">{{ $email }}</a><br>{{ $inst }}').openPopup();
+      marker_{{ $.Scratch.Get "counter" | safeJS }}.bindPopup('<b><a href="{{ $link }}">{{ $abbr }}</a></b><br>{{ .place_name }}<br><a href="mailto://{{ $email }}">{{ $email }}</a><br>{{ $inst }}').openPopup();
       {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
       {{ end }}
       {{ end }}
