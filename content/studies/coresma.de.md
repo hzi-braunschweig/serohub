@@ -45,12 +45,12 @@ team:
     title: Prof. Dr. med.
     institution: Helmholtz (HZI)
     position: Head of Department Epidemiology
-  - role: Laborleiter
+  - role: Laborverantwortliche
     name: Monika Strengert
     title: PhD
     institution: Helmholtz (HZI)
     position: Head of Laboratory
-  - role: Laborleiter
+  - role: Laborverantwortliche
     name: Nicole Schneiderhan-Marra
     title: Dr.
     institution: NMI Naturwissenschaftliches und Medizinisches Institut an der
