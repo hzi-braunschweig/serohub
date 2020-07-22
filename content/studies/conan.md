@@ -57,6 +57,8 @@ recruitment:
     - Germany
   location:
     - place_name: Neustadt am Rennsteig
+      latitude: 50.5970644
+      longitude: 10.8989878
   type: exploratory population-based cohort study
   group: general population
 study_numbers:

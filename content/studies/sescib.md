@@ -25,6 +25,8 @@ study_info:
 recruitment:
   location:
     - place_name: Bogotá
+      latitude: 4.624335
+      longitude: -74.063644
   country:
     - Colombia
   type: randomised individual invited voluntary

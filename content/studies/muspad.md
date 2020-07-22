@@ -26,10 +26,14 @@ recruitment:
     - Germany
   location:
     - place_name: Reutlingen
+      latitude: 48.49144
+      longitude: 9.20427
     - place_name: Freiburg
     - place_name: Osnabrück
     - place_name: Aachen
     - place_name: Hannover
+      latitude: 52.3759
+      longitude: 9.732
   type: randomised individual invited voluntary
   group: general population
 study_numbers:
