@@ -7,10 +7,17 @@ study_info:
     NAKO-Studie und in Nepal
   diagnostic_test:
     - type: Multiplexserologiepanel
-      product: k.A.
+      product: CoViPlex
+      company: entwickelt von HZI/NMI
+      antibody_classes:
+        - IgG
+        - IgA
   research_question: Seroprävalenz von SARS-CoV-2-Antikörpern bei Probanden der
     NAKO-Studie und in Nepal
   funding_sources: Horizon 2020
+  tested_antibody_classes:
+    - IgG
+    - IgA
 recruitment:
   country:
     - Nepal
