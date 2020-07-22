@@ -39,13 +39,13 @@ team:
     position: Head of Department Epidemiology
     title: Prof. Dr. med.
     institution: Helmholtz (HZI)
-  - role: Co-Principal Investigator
+  - role: Laboratory Manager
     name: Monika Strengert
     position: Head of Laboratory
     institution: Helmholtz (HZI)
     title: PhD
   - name: Nicole Schneiderhan-Marra
-    role: Co-Principal Investigator
+    role: Laboratory Manager
     email: schneiderhan@nmi.de
     position: Group Leader Biochemistry
     institution: NMI Naturwissenschaftliches und Medizinisches Institut an der
