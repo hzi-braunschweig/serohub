@@ -9,7 +9,7 @@
             <p>
               {{ .Site.Params.bio_full }}.
               {{ i18n "FooterText" }}:
-              <a href="{{ $.Site.BaseURL }}contribute">{{ i18n "FrontContribute" }}</a>.
+              <a href="{{ .Site.BaseURL }}{{ .Lang }}/contribute">{{ i18n "FrontContribute" }}</a>.
             </p>
           </div>
           <div class="column small-12 medium-3">
@@ -21,7 +21,7 @@
           </div>
 
           <div class="column small-12 medium-3" style="margin-top: 3px;"> 
-            <a href="{{ .Site.BaseURL }}imprint">{{ i18n "FooterImprint"}}</a><br>
+            <a href="{{ .Site.BaseURL }}{{ .Lang }}/imprint">{{ i18n "FooterImprint"}}</a><br>
             <a href="https://www.netlify.com"  target=_blank rel="external">
               <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" />
             </a>

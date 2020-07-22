@@ -1,3 +1,4 @@
+baseurl = "https://serohub.net/"
 author = "Helmholtz HZI"
 copyright = "Copyright (c) 2020 Helmholtz HZI"
 canonifyurls = true
@@ -9,8 +10,7 @@ DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 [languages]
-  [languages.en]
-    baseurl = "https://serohub.net/en/"
+  [languages.en]    
     languageName = "English"
     title = "LEOSS.sero-survey"
     weight = 1    
@@ -23,7 +23,6 @@ defaultContentLanguageInSubdir = true
     publicationName = "Publications"
     publicationDescription = "Preprints and peer-reviewed scientific papers about SARS-Cov-2 seroprevalence studies."
   [languages.de]
-    baseurl = "https://serohub.net/de/"
     contentDir = "content_de"
     languageName = "Deutsch"
     title = "LEOSS.sero-survey"
@@ -97,20 +96,20 @@ leaflet_central_long = 13.4050
 
 [[languages.en.menu.main]]
   name = "Publications"
-  url = "/publication/"
+  url = "/en/publication/"
   weight = 4
 [[languages.de.menu.main]]
   name = "Veröffentlichungen"
-  url = "/publication/"
+  url = "/de/publication/"
   weight = 4
 
 [[languages.en.menu.main]]
   name = "Studies"
-  url = "/studies/"
+  url = "/en/studies/"
   weight = 1
 [[languages.de.menu.main]]
   name = "Studien"
-  url = "/studies/"
+  url = "/de/studies/"
   weight = 1
 
 
