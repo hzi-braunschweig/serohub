@@ -386,3 +386,10 @@ MIT License*/
     display: none;
   }
 }
+
+
+/* Map settings **/
+#mapid {
+  min-height: 55vh;
+  max-width: 100%;
+}
