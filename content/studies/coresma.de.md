@@ -40,17 +40,17 @@ study_pi:
   role: Professor
   email: serohub@helmholtz-hzi.de
 team:
-  - role: Principal Investigator
+  - role: Studienleiter
     name: Gérard Krause
     title: Prof. Dr. med.
     institution: Helmholtz (HZI)
     position: Head of Department Epidemiology
-  - role: Co-Principal Investigator
+  - role: Laborverantwortliche
     name: Monika Strengert
     title: PhD
     institution: Helmholtz (HZI)
     position: Head of Laboratory
-  - role: Co-Principal Investigator
+  - role: Laborverantwortliche
     name: Nicole Schneiderhan-Marra
     title: Dr.
     institution: NMI Naturwissenschaftliches und Medizinisches Institut an der
