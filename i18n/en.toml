@@ -24,6 +24,10 @@ other = "The LEOSS.sero-survey focuses on four primary aims about seroprevalence
 [FrontStayupdated]
 other = "Stay up to date"
 
+[FrontPartner]
+other = "Participating Studies and Partners"
+
+
 # layouts/partials/footer.html
 [FooterText]
 other = "You can register a study here"
