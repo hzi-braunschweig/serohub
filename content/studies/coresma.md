@@ -20,6 +20,9 @@ recruitment:
   country:
     - Germany
     - Nepal
+  location:
+    - place_name: Kathmandu
+    - place_name: Hannover
 study_numbers:
   study_population: 9000
   population: 1100000

@@ -56,7 +56,7 @@ recruitment:
   country:
     - Germany
   location:
-    - Neustadt am Rennsteig
+    - place_name: Neustadt am Rennsteig
   type: exploratory population-based cohort study
   group: general population
 study_numbers:

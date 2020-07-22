@@ -24,7 +24,7 @@ study_info:
     - IgA
 recruitment:
   location:
-    - Bogotá
+    - place_name: Bogotá
   country:
     - Colombia
   type: randomised individual invited voluntary
