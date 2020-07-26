@@ -112,5 +112,19 @@
   </div>
 </div>
 
+<div class="row" style="margin-top: 6vh; margin-bottom: 6vh;">
+  <div class="column small-12 medium-12 large-12 text-center">
+    <h2 style="margin-bottom: 2vh;">{{ i18n "FrontPartner" }}</h2>
+    {{ range where .Pages "Section" "studies" }}
+    {{ range .Pages }}
+    {{ if .Params.logo_url }}
+    <a href="{{ .Permalink }}" style="border: 0;">
+      <img src="{{ .Site.BaseURL }}{{ .Params.logo_url }}" style="width: 80%; max-width: 320px; margin: 5vw;" />
+    </a>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
 
 {{ end }}

@@ -24,6 +24,9 @@ other = "Der LEOSS.sero-survey fokussiert sich auf vier Hauptziele über Seropr�
 [FrontStayupdated]
 other = "Bleibe auf dem Laufenden"
 
+[FrontPartner]
+other = "Teilnehmende Studien und Partner"
+
 # layouts/partials/footer.html
 [FooterText]
 other = "Sie können eine Studie hier anmelden"
