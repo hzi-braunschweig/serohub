@@ -20,6 +20,13 @@ recruitment:
   country:
     - Germany
     - Nepal
+  location:
+    - place_name: Kathmandu
+      latitude: 27.700769
+      longitude: 85.300140
+    - place_name: Hannover
+      latitude: 52.3886566
+      longitude: 9.799249
 study_numbers:
   study_population: 9000
   population: 1100000

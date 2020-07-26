@@ -19,11 +19,28 @@
       maxZoom: 16,
       ext: 'png'
     }).addTo(mymap); 
-    {{ $data := .Site.Params.leaflet_source }}
-    {{ $sep := "," }}
-    {{ range $i, $r := after 1 (getCSV $sep $data) }}
-    var  marker_{{ $i | safeJS }} = L.marker([{{ float (index $r 2) }}, {{ float (index $r 3) }}], {icon: pin}).addTo(mymap);
-    marker_{{ $i | safeJS }}.bindPopup('<b>{{ index $r 0 }}</b><br>{{ index $r 5 }}<br><a href="mailto://{{ index $r 4 }}">{{ index $r 4 }}</a><br>{{ index $r 1 }}').openPopup();
+
+    {{ $.Scratch.Set "counter" 0 }}
+    {{ range .Site.Home.AllTranslations }}
+    {{ if eq .Lang "en" }}
+    {{ range where .Pages "Section" "studies" }}
+    {{ range .Pages }}
+      {{ $abbr := .Params.abbreviation }}
+      {{ $email := .Params.study_pi.email }}
+      {{ $inst := .Params.study_pi.institution }}
+      {{ $link := .Permalink }}
+      {{ range .Params.recruitment.location }}
+      {{ if .latitude }}
+      {{ if .longitude }}
+      var  marker_{{ $.Scratch.Get "counter" | safeJS }} = L.marker([{{ float .latitude }}, {{ float .longitude }}], {icon: pin}).addTo(mymap);
+      marker_{{ $.Scratch.Get "counter" | safeJS }}.bindPopup('<b><a href="{{ $link }}">{{ $abbr }}</a></b><br>{{ .place_name }}<br><a href="mailto://{{ $email }}">{{ $email }}</a><br>{{ $inst }}').openPopup();
+      {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
     {{ end }}
 
     mymap.closePopup();

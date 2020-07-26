@@ -25,11 +25,11 @@ recruitment:
   country:
     - Deutschland
   location:
-    - Reutlingen
-    - Freiburg
-    - Osnabrück
-    - Aachen
-    - Hannover
+    - place_name: Reutlingen
+    - place_name: Freiburg
+    - place_name: Osnabrück
+    - place_name: Aachen
+    - place_name: Hannover
   type: randomised individual invited voluntary
   group: general population
 study_numbers:

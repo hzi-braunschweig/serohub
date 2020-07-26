@@ -68,7 +68,9 @@
           {{ with .Params.recruitment.location }}
           <tr>
             <td>{{ i18n "StudiesLocation" }}</td>
-            <td>{{ delimit . ", " }}</td>
+            <td>
+              {{ range first 1 . }}{{ .place_name }}{{ end }}{{ range after 1 . }}, {{ .place_name }}{{ end }}
+            </td>
           </tr>
           {{ end }}
 

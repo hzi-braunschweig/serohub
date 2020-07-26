@@ -25,8 +25,8 @@ recruitment:
   group: general population
   type: randomised individual invited voluntary
   location:
-    - Kathmandu
-    - Hannover
+    - place_name: Kathmandu
+    - place_name: Hannover
 study_numbers:
   study_population: 13000
 study_dates:

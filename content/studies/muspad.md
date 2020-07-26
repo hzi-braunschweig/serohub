@@ -25,11 +25,21 @@ recruitment:
   country:
     - Germany
   location:
-    - Reutlingen
-    - Freiburg
-    - Osnabrück
-    - Aachen
-    - Hannover
+    - place_name: Reutlingen
+      latitude: 48.49144
+      longitude: 9.20427
+    - place_name: Freiburg
+      latitude: 47.9966517
+      longitude: 7.8396039
+    - place_name: Osnabrück
+      latitude: 52.2727462
+      longitude: 8.0585634
+    - place_name: Aachen
+      latitude: 50.7681629
+      longitude: 6.08861
+    - place_name: Hannover
+      latitude: 52.3759
+      longitude: 9.732
   type: randomised individual invited voluntary
   group: general population
 study_numbers:

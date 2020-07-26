@@ -91,6 +91,10 @@ collections:
           name: "location"
           widget: "list"
           required: false
+          fields:
+            - {label: "Place name", name: "place_name", widget: "string", required: true}
+            - {label: "Latitude", name: "latitude", widget: "number", valueType: "float", min: -90.0, max: 90.0, required: false}
+            - {label: "Longitude", name: "longitude", widget: "number", valueType: "float", min: -180.0, max: 180.0, required: false}
         - label: "Country"
           name: "country"
           widget: "list"
