@@ -8,9 +8,14 @@ menu:
     weight: 2
 ---
 
-Wir arbeiten an einer Datenbank mit studienbezogenen Daten, um Metaanalysen und mehr zu unterstützen.
+Laden Sie Ihre studienbezogenen, fallbasierten Daten in eine Datenbank, um Metaanalysen und einen wissenschaftlichen Diskurs zu ermöglichen.
 
-Die Spezifikation mit den Mindestanforderungen an den Datensatz können Sie hier herunterladen:
+Hierfür haben wir ein Datenmodell erstellt, welche:
+
+    a) Informationen zum Testverfahren und
+    b) fallbasiert sowie testbasierte Informationen.
+
+Das Modell können Sie hier downloaden:
 
 <a class="button hollow primary" href="/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx">Download Datensatz-Spezifikation</a>
 
