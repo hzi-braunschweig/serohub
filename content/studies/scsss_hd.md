@@ -1,7 +1,7 @@
 ---
 title: Serial cross-sectional seroprevalence study of SARS-CoV-2 infection during and post-epidemic periods in Heidelberg and the Rhein-Neckar region, Germany
 project_url: 
-logo_url: 
+logo_url: /img/uploads/hd_trop.png
 abbreviation: SARS-CoV-2 seroprevalence study
 study_info:
   primary_outcomes: Seroprevalence for SARS-CoV-2, stratified by age over time

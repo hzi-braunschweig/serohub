@@ -1,7 +1,7 @@
 ---
 title: Serielle Querschnittsstudie zur Erhebung der Seroprävalenz von SARS-CoV-2 Infektionen während und nach der COVID-19 Epidemie in Heidelberg und dem Rhein-Neckar-Kreis
 project_url: 
-logo_url: 
+logo_url: /img/uploads/hd_trop.png
 abbreviation: SARS-CoV-2 Seroprävalenz Studie
 study_info:
   primary_outcomes: Altersgruppen-spezifische Prävalenz von Antikörper gegen SARS-CoV-2 in der Allgemeinbevölkerung von Heidelberg und dem Rhein-Neckar-Kreis.
