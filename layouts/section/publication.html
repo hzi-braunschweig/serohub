@@ -15,11 +15,17 @@
   </div>
 </div></div>
 <div class="row">
+  <!-- Load all publications in any language -->
+  {{ $pages := .Site.RegularPages }}
+  {{ range .Site.Home.Translations }}
+  {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+  {{ end }}
   
   <div class="column small-12 medium-6">
     <h2>{{ i18n "PubPreprints" }}</h2>
     <p><small>*{{ i18n "PubPreprintsText" }}</small></p>
-    {{ range (where .Data.Pages "Params.publication" "==" "").GroupByDate "2006" "desc" }}
+    <!-- Find preprints, group pages my month -->
+    {{ range (where $pages "Params.publication_preprint" "!=" nil).GroupByDate "2006-01" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
@@ -37,7 +43,8 @@
   <div class="column small-12 medium-6">
     <h2>{{ i18n "PubPublished" }}</h2>
     <p><small>*{{ i18n "PubPublishedText" }}</small></p>
-    {{ range (where .Data.Pages "Params.publication" "!=" "").GroupByDate "2006" "desc" }}
+    <!-- Find publications, group pages my month -->
+    {{ range (where (where $pages "Params.publication_preprint" "==" nil) "Params.publication" "!=" nil).GroupByDate "2006-01" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
