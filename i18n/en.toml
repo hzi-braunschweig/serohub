@@ -145,7 +145,7 @@ other = "Study Overview"
 other = "Study metadata"
 
 [StudiesSponsor]
-other = "Sponsor"
+other = "Sources of Monetary or Material Support"
 
 [StudiesRegion]
 other = "Region(s)"

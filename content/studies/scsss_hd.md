@@ -63,4 +63,4 @@ The objective of this study is to determine the proportion of people in the gene
 ## Brief Summary in Scientific Language
 The primary objective of this study is to estimate the age-group specific prevalence of antibodies to SARS-CoV-2 among the general population of Heidelberg and the Rhein-Neckar region. In total 1500 persons from five age-groups will be randomly selected from the population registers. Study participants will be tested for antibodies at three different time points: one study visit will take place during the current epidemic, one post-epidemic and one between these two timepoints. A questionnaire will be administered at each study visit to collect information about symptoms and potential risk factors for SARS-CoV-2 infection.
 
-More information here: [link](https://www.drks.de/drks_web/setLocale_EN.do)
+More information here: <a href="https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00021709" target="_blank">link</a>

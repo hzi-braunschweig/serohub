@@ -18,6 +18,7 @@ study_info:
     - IgG
     - IgM
   research_question: 
+  funding_sources: SAP (Systeme, Anwendungen, Produkte in der Datenverarbeitung)
 recruitment:
   country:
     - Deutschland
@@ -62,4 +63,4 @@ Ziel der Studie ist es den Anteil der Personen in Heidelberg und im Rhein-Neckar
 ## Wissenschaftliche Kurzbeschreibung
 Primäres Ziel dieser Studie ist die Schätzung der altersgruppen-spezifischen Prävalenz von Antikörpern gegen SARS-CoV-2 in der Allgemeinbevölkerung von Heidelberg und im Rhein-Neckar-Kreis. Hierfür werden etwa 1500 Personen aus insgesamt fünf Altersgruppen zufällig aus den Melderegistern ausgewählt. Die Studienteilnehmer werden zu drei unterschiedlichen Zeitpunkten auf Antikörper getestet: Eine Testung erfolgt während der aktuellen Epidemie, eine nach der Epidemie und eine weitere zwischen diesen beiden Zeitpunkten. Anhand eines Fragebogens werden Symptome und potentielle Risikofaktoren einer SARS-CoV-2 Infektion erhoben.
 
-Mehr Informationen hier: [link](https://www.drks.de/drks_web/setLocale_DE.do)
+Mehr Informationen hier: <a href="https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00021709" target="_blank">link</a>
