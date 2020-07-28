@@ -10,10 +10,12 @@ menu:
 
 Laden Sie Ihre studienbezogenen, fallbasierten Daten in eine Datenbank, um Metaanalysen und einen wissenschaftlichen Diskurs zu ermöglichen.
 
-Hierfür haben wir ein Datenmodell erstellt, welche:
+Hierfür haben wir ein Datenmodell erstellt, welches:
 
     a) Informationen zum Testverfahren und
-    b) fallbasiert sowie testbasierte Informationen.
+    b) fallbasiert sowie testbasierte Informationen
+    
+... beinhaltet.
 
 Das Modell können Sie hier downloaden:
 

@@ -33,7 +33,7 @@ defaultContentLanguageInSubdir = true
     studiesName = "Seroprävalenzstudien"
     studiesDescription = "Übersicht und Details über die teilnehmenden SARS-CoV-2 Seroprävalenzstudien."
     publicationName = "Veröffentlichungen"
-    publicationDescription = "Vorab-Veröffentlichungen und begutachte Veröffentlichungen über SARS-CoV-2 Seroprävalenzstudien."
+    publicationDescription = "Vorab-Veröffentlichungen und begutachtete Veröffentlichungen über SARS-CoV-2 Seroprävalenzstudien."
 
 
 [params]
