@@ -25,7 +25,7 @@
     <h2>{{ i18n "PubPreprints" }}</h2>
     <p><small>*{{ i18n "PubPreprintsText" }}</small></p>
     <!-- Find preprints, group pages my month -->
-    {{ range (where $pages "Params.publication_preprint" "!=" nil).GroupByDate "2006-01" "desc" }}
+    {{ range (where (where $pages "Params.publication_preprint" "!=" nil) "Params.publication_preprint" "!=" "").GroupByDate "2006-01" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
@@ -44,7 +44,7 @@
     <h2>{{ i18n "PubPublished" }}</h2>
     <p><small>*{{ i18n "PubPublishedText" }}</small></p>
     <!-- Find publications, group pages my month -->
-    {{ range (where (where $pages "Params.publication_preprint" "==" nil) "Params.publication" "!=" nil).GroupByDate "2006-01" "desc" }}
+    {{ range (where (where $pages "Params.publication" "!=" nil) "Params.publication" "!=" "").GroupByDate "2006-01" "desc" }}
     <div class="row">
       <div class="column small-2 medium-2">
         <h3>{{ .Key }}</h3>
