@@ -1,6 +1,5 @@
-<h2>Information</h2>
 <div class= "column medium-6">
-  <div class="row">
+  <h2>Information</h2>
 
     <form name="contact" method="POST" data-netlify="true">
       <div class="form-group">
@@ -46,17 +45,21 @@
       </div>
       <br>
 
-      <button type="submit" class="button hollow primary">{{ i18n "ContributeSend" }}</button>
+      <button type="submit" class="button hollow primary">{{ i18n "ContributeSendDoc" }}</button>
 
     </form>
 
+   
+
+</div>
+
+<div class= "column medium-6">
     <!-- temporary hint to send files -->
     <h2>{{ i18n "ContributeDocuments" }}</h2>
     <p>
       {{ i18n "ContributeDocumentsText" }}: <br>
-      <b><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></b>
+      <a class="button hollow primary" href="https://nubes.helmholtz-berlin.de/s/sX7XW9GbpYGnYcs" target="_blank">{{ i18n "ContributeSend" }}</a>
     </p>
   
-  </div>
-</div>
 
+</div>

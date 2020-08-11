@@ -67,10 +67,14 @@ other = "I confirm I have the authorisation to share the information and any dat
 
 [ContributeDocuments]
 other = "Documents"
+
 [ContributeDocumentsText]
-other = "Send us study related documents directly via email to"
+other = "Upload study related documents (e.g. Study protocol, Surveys) and case-based information in accordance to the minial dataset"
 
 [ContributeSend]
+other = "Redirect to secure file upload"
+
+[ContributeSendDoc]
 other = "Send"
 
 # layout/section/publication.html
