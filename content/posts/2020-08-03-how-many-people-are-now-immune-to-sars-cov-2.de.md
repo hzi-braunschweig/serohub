@@ -8,6 +8,8 @@ tags: []
 draft: no
 ---
 
+Quelle: https://www.dzif.de/de/wie-viele-menschen-sind-heute-schon-immun-gegen-sars-cov-2
+
 Wer hat eine Infektion mit dem Virus unbemerkt überstanden, wie viele Menschen haben bereits schützende Antikörper gegen das neue Coronavirus gebildet? Verschiedene Antikörperstudien sollen nun Aufschluss über die Immunität oder Seroprävalenz in der Bevölkerung geben. Um diese Studien jedoch zeitnah und verlässlich vergleichen und übergreifend auswerten zu können, baut das Deutsche Zentrum für Infektionsforschung (DZIF) eine Plattform auf, die die Methodik und die Ergebnisse der Tests sammelt und die Daten für interessierte Forscher zugänglich macht. Das Projekt „LEOSS.sero-survey“ wird von Wissenschaftlern am Helmholtz-Zentrum für Infektionsforschung (HZI) geleitet und in Kooperation mit der Helmholtz-Plattform HIFIS umgesetzt.
 Die Strategien im Umgang mit der COVID-19-Pandemie hängen unter anderem von der Einschätzung ab, wie hoch die Zahl der Infizierten tatsächlich ist. Neben den getesteten und bestätigten Fällen gibt es eine unbestimmte Dunkelziffer, die die Menschen umfasst, die ohne oder mit geringen Symptomen eine Infektion durchgemacht haben und nicht getestet wurden. Sie sind zumindest für eine gewisse Zeit nicht mehr gefährdet, da ihr Immunsystem mit der Bildung von Antikörpern reagiert hat. Auch dieser Aspekt ist für die Anpassung von Maßnahmen sehr wichtig.
 

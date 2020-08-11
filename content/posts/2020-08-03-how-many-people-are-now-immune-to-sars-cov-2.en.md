@@ -8,6 +8,8 @@ tags: []
 draft: no
 ---
 
+Source: https://www.dzif.de/en/how-many-people-are-now-immune-sars-cov-2
+
 Who has overcome an infection with the virus without noticing, and how many people have already produced protective antibodies against the new coronavirus? Various antibody studies are now under way that will provide information on immunity or seroprevalence in the population. However, in order to compare these studies in a timely and reliable manner and provide a comprehensive evaluation, the German Center for Infection Research (DZIF) is building a platform that gathers the methodology and results of the tests and makes the data available to interested researchers. The project “LEOSS.sero-survey” will be led by scientists at the Helmholtz Centre for Infection Research (HZI) and implemented in collaboration with Helmholtz Federated IT Services (HIFIS).
 The strategies for dealing with the COVID-19 pandemic depend largely on estimation of the actual number of infected people. In addition to the cases tested and confirmed, there is an unknown number of people who have undergone infection with or without mild symptoms and have not been tested. They will no longer be at risk for at least some time, because their immune system has responded by forming antibodies. This aspect is very important for adapting the measures taken.
 
