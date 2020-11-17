@@ -4,7 +4,7 @@
 other = "Die Plattform für Seroprävalenzstudien zu SARS-CoV-2"
 
 [FrontSubtitle]
-other = "Willkommen auf der LEOSS.sero-survey Plattform"
+other = "Willkommen auf der serohub Plattform, ein Gemeinschaftprojekt des LEOSS.SERO-SURVEY und COVIM"
 
 [FrontMapHeading]
 other = "Orte der teilnehmenden SARS-CoV-2 Seroprävalenzstudien"
@@ -185,3 +185,6 @@ other = "Vorige"
 
 [StudiesPaginationPage]
 other = "Studie"
+
+[sponsored]
+other = "Finanziert von"

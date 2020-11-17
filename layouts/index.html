@@ -8,10 +8,10 @@
 {{ end }}
 {{ define "main" }}
 <div class="row" >
-<div class="column medium-3">
-  <img src="{{ .Site.BaseURL }}img/LEOSS_sero-survey_rgb.png" alt="{{.Title}}" style="max-height:15vh; text-align:center;" />
+<div class="column medium-2">
+  <img src="{{ .Site.BaseURL }}img/proj_logo.png" alt="{{.Title}}" style="max-height:15vh; text-align:center;" />
 </div>
-  <div class="column medium-9">
+  <div class="column medium-10">
   <h3>{{ i18n "FrontSubtitle" }}</h3>
   <h1>{{ i18n "FrontTitle" }}</h1>
     {{ .Content  }}</div>   
@@ -45,6 +45,14 @@
         <h2>{{ i18n "FrontContribute" }}</h2>
         <p>{{ i18n "FrontContributeText" }}</p>
         <a href="contribute" class="button hollow primary">{{ i18n "FrontContribute" }}</a>
+      </div>  
+      <div class="column small-12 medium-4 large-12">
+        <div class="column small-3 medium-1 large-3" style="text-align: right;">
+          <p>{{ i18n "sponsored" }}:</p>
+        </div>
+        <div class="column small-12 medium-4 large-12" style="text-align: left;">
+          <img src="{{ .Site.BaseURL }}img/sponsor_logo2.png" />
+        </div>
       </div>  
     </div>
   </div>
