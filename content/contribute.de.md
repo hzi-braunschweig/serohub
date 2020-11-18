@@ -23,5 +23,5 @@ Das Modell können Sie hier downloaden:
 
 Wenn Sie Daten mit uns teilen möchten, füllen Sie bitte dieses Formular aus. Die übermittelten Informationen werden uns zur Überprüfung zugesandt und wir werden Sie kontaktieren.
 
-Für DZIF-Partner besteht die Möglichkeit einer **Aufwandsentschädigung** für den Daten-Upload. Bitte kontaktieren Sie <b><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></b> für weitere Details.
+Für NUM und DZIF-Partner besteht die Möglichkeit einer **Aufwandsentschädigung** für den Daten-Upload. Bitte kontaktieren Sie <b><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></b> für weitere Details.
 {{< share_data >}}

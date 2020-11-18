@@ -17,5 +17,5 @@ The minimal Dataset can be found here:
 
 If you'd like to share data with us, please fill out this form below. Alternatively, you can use this <a href="/data/Study Questionnaire (English).docx">Word template</a>. The submitted information will be sent to us for review and we will contact you.
 
-For DZIF associated partners, there is the possibility for an __expense allowance__ related to the data upload. Please contact serohub@helmholtz-hzi.de for more details.
+For NUM and DZIF associated partners, there is the possibility for an __expense allowance__ related to the data upload. Please contact serohub@helmholtz-hzi.de for more details.
 {{< share_data >}}
