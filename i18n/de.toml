@@ -76,6 +76,9 @@ other = "Weiterleitung zum sicheren Datenupload"
 [ContributeSendDoc]
 other = "Senden"
 
+[GerneralStudy]
+other = "Um Studiendetails ihrer Studie auf unserer Seite zu teilen können sie Studieninformationen auf deutsch oder english herunterladen, diese ausfüllen und uns zur Verfügung stellen via email an serohub@helmholtz-hzi.de"
+
 # layout/section/publication.html
 [PubButtonText]
 other = "Aufsatz Hinzufügen"
