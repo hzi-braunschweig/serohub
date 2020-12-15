@@ -60,8 +60,8 @@ recruitment:
     - Deutschland
   location:
     - place_name: Neustadt am Rennsteig
-  type: exploratory population-based cohort study
-  group: general population
+  type: explorative bevölkerungsbezogene Kohortenstudie
+  group: Generelle Population
 study_numbers:
   study_population: 626
   population: 883

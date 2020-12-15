@@ -1,6 +1,7 @@
 ---
 title: Covid-19 Outbreak Response combining E-health, Serolomics, Modelling,
   Artificial Intelligence and Implementation Research
+project_url: https://www.coresma.eu
 abbreviation: CORESMA
 study_info:
   primary_outcomes: Seroprävalenz von SARS-CoV-2-Antikörpern bei Probanden der
