@@ -1,6 +1,7 @@
 ---
 title: Covid-19 Outbreak Response combining E-health, Serolomics, Modelling,
   Artificial Intelligence and Implementation Research
+project_url: https://www.coresma.eu
 abbreviation: CORESMA
 study_info:
   primary_outcomes: Seroprevalence of SARS-Cov-2 antibodies in Nepal and Germany
