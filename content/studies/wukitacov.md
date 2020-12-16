@@ -5,6 +5,7 @@ logo_url: /img/uploads/wukitacov.jpg
 abbreviation: Wü-KiTa-CoV
 study_info:
   primary_outcomes: Assessment of acceptance rates of various surveillance measures for the detection of SARS-CoV-2 infections in daycare children, staff, and their household members; detection of SARS-CoV-2 infections via PCR from nasal swaps or saliva samples from daycare children and staff; for household members from throat swaps;
+  secondary_outcomes: Collection of basic data of SARS-CoV-2 seroprevalence and the number of SARS-CoV-2 infections in daycare children and staff in Würzburg (point-of-care-test via finger-prick testing or ELISA from serum); rate of positive serological tests and positive PCR tests.
   diagnostic_test:
     - type: Multiplex Serology 
       product: PANBIO™ COVID-19 Ag RAPID TEST DEVICE
@@ -33,7 +34,7 @@ study_dates:
   study_start: 2020-10
   study_first_results: ""
 study_pi:
-  name: Oliver Kurzai
+  name: Oliver Kurzai and Johannes Liese
   institution: University Würzburg
   role: Professor
   email: wuekitacov@uni-wuerzburg.de
@@ -47,9 +48,13 @@ team:
     name: Johannes Liese
     institution: University Würzburg
     title: Prof. Dr. med.
-  - name: Franziska Pietsch
+  - name: Johannes Forster
     role: Study Coordinator
-    position: PhD Candidate
+    position: Researcher
+    institution: University Würzburg
+  - name: Andrea Streng
+    role: Study Coordinator
+    position: Researcher
     institution: University Würzburg
 ---
 

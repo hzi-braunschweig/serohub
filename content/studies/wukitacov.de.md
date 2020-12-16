@@ -5,6 +5,7 @@ logo_url: /img/uploads/wukitacov.jpg
 abbreviation: Wü-KiTa-CoV
 study_info:
   primary_outcomes: Feststellung der Akzeptanzraten unterschiedlicher Surveillance-Maßnahmen zur Detektion von SARS-CoV-2 Infektionen bei KiTa-Kindern, KiTa-Personal und Haushaltangehörigen; Nachweis von SARS-CoV-2 Infektionen mittels PCR aus Nasenabstrich oder Speichelprobe (KiTa-Kinder und BetreuerInnen), bei Haushaltsangehörigen aus Rachenabstrich; 
+  secondary_outcomes: Erhebung von Basisdaten zur SARS-CoV-2-Seroprävalenz und der Häufigkeit von SARS-CoV-2-Infektionen bei KiTa-Kindern und BetreuerInnen im Raum Würzburg (Point-of-Care-Test durch Fingerkuppenpunktion bzw. ELISA aus Blutserum); Anteil positiver serologischer Test und positiver PCR-Tests.
   diagnostic_test:
     - type: Multiplex Serology 
       product: PANBIO™ COVID-19 Ag RAPID TEST DEVICE
@@ -12,13 +13,13 @@ study_info:
       antibody_classes:
         - IgG
         - IgM
-  funding_sources:  Federal Ministry of Education and Research (BMBF)
+  funding_sources:  Bundesministerium für Forschung (BMBF)
   tested_antibody_classes:
     - IgG
     - IgM
 recruitment:
   country:
-    - Germany
+    - Deutschland
   location:
     - place_name: Würzburg
       latitude: 49.783333
@@ -33,7 +34,7 @@ study_dates:
   study_start: 2020-10
   study_first_results: ""
 study_pi:
-  name: Oliver Kurzai
+  name: Oliver Kurzai und Johannes Liese
   institution: University Würzburg
   role: Professor
   email: wuekitacov@uni-wuerzburg.de
@@ -47,9 +48,13 @@ team:
     name: Johannes Liese
     institution: University Würzburg
     title: Prof. Dr. med.
-  - name: Franziska Pietsch
+  - name: Johannes Forster
     role: Study Coordinator
-    position: PhD Candidate
+    position: Researcher
+    institution: University Würzburg
+  - name: Andrea Streng
+    role: Study Coordinator
+    position: Researcher
     institution: University Würzburg
 ---
 

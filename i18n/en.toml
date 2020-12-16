@@ -126,6 +126,9 @@ other = "Study name"
 [StudiesOutcome]
 other = "Primary outcome"
 
+[StudiesOutcomeSec]
+other = "Secondary outcome"
+
 [StudiesPi]
 other = "Principal Investigator"
 
