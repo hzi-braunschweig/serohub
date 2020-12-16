@@ -127,7 +127,10 @@ other = "{{.Count}} Orte"
 other = "Studienname"
 
 [StudiesOutcome]
-other = "Ziel"
+other = "Primär Ziel"
+
+[StudiesOutcomeSec]
+other = "Sekundär Ziel"
 
 [StudiesPi]
 other = "Studienleiter/in"

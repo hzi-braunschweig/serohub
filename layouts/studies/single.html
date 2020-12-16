@@ -81,6 +81,13 @@
           </tr>
           {{ end }}
 
+          {{ with .Params.study_info.secondary_outcomes }}
+          <tr>
+            <td>{{ i18n "StudiesOutcomeSec" }}</td>
+            <td>{{ . }}</td>
+          </tr>
+          {{ end }}
+
           {{ with .Params.study_info.research_question }}
           <tr>
             <td>{{ i18n "StudiesResearchQuestion" }}</td>
@@ -125,13 +132,6 @@
           {{ with .Params.study_numbers.population }}
           <tr>
             <td>{{ i18n "StudiesPopulationInArea" }}</td>
-            <td>{{ . }}</td>
-          </tr>
-          {{ end }}
-
-          {{ with .Params.study_info.primary_outcomes }}
-          <tr>
-            <td>{{ i18n "StudiesOutcome" }}</td>
             <td>{{ . }}</td>
           </tr>
           {{ end }}
