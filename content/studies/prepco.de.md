@@ -8,6 +8,13 @@ study_info:
     - Punktprävalenz der SARS-CoV-2 Antikörper bei den Folgevisiten
     - Korrelation der Punktprävalenz mit Sexualverhalten und STDs
   funding_sources: Haushaltsmittel, keine fremden Finanzmittel (Budget des Studienleiters)
+  diagnostic_test:
+    - company: YHLO Biotech
+      product: SARS-CoV-2 Detection Kit
+      address: Shenzhen, China
+      antibody_classes:
+        - IgG
+        - IgM
 recruitment:
   country:
     - Deutschland
@@ -37,3 +44,5 @@ team:
     title: Priv.-Doz. Dr. 
 ---
 Die PrEP-Co-Studie untersucht die Prävalenz sowie die Serokonversionsrate von SARS-CoV-2 Antikörpern in einer deutschen Kohorte von MSM HIV PrEP Gebrauchern über einen Zeitraum von einem Jahr während der ersten Welle der COVID-Pandemie.
+
+[DRKS Link](https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00022403)
