@@ -8,14 +8,21 @@
 {{ end }}
 {{ define "main" }}
 <div class="row" >
-<div class="column medium-2">
-  <img src="{{ .Site.BaseURL }}img/serohub_logo.png" alt="{{.Title}}" style="max-height:15vh; text-align:center;" />
-</div>
-  <div class="column medium-10">
-  <h3>{{ i18n "FrontSubtitle" }}</h3>
-  <h1>{{ i18n "FrontTitle" }}</h1>
-    {{ .Content  }}</div>   
-</div>
+
+  <div class="column medium-2">
+    <img src="{{ .Site.BaseURL }}img/serohub_logo.png" alt="{{.Title}}" style="max-height:15vh; text-align:center;" />
+  </div>
+
+  <div class="column medium-8">
+    <h3>{{ i18n "FrontSubtitle" }}</h3>
+    <h1>{{ i18n "FrontTitle" }}</h1>
+      {{ .Content  }}
+  </div>   
+
+  <div class="column medium-2">
+    <a href="https://gstephan30.github.io/sero_dash/"><img src="https://github.com/gstephan30/sero_dash/raw/master/valuebox.png" style="max-height:15vh; text-align:center;" /></a>
+  </div>
+
 </div>
 
 <div class="row">
