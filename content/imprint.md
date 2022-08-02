@@ -34,8 +34,8 @@ D-38124 Braunschweig<br>
 Telefon: 0531 6181- 0
 
 ## Responsible for scientific contents:
-Dr Stephan Glöckner, Researcher/Project Lead<br>
-Telefon: 0531 6181- 3125
+Dr. Berit Lange, Researcher/Project Lead<br>
+Telefon: 0531 6181- 3110
 
 ## Corporate Governance
 The Helmholtz Centre for Infection Research GmbH submits to the "Public Corporate Governance Code (PCGC)" of the federal government according to the memorandum of association. The Code recommends that the management and the supervisory board reports on the Company's corporate governance (Corporate Governance Report) on an annual basis.
