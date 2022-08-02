@@ -33,8 +33,8 @@ D-38124 Braunschweig<br>
 Telefon: 0531 6181- 0
 
 ## Wissenschaftliche Redaktion
-Dr. Stephan Glöckner, Wissenschaftler/Projektleitung<br>
-Telefon: 0531 6181- 3125
+Dr. Berit Lange, Wissenschaftler/Projektleitung<br>
+Telefon: 0531 6181- 3110
 
 ## Urheberrecht
 Der Inhalt aller Webseiten dieses Internetauftrittes ist urheberrechtlich geschützt. Alle Abbildungen und Fotos auf den Webseiten des HZI dürfen nicht ohne Genehmigung des HZI übernommen, vervielfältigt und verbreitet werden, außer die Maßnahme ist nach gesetzlichen Vorschriften zustimmungsfrei erlaubt. Eine Veränderung der Metadaten (IPTC-Daten inkl. Nennung von Urheber, Quelle, Copyright-Vermerk und Nutzungsbedingungen) der Bilder ist nicht zulässig.
