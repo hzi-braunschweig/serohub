@@ -1,8 +1,8 @@
 ---
 title: "Results Immunbridge"
 author: "Manuela Harries"
-date: '2020-05-14'
-slug: Results immunbridge
+date: '2022-02-08'
+slug: Preliminary results immunbridge
 categories: []
 tags: []
 draft: no
