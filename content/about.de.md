@@ -21,7 +21,7 @@ Entsprechend ist die __Seroprävalenz__ der Anteil der Personen, die aufgrund de
 ## Kontakt
 Wir sind ein interdisziplinäres Team von Epidemiologen, Infektiologen, Virologen und Datenanalysten am [Helmholtz-Zentrum für Infektionsforschung](https://www.helmholtz-hzi.de/) in Braunschweig, am Robert-Koch-Institut in Berlin und an den koordinierenden COVIM Verbundstandorten in Köln und Berlin.
 
-* Head of the Department: [Gérard Krause](https://www.helmholtz-hzi.de/de/forschung/forschungsschwerpunkte/bakterielle-und-virale-krankheitserreger/epidemiologie/gerard-krause/) 
+* Abteilungsleiter: [Gérard Krause](https://www.helmholtz-hzi.de/de/forschung/forschungsschwerpunkte/bakterielle-und-virale-krankheitserreger/epidemiologie/gerard-krause/) 
 * Projektleiter, LEOSS.sero-survey: Berit Lange, berit.lange@helmholtz-hzi.de, +49 531 6181 31210
 * Mitwirkende am [hzi-braunschweig/serohub](https://github.com/hzi-braunschweig/serohub/graphs/contributors) repository: [Steph Locke](https://github.com/stephlocke), [Oz Locke](https://github.com/OzLocke), [Ulf Hamster](https://github.com/ulf1), [Candice Louw](https://github.com/Candice-Louw)
 * Projektleiter COVIM: [Florian Klein](florian.klein@uk-koeln.de), [Leif-Erik Sander](leif-erik.sander@charité.de)
