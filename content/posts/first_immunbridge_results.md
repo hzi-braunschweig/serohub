@@ -1,7 +1,7 @@
 ---
 title: "Results Immunbridge"
 author: "Manuela Harries"
-date: '2022-02-08'
+date: '2022-08-02'
 slug: Preliminary results immunbridge
 categories: []
 tags: []
