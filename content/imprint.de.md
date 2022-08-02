@@ -18,7 +18,7 @@ Registergericht: Amtsgericht Braunschweig
 
 ## Vertretungsberechtigte Personen
 Prof. Dr. Dirk Heinz, Wissenschaftlicher Geschäftsführer<br>
-Silke Tannapfel, Adminstrative Geschäftsführerin<br>
+ Elisabeth Gerndt, Komm. Adminstrative Geschäftsführerin<br>
 (Anschrift wie oben)
 
 ## Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz
