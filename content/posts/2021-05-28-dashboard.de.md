@@ -1,7 +1,7 @@
 ---
-title: Dashoard
+title: Dashboard
 author: Stephan Gloeckner
-date: '2021-05-28'
+date: 2021-05-28
 slug: dashboard
 categories: []
 tags: []
