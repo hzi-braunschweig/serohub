@@ -25,4 +25,4 @@ Head of the Department: [Gérard Krause](https://www.helmholtz-hzi.de/de/forschu
 Projektleiter, LEOSS.sero-survey: Berit Lange, [Berit.Lange@helmhotz-hzi.de](mailto:berit.lange@helmhotz-hzi.de), +49 531 6181 3110 \
 Mitwirkende am hzi-braunschweig/serohub repository: [Ruth Kearney](https://github.com/ruthkearney), [Oz Locke](https://github.com/OzLocke), [Candice Louw](https://github.com/Candice-Louw) \
 Projektleiter COVIM: [Florian Klein](mailto:florian.klein@uk-koeln.de), [Leif-Erik Sander](leif-erik.sander@charité.de) \
-Mitwirkende an der Uniklinik Köln/COVIM-Projektmanagement: [Susanne Salomon](susanne.salomon@uk-koeln.de) \
+Mitwirkende an der Uniklinik Köln/COVIM-Projektmanagement: [Susanne Salomon](susanne.salomon@uk-koeln.de)
