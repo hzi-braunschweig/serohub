@@ -21,8 +21,8 @@ Consequently __seroprevalence__ is the proportion of people who were tested posi
 ## Contact Us
 We are an interdisciplinary team of epidemiologists, infectologists, virologists and data scientists at the [Helmholtz Centre for Infection Research](https://www.helmholtz-hzi.de/), the [Robert-Koch Institute](http://rki.de/) and the coordinating sites of the COVIM project in Cologne and Berlin.
 
-Head of the Department: [Gérard Krause](https://www.helmholtz-hzi.de/en/research/research-topics/bacterial-and-viral-pathogens/epidemiology/gerard-krause/)
-Project Lead, LEOSS.sero-survey: Berit Lange [Berit.Lange@helmhotz-hzi.de](mailto:berit.Lange@helmhotz-hzi.de), +49 531 6181 3110
-Contributors to the [hzi-braunschweig/serohub](https://github.com/hzi-braunschweig/serohub/graphs/contributors) repository: [Ruth Kearney ](https://github.com/ruthkearney), [Candice Louw](https://github.com/Candice-Louw)
-Project Lead of COVIM: [Florian Klein](https://serohub.net/en/about/florian.klein@uk-koeln.de), [Leif-Erik Sander](https://serohub.net/en/about/leif-erik.sander@charit%C3%A9.de)
-Contributors at the University of Cologne/COVIM-Project management: [Susanne Salomon](https://serohub.net/en/about/susanne.salomon@uk-koeln.de)
+Head of the Department: [Gérard Krause](https://www.helmholtz-hzi.de/en/research/research-topics/bacterial-and-viral-pathogens/epidemiology/gerard-krause/) \
+Project Lead, LEOSS.sero-survey: Berit Lange [Berit.Lange@helmhotz-hzi.de](mailto:berit.Lange@helmhotz-hzi.de), +49 531 6181 3110 \
+Contributors to the [hzi-braunschweig/serohub](https://github.com/hzi-braunschweig/serohub/graphs/contributors) repository: [Ruth Kearney ](https://github.com/ruthkearney), [Candice Louw](https://github.com/Candice-Louw) \
+Project Lead of COVIM: [Florian Klein](mailto:florian.klein@uk-koeln.de), [Leif-Erik Sander](mailto:leif-erik.sander@charité.de) \
+Contributors at the University of Cologne/COVIM-Project management: [Susanne Salomon](mailto:susanne.salomon@uk-koeln.de)
