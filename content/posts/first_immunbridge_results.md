@@ -13,4 +13,4 @@ output:
 
 ## Results Immunbridge
 
-For all participating studies, we have preliminary results , which can be downloaded [here](https://github.com/hzi-braunschweig/serohub/blob/master/static/data/first_immunbridge_results.pdf). 
+For all participating studies, we have preliminary results , which can be downloaded [here](https://github.com/hzi-braunschweig/serohub/blob/master/static/data/Immunebridge_Interimsanalyse_August_2022.pdf). 
