@@ -13,7 +13,7 @@ output:
 
 ## Minimal Dataset
 
-For all participating studies, we defined a minimal dataset, which can be downloaded [here](/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx). This file __includes__ metadata of every variable
+For all participating studies, we defined a minimal dataset, which can be downloaded [here](/data/minimal_data_set_2022.xlsx). This file __includes__ metadata of every variable
 
 The needed variables can be split into two important parts:
 
@@ -25,7 +25,7 @@ The needed variables can be split into two important parts:
 library(readxl)
 library(dplyr)
 library(tidyr)
-df <- read_excel("../../static/data/DataModel_LEOSS.sero-survey_DZIF_gek_200514.xlsx")
+df <- read_excel("../../static/data/minimal_data_set_2022.xlsx")
 
 df %>% 
   select(Category = 1, Variable = 2) %>% 
