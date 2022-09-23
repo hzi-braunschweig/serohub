@@ -24,9 +24,3 @@ If you'd like to share data with us, please use this <b><a href="/data/Attachmen
 
 Please contact <b><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></b> for more details.
 <br>
-
-<h2>3. Upload Case-based Data</h2>
-Addtionally to your study details you can upload case based information and shared it with other partners. Documents are uploaded to the servers of the Helmholtz Centre Berlin (HZB). You can find the Data Protection Declaration of the HZB <a href="https://www.helmholtz-berlin.de/datenschutzerklaerung_en.html">here</a>.
-<br>
-<br>
-{{< share_data >}}
