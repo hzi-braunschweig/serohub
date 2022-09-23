@@ -24,9 +24,5 @@ Wenn Sie Ihre Studie auf dem serohub bewerben möchten, füllen Sie bitte <b><a 
 Bitte kontaktieren Sie <b><a href="mailto:serohub@helmholtz-hzi.de">serohub@helmholtz-hzi.de</a></b> für weitere Details.
 <br>
 
-<h2>3. Fallbasierte Dokumente hochladen</h2>
-Zusätzlich können Sie fallbasierte Daten oder Studiendokumente mit Partnern teilen. Hochgeladende Dokumente werden auf den Servern des Helmholtz Zentrum Berlin (HZB) gespeichtert. Die Datenschutzerklärung des HZB können <a href="https://www.helmholtz-berlin.de/datenschutzerklaerung_de.html">hier</a> einsehen.
-<br>
-<br>
-{{< share_data >}}
+
 
