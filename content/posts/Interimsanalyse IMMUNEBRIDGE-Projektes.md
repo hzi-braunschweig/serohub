@@ -11,6 +11,6 @@ output:
     preserve_yaml: true
 ---
 
-## Analye Immunebridge
+## Analyse Immunebridge
 
 For all participating studies, we have the second analysis for modelling groups, which can be seen here at https://zenodo.org/record/7177592#.Y6AedC9Xajh (https://doi:10.5281/zenodo.7177592).
