@@ -1,5 +1,5 @@
 ---
-title: "Zweite Interimsanalyse IMMUNEBRIDGE-Projektes "
+title: "Zweite Interimsanalyse IMMUNEBRIDGE-Projektes"
 author: "Manuela Harries"
 date: '2022-10-12'
 slug: Analyse immunebridge
