@@ -2,7 +2,7 @@
 title: "Zweite Interimsanalyse IMMUNEBRIDGE-Projektes"
 author: "Manuela Harries"
 date: '2022-10-12'
-slug: Analyse immunebridge
+slug: Zweite Analyse Immunebridge
 categories: []
 tags: []
 draft: no
