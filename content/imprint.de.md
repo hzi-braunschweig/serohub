@@ -17,9 +17,18 @@ Registernummer: HRB 477<br>
 Registergericht: Amtsgericht Braunschweig
 
 ## Vertretungsberechtigte Personen
-Prof. Dr. Dirk Heinz, Wissenschaftlicher Geschäftsführer<br>
- Elisabeth Gerndt, Komm. Adminstrative Geschäftsführerin<br>
-(Anschrift wie oben)
+Wissenschaftlicher Geschäftsführer:<br>
+Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
+
+Administrativer Geschäftsführer:<br>
+Christian Scherf<br><br>
+
+Scientific Director:<br>
+Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
+
+Administrative Director:<br>
+Christian Scherf<br>
+(Anschrift wie oben)<br><br>
 
 ## Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz
 DE 114815244
