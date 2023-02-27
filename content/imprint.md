@@ -19,9 +19,18 @@ Registration Number: HRB 477<br>
 Register court: Amtsgericht Braunschweig<br>
 
 ## Persons authorised to represent:
-Prof Dr Dirk Heinz, Executive director<br>
-Silke Tannapfel, Administrative director<br>
-(address like above)
+Wissenschaftlicher Geschäftsführer:<br>
+Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
+
+Administrativer Geschäftsführer:<br>
+Christian Scherf<br><br>
+
+Scientific Director:<br>
+Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
+
+Administrative Director:<br>
+Christian Scherf<br>
+(address like above)<br><br>
 
 ## Value Added Tax Identification Number (according to § 27 a UStG):
 DE 114815244
