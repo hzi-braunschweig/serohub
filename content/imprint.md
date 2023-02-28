@@ -19,12 +19,6 @@ Registration Number: HRB 477<br>
 Register court: Amtsgericht Braunschweig<br>
 
 ## Persons authorised to represent:
-Wissenschaftlicher Geschäftsführer:<br>
-Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
-
-Administrativer Geschäftsführer:<br>
-Christian Scherf<br><br>
-
 Scientific Director:<br>
 Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
 
