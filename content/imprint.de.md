@@ -22,12 +22,6 @@ Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
 
 Administrativer Geschäftsführer:<br>
 Christian Scherf<br><br>
-
-Scientific Director:<br>
-Prof. Dr. Dr. h.c. Dirk Heinz<br><br>
-
-Administrative Director:<br>
-Christian Scherf<br>
 (Anschrift wie oben)<br><br>
 
 ## Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz
