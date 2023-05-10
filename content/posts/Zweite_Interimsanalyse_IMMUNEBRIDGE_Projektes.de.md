@@ -1,14 +1,14 @@
 ---
-title: "Results Immunebridge 2"
-author: "Manuela Harries"
-date: '2022-12-02'
-slug: Results immunebridge 2
-categories: []
-tags: []
-draft: no
-output: 
+output:
   md_document:
     preserve_yaml: true
+draft: no
+author: Manuela Harries
+slug: Results immunebridge 2
+title: Results Immunebridge 2
+date: 2023-05-10 12:05:62
+tags: []
+categories: []
 ---
 
 ## Results Immunebridge 2
