@@ -13,4 +13,4 @@ output:
 
 ## Results Immunebridge
 
-For all participating studies, we have preliminary results for modelling groups, which can be downloaded at https://zenodo.org/record/6968574#.YxTOWd9CQUE (https://doi.org/10.5281/zenodo.6968574).
+For all participating studies, we have preliminary results for modelling groups, which can be downloaded at https://zenodo.org/record/6968574#.ZFtgLYTP270.
