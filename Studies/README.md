@@ -6,7 +6,7 @@ The [SeroHub Studies](https://serohub.net/studies/) page provides a centralised 
 ### Studies involved in serohub
 
 - Muspad
-- staab_covid-19
+- [staab_covid-19](https://serohub.net/the-staab-covid-study/)
 - 
 
 ### Purpose
