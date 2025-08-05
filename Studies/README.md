@@ -5,8 +5,9 @@ The [SeroHub Studies](https://serohub.net/studies/) page provides a centralised 
 
 ### Studies involved in serohub
 
-- Search and filter studies by:
-  - Co
+- Muspad
+- staab_covid-19
+- 
 
 ### Purpose
 
