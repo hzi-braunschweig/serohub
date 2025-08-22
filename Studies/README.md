@@ -11,7 +11,7 @@ The [SeroHub Studies](https://serohub.net/studies/) page provides a centralised 
 
 ### Purpose
 
-Seroepidemiological data helps to:
+Seroepidemiological data help to:
 - Estimate infection and immunity levels
 - Monitor disease trends over time and geography
 - Evaluate the impact of public health interventions
@@ -19,5 +19,3 @@ Seroepidemiological data helps to:
 ###  Collaboration
 
 SeroHub compiles publicly available study data and is continuously updated in collaboration with global partners. To contribute or suggest updates, visit our [Contact page](https://serohub.net/contact/).
-
-
